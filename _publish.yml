@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: "7a8f2ef3-76b4-4a72-9df1-27ce76a08fec"
+      url: "https://seedcase-project-team.netlify.app"
