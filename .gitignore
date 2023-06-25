@@ -1,0 +1,12 @@
+.Rhistory
+.RData
+.Rproj.user
+*.tmp
+docs
+_site
+/.quarto/
+_ignore
+.Rbuildignore
+.DS_Store
+bin/
+_book
