@@ -1,0 +1,28 @@
+project:
+  type: seedcase-theme
+
+website:
+  title: "Seedcase Project: Team Docs"
+  # favicon: "images/favicon.ico"
+  site-url: "https://team.seedcase-project.org/"
+  repo-url: "https://github.com/seedcase-project/team"
+  navbar:
+    right:
+      - text: "Events"
+        href: events.md
+      - icon: github
+        href: "https://github.com/seedcase-project/team"
+
+# format:
+#   seedcase-theme-html:
+    # include-before-body:
+      # - "includes/site-counter.html"
+      # - "includes/contribute.html"
+
+editor:
+  markdown:
+    wrap: 72
+    canonical: true
+
+execute:
+  echo: false
