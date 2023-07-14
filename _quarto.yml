@@ -11,6 +11,13 @@ website:
     tools:
       - icon: github
         href: "https://github.com/seedcase-project/team"
+  sidebar:
+    pinned: true
+    style: "floating"
+    contents:
+    - auto: entries
+    - text: Events
+      href: index.qmd#past-and-upcoming-events
 
 # format:
 #   seedcase-theme-html:
