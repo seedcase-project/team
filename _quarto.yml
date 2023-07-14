@@ -10,6 +10,8 @@ website:
     right:
       - text: "Events"
         href: events.md
+    pinned: true
+    tools:
       - icon: github
         href: "https://github.com/seedcase-project/team"
 
