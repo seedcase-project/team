@@ -17,3 +17,10 @@ sending an update document to our funder or stakeholders.
 | Reformat Markdown | `/reformat_markdown` |
 
 : Pull Request helpers
+
+## GitHub repository settings
+
+-   Always
+    [protect](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule)
+    the main branch of the repository to limit forced pushes and
+    deletions.

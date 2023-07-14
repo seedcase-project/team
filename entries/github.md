@@ -1,0 +1,24 @@
+---
+title: "Setting up and using GitHub for teamwork"
+---
+
+## Setting up two-factor authentication (2FA)
+
+We of course use GitHub for our work, so as a team member or contributor
+you need to have a [GitHub account](https://github.com/join/). Since you
+will likely also have access to our repositories to write and modify
+content, we need to consider potential for security risks of your
+account being compromised and impacts on our work. While we
+organizationally have settings in place to minimize that risk, we
+individually need to have security features in place.
+
+For that reason, all internal contributors need to set up 2FA on their
+GitHub account. Follow the steps within this [GitHub
+documentation](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
+to set it up. While GitHub doesn't explicitly recommend any specific
+time-based one-time password (TOTP) apps, good ones are [Google
+Authenticator](https://support.google.com/accounts/answer/1066447?hl=en&ref_topic=2954345&sjid=1964065568409601298-EU)
+or [Microsoft
+Authenticator](https://www.microsoft.com/en-ww/security/mobile-authenticator-app).
+
+## Using GitHub Projects for managing tasks
