@@ -9,6 +9,16 @@ listing:
       - "title"
     fields:
       - "title"
+  - id: events
+    contents: events
+    type: table
+    sort: "date desc"
+    table-hover: true
+    table-striped: true
+    feed: true
+    fields: 
+      - "date"
+      - "title"
 ---
 
 {{< include /includes/_wip.qmd >}}

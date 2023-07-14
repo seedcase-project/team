@@ -7,9 +7,6 @@ website:
   site-url: "https://team.seedcase-project.org/"
   repo-url: "https://github.com/seedcase-project/team"
   navbar:
-    right:
-      - text: "Events"
-        href: events.md
     pinned: true
     tools:
       - icon: github
