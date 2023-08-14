@@ -1,15 +1,23 @@
 group:
-  repos: |
-    seedcase-project/seedcase-project
-    seedcase-project/seedcase-registry
-    seedcase-project/seedcase-theme
-    seedcase-project/seedcase
-  files:
-    - source: .editorconfig
-      dest: .editorconfig
-    - source: .gitignore
-      dest: .gitignore
-    - source: .vscode/settings.json
-      dest: .vscode/settings.json
-    - source: .vscode/extensions.json
-      dest: .vscode/extensions.json
+  - files:
+      - source: .editorconfig
+        dest: .editorconfig
+      - source: .gitignore
+        dest: .gitignore
+      - source: .vscode/settings.json
+        dest: .vscode/settings.json
+      - source: .vscode/extensions.json
+        dest: .vscode/extensions.json
+    repos: |
+      seedcase-project/seedcase-project
+      seedcase-project/seedcase-registry
+      seedcase-project/seedcase-theme
+      seedcase-project/seedcase
+  - files:
+      - source: .github/workflows/python-style.yml
+        dest: .github/workflows/python-style.yml
+      - source: common/justfile-dev
+        dest: justfile
+    repos: |
+      seedcase-project/seedcase-registry
+      seedcase-project/seedcase
