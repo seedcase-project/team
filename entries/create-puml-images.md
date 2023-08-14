@@ -1,27 +1,13 @@
 ---
-title: "Creating PlantUML images"
+title: Creating PlantUML images
+date: last-modified
 ---
 
-You need the Java binary for PlantUML in order to create images from the
-`.puml` files. PlantUML requires Java and Graphviz:
-
-1.  Install
-    [Java](https://www.java.com/en/download/help/download_options.html).
-2.  Install [Graphviz](https://graphviz.org/download/).
-3.  Install [GitHub CLI](https://cli.github.com/manual/installation).
-
-Then download the PlantUML program by running this command in the
-project root directory (for instance, `seedcase-project/`).
+To create or regenerate the PlantUML files, run the command:
 
 ``` bash
-mkdir -p bin
-gh release --repo plantuml/plantuml download --clobber -p "plantuml.jar" -D bin/
+just generate-puml
 ```
 
-Creating or updating images is then done by running (again in the
-project root folder of `seedcase-project/`) the command below, replacing
-`*` with the path to the `.puml` file.
-
-``` bash
-java -jar bin/plantuml.jar *.puml
-```
+You do need to have Docker and Just installed (see the [software
+entry](software.qmd)) for more details.
