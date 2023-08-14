@@ -9,4 +9,7 @@ group:
       dest: .editorconfig
     - source: .gitignore
       dest: .gitignore
-
+    - source: .vscode/settings.json
+      dest: .vscode/settings.json
+    - source: .vscode/extensions.json
+      dest: .vscode/extensions.json
