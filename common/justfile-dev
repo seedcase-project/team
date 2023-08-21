@@ -1,5 +1,5 @@
-default:
-    @just --list --unsorted
+@_default:
+    just --list --unsorted
 
 # Run Python code styler.
 style-python:
