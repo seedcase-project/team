@@ -13,7 +13,7 @@ philosophy is:
     -   Always include an agenda as well as minutes afterwards
     -   Limit the time to what is reasonably required to come to a
         decision
-    -   Assign people to chair/faciliator role and to notetaking rol
+    -   Assign people to chair/faciliator role and to notetaking role
 -   Limit emails as much as is necessary, unless communication is with
     someone external to our team or requires a more formal written
     record for potential audit purposes
