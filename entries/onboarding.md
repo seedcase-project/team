@@ -16,10 +16,12 @@ To get you started, there are some things you need to do and some posts to for y
 4. Talk to Team Leader about which IT equipment will need to be ordered (e.g., computer, mouse, keyboard, dock station)
 
 ## Posts to read/review:
-In this project, we believe in?? a ["documentation first" culture](https://seedcase-project.org/community/guide-entries/documentation-first/). This means that when you read through posts, we encourage you to create issues (and pull requests), if you believe something isn't clear, or if information is missing or outdated.
+In this project, we practice a ["documentation first" culture](https://seedcase-project.org/community/guide-entries/documentation-first/). This means that when you read through posts, we encourage you to create issues (and pull requests), if you believe something isn't clear, or if information is missing or outdated.
 
 1. [Onboarding SDCA website](https://steno-aarhus.github.io/research/onboarding.html)
+    - Any subpages of particular interest?  
 2. [Our Seedcase Team Docs website](https://team.seedcase-project.org/) (which is where this post is located)
 3. [General contributing guidelines website](https://seedcase-project.org/community/contributing)
-
+    - Potentially start with the "Decisions" section: [Why Discord?](https://seedcase-project.org/community/decisions/why-discord/) and [Why Quarto?](https://seedcase-project.org/community/decisions/why-quarto/)
+    - Then go to the [individual guide entries](https://seedcase-project.org/community/contributing)
 
