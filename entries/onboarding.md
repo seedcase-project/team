@@ -3,6 +3,8 @@ title: Onboarding
 date: last-modified
 ---
 
+{{< include /includes/_wip.qmd >}}
+
 # Welcome to Seedcase! 
 If you landed on this post, you are most likely a new team member on the Seedcase project. Welcome! :o) 
 
