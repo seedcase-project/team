@@ -3,7 +3,7 @@ title: "Communication across team and collaborators"
 ---
 
 Our general philosophy regarding communication is described in more
-detail in the page on [Documentation-First Culture](). Our within-team
+detail in the page on [Documentation-First Culture](https://seedcase-project.org/community/guide-entries/documentation-first/). Our within-team
 philosophy is:
 
 -   Limit meetings as much as is necessary, excluding our [weekly
@@ -13,7 +13,7 @@ philosophy is:
     -   Always include an agenda as well as minutes afterwards
     -   Limit the time to what is reasonably required to come to a
         decision
-    -   Assign people to chair/faciliator role and to notetaking rol
+    -   Assign people to chair/faciliator role and to notetaking role
 -   Limit emails as much as is necessary, unless communication is with
     someone external to our team or requires a more formal written
     record for potential audit purposes
