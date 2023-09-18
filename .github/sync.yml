@@ -22,3 +22,8 @@ group:
     repos: |
       seedcase-project/seedcase-registry
       seedcase-project/seedcase
+  - files:
+      - source: common/justfile-web
+        dest: justfile
+    repos: |
+      seedcase-project/seedcase-project
