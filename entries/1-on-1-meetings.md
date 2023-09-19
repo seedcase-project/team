@@ -1,0 +1,42 @@
+---
+title: "1-on-1 meetings"
+date: last-modified
+---
+
+Working together in a team on a project means all team members need to
+get the right support to effectively do the work and make progress in
+the project. These types of meetings are between a team member and the
+team lead, and their main aim is to provide a consistent and frequent
+space to talk about needs for working and growing in a team environment
+that is safe and supportive.
+
+To help achieve this aim, here are a few things to keep in mind as some
+expectations for these meetings:
+
+-   The focus is on team member, how they're doing, and their needs in
+    relation to the job.
+-   We want to create a space that is as non-judgmental and safe (and
+    confidential) as possible, so that we can discuss topics openly and
+    without consequences.
+-   While there will be a general agenda, it is mostly informal.
+
+Some questions we might want to discuss or cover are:
+
+-   How can the team lead or the team structure how we work or do things
+    to better support you in your work?
+-   What can the team lead or the team do to make you feel safe,
+    supported, and secure in doing your work?
+-   Do you feel like you are growing and learning the things you want to
+    learn from this job? What can the team lead or the team do to help
+    you in that?
+-   Are there any personal or work related things that are blocking you
+    or making it more difficult for you to do your tasks effectively?
+-   What are things you want to learn or gain from this job for the next
+    check in? What can I or we do to help with that?
+
+Before the meeting, preferably think about things you would like to
+discuss and include that in the agenda.
+
+At the end of the meeting, set the next meeting in the calendar, along
+with a basic agenda and any action items that came up during this
+meeting.
