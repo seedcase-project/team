@@ -28,17 +28,18 @@ VS Code to support a wide range of programming languages, frameworks, and develo
 
 Go to the extensions tab in VS Code and search for the following extensions:
 
--   Quarto (to enable the preview of qmd files within VS Code)
+-   [Quarto](https://marketplace.visualstudio.com/items?itemName=quarto.quarto) (to enable preview the website)
     -   To use this extension, you will need to download [Quarto](https://quarto.org/docs/get-started/) 
--   PlantUML (to enable the preview of puml diagrams)
+-   [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml) (to enable preview of puml diagrams)
 -   Dev Containers??
+-   markdownlint or something similar??
 
-**Python Extensions** (*draft* - Signe have used these earlier)
+**Python Extensions** (*draft* - Signe have used these earlier, but will check up on which should be recommended here)
 
--   python
--   isort 
--   Black Formatter 
--   autoDocstring 
--   mypy
--   ruff 
--   pylance 
+-   [python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+-   [isort](https://marketplace.visualstudio.com/items?itemName=ms-python.isort) 
+-   [Black Formatter](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter)
+-   [autoDocstring]()
+-   [mypy](https://marketplace.visualstudio.com/items?itemName=matangover.mypy)
+-   [ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff)
+-   [pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) 
