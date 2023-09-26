@@ -17,5 +17,5 @@ These are the software we use as a team:
 
 These are the recommended helper or workflow type software:
 
--   [GitHub CLI](https://cli.github.com/manual/installation)
+-   [GitHub CLI](https://cli.github.com/manual/)
 
