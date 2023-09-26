@@ -32,7 +32,7 @@ Some questions we might want to discuss or cover are:
 -   Are there any personal or work related things that are blocking you
     or making it more difficult for you to do your tasks effectively?
 -   What are things you want to learn or gain from this job for the next
-    check in? What can I or we do to help with that?
+    check in? What can the team lead or the team do to help with that?
 
 Before the meeting, preferably think about things you would like to
 discuss and include that in the agenda.
