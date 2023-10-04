@@ -8,7 +8,7 @@ These are the software we use as a team:
 
 - IDEs:
     - [RStudio](https://posit.co/download/rstudio-desktop/)
-        - What do we use R for in the Seedcase project?
+        - What do we use RStudio for in the Seedcase project?
     - [VS Code](https://code.visualstudio.com/download)
         - A lightweight but powerful source code editor that comes with built-in support for multiple languages and has a rich ecosystem of extensions (such as C++, C#, Java, Python, PHP, Go, .NET).
     - [PyCharm](https://www.jetbrains.com/pycharm/download/) (the Community Edition, not the
