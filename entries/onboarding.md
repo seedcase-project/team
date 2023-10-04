@@ -46,7 +46,7 @@ Now that you have read the above, you can review the pages below:
 4. [Design documentation](https://seedcase-project.org/design/)
     - The design documentation covers stakeholders, design decisions, software architecture, data architecture, and more.
 
-If something is unclear to you, you are more than welcome to reach out to the other team members. We'll love to help you out.
+If something is unclear to you, you are more than welcome to reach out to the other team members on Discord. We'll love to help you out.
 
 ## Software
 
