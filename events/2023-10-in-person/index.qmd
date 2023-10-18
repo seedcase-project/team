@@ -1,0 +1,83 @@
+---
+title: "In-person workshop and team meeting"
+description: "Details and agenda for our in-person workshop with Mjølner and our post-workshop debrief and meeting."
+author: "Luke W. Johnston"
+date: "2023-10-23"
+categories:
+  - in-person
+  - meeting
+  - brainstorming
+  - planning
+  - workshop
+---
+
+## Details
+
+-   Dinners for Oct 23 and Oct 24.
+-   2-days at Mjølner in Aarhus and one at Forum (rooms in calendar invite).
+-   **Main aim of workshop**:
+    -   Get feedback on our overall design.
+    - Discuss and decide on how/if they can work with us and what they can provide or do.
+-   **Main aim of debrief and meeting**:
+    - Debrief from the workshop, anything to add to design/plan, items of contention or disagreement, how we can work with them
+    - Discuss struggles/challenges and next steps
+
+## Schedule
+
+The schedule is meant as a **guide only**. We might spend more time on
+some topics and less on others.
+
+### Day 1: Oct 23
+
+| Time  | Item                                           |
+|-------|------------------------------------------------|
+| 08:30 | Introduction of participants & agenda for the two days |
+| 09:00 | EventStorming introduction & Part 1 (as-is for current system) |
+| 10:00 | Break |
+| 10:15 | EventStorming Part 1 |
+| 11:45 | Lunch & coffee refill |
+| 12:15 | EventStorming Part 2 |
+| 13:45 | Break |
+| 14:00 | EventStorming Part 3 |
+| 15:30 | Day 1 Wrap Up |
+
+### Day 2: Oct 24
+
+| Time  | Item                                   |
+|-------|----------------------------------------|
+| 08:30 | Welcome and coffee acquisition |
+| 08:45 | Introduction of Seedcase |
+| 09:30 | Vision for Seedcase |
+| 10:15 | Break |
+| 10:30 | User Stories for Seedcase |
+| 11:15 | Prioritize User Stories |
+| 11:45 | Lunch & coffee refill |
+| 12:15 | Tech track deep dive |
+| 14:00 | Break |
+| 14:15 | Feedback & Recap |
+| 15:00 | Thank you for today |
+
+### Day 3: Oct 25
+
+| Time  | Item                                   |
+|-------|----------------------------------------|
+| 09:30 | Unstructured discussion and debrief |
+| 12:00 | Lunch |
+| 12:45 | Next steps |
+| 15:00 | End of day (or earlier) |
+
+## Sessions
+
+### Workshop with Mjølner
+
+- They will lead these two days.
+
+### Next steps, barriers, and other items
+
+-   Areas of struggle or barriers?
+    - Discussion on why progress has been slow.
+    - What are some things we need to improve on?
+- Idea for team workflow: 
+    - Focused work on individual projects on a rotation basis. For example, one month is on `seedcase-registry`, another is on `team`. We could rotate between one month core activity followed by a two week focus on smaller projects (like volunteer database).
+
+## Minutes
