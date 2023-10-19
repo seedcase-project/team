@@ -7,14 +7,14 @@ date: last-modified
 
 ## Welcome to Seedcase
 
-If you landed on this post, you are most likely a new team member on the Seedcase project. Welcome!
+If you landed on this post, you are most likely a new team member on the Seedcase Project. Welcome!
 
-To get you started, there are some first steps you'll need to do and some posts to for you to read and review.
+To get you started, there are some first steps you'll need to do and some posts for you to read and review.
 
 ## First steps
 
 1. **Send your GitHub username and Discord username to the Team Leader**
-    - We use Discord as our communication platform and this way so you can be added to the Seedcase Project server asap. If you don't have a Discord account, you can go to [discord.com](https://discord.com) and create one.
+    - We use Discord as our communication platform and this way so you can be added to the Seedcase Project server right away. If you don't have a Discord account, you can go to [discord.com](https://discord.com) and create one.
     - You will need to be added to the SDCA and Seedcase organizaions (and potentially other repositories) on GitHub. If you don't have a GitHub account, you can go to [github.com](https://github.com) and create one.
 2. **Set up GitHub two-factor authentication (2FA)**
     - See [this post](github.md) (you will need 2FA to access the Seedcase repositories)
@@ -46,7 +46,7 @@ Now that you have read the above, you can review the pages below:
 4. [Design documentation](https://seedcase-project.org/design/)
     - The design documentation covers stakeholders, design decisions, software architecture, data architecture, and more.
 
-If something is unclear to you, you are more than welcome to reach out to the other team members on Discord. We'll love to help you out.
+If something is unclear to you, you are more than welcome to reach out to the other team members on Discord. We'd love to help you out.
 
 ## Software
 

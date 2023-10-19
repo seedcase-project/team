@@ -26,4 +26,6 @@ update meetings:
 Save any detailed or technical discussion on or about code for the [code
 review meetings](code-review-meetings.md).
 
-Tip: These meetings are held on Discord. To enter, simply go to the seedcase project server on Discord, find "Voice channels", in the menu on the left, and click on "General".
+::: callout-tip
+These meetings are held on Discord. To enter, simply go to the seedcase project server on Discord, find "Voice channels", in the menu on the left, and click on "General".
+:::
