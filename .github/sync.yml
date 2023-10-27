@@ -13,6 +13,7 @@ group:
       seedcase-project/seedcase-registry
       seedcase-project/seedcase-theme
       seedcase-project/seedcase
+      steno-aarhus/sdca_admin
   - files:
       - source: .github/workflows/python-style.yml
         dest: .github/workflows/python-style.yml
@@ -21,3 +22,8 @@ group:
     repos: |
       seedcase-project/seedcase-registry
       seedcase-project/seedcase
+  - files:
+      - source: common/justfile-web
+        dest: justfile
+    repos: |
+      seedcase-project/seedcase-project
