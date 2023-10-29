@@ -81,3 +81,125 @@ some topics and less on others.
     - Focused work on individual projects on a rotation basis. For example, one month is on `seedcase-registry`, another is on `team`. We could rotate between one month core activity followed by a two week focus on smaller projects (like volunteer database).
 
 ## Minutes
+
+### Workshop with Mjølner
+
+I'll be creating a blog post about this experience, so won't add much here expect some misc items.
+
+- Comments from them:
+    - What about backups of the data? In the Docker container or somewhere else?
+    - Is it something to add to docs or is it a feature?
+    - Transferring data to servers is a lot more difficult than it seems, so best have that as many versions in the future (if at all)
+    - A lot of language we used was about "limiting access", but it might be useful to use language on "enabling access"
+    - Be careful about store logs too much, they can quickly bloat
+    - How to handle backward compatibility? Part of testing to include tests of demo?
+- We need to get some fake/public data or something to use for demo and test purposes
+
+
+### Workshop debrief:
+
+- General comments
+    - Obvious they have skill in frontend dev, based on what they showed us
+    - Can't judge what their security capabilities or backend capability are though
+    - They had good process/flow for guiding us, they kept good pace and kept on time
+    - They were very professional and friendly to work with, good seniority/experience for them
+    - Obvious they had read up on what we were doing and were prepared
+    - Helped us to focus down on what things would be version 1 vs later versions, as well as identifying hotspots and things to move on with
+    - It was really useful to see how they work as well, though maybe not loving the purely scrum style they use
+- Hiring them and what/how they can work with us
+    - Could either hire them after we have a core functional box or hire them to help use develop our process and workflow (getting started, project management, teamwork practices, "how to work" rather than "what to work on")
+    - If hired for process, we'll need to give them clear requirements for what we want from them
+        - We might need some time to sit down and define the requirements for designing the how to work together
+    - [X] Action: To contact them about hiring them, what are the next steps? How them charge
+    - [ ] Action: Need to spend some time writing doc on how to work together, the process. This could be the next “focus stage”, on starting to write out a design document
+    - [ ] Action: Make a detailed list of what outputs we would like from them
+        - E.g. training material or documentation on working together and their process
+        - E.g. finalize the design doc (maybe another review of it)?
+- Things we could take from them
+    - Their approach to visualizing things (e.g. for instance with the vertical lines)
+        - For virtual settings: Look into online tools that help with doing the visualize
+    - Making sure everything is visible (can’t talk about things that are invisible)
+    - Clearer and more descriptive "events"
+    - Having time during meetings to dig into "user stories"/tasks
+        - Including adding some time estimates
+        - Every certain frequency, like every month
+        - Use them as the basis for a "focus" period
+    - Flow
+        - Keep in mind the overall roadmap
+        - Have a week of planning and deciding tasks
+        - Then have a period of working on those tasks over the next month
+    - [ ] Action: Add these potential items / workflows to our team docs
+- Misc
+    - We could include the timeline as part of our documentation
+
+### Update on progress, barriers and challenges
+
+- Getting lost down learning rabbit hole
+- Not having a clear path forward on what to work on
+- Feeling a bit managed vs led
+- Trust needs building up
+
+### Next steps to push progress forward
+
+- Moving forward, tracking progress, and building trust
+    - Building monthly sprints, with a period of roadmapping in those days
+    - Use Kanban board with constrained time periods to use for the focus phases, with dedicated time pre-phase to describe and plan together what needs to be done and how long each task takes
+    - Focus on smaller focused periods of working, with iterative development/feedback and smaller units of roadmapping.
+    - [ ] Action: Schedule time shortly 
+    - Have twice-weekly update meetings
+    - Limit external meeting
+    - Make use of Issue’s
+        - Issue templates for how to structure or fill in Issue/task
+        - [ ] Action: Richard make the first draft of template
+    - Make a PR template
+        - That includes a checklist of things to do
+        - Including “has unit test been added”
+    - Every update meeting comes with commit
+    - Nothing pushed to main, it has to go through PR and review
+    - If one of us are assigned or asked for review, work on it
+    - Always have someone assigned to everything
+    - Not working on side projects
+    - Annelli will attend an update meeting on
+- Tasks to do next
+    - Converting over the digital copies and updating documentation
+        - [ ] Action: Signe and Kris will convert
+    - Focusing on diagrams and visualizations in design docs, and updating the existing ones and adding more ones
+    - Have more definitions and lists on the definitions of terms
+    - Build up Actions/CI
+    - Pre-commits setup
+    - Basic infrastructure for working together
+    - Make issue template that includes a very detailed requirements for functionality (including input and output of functions/code)
+    - Review process?
+        - PR
+- Misc items
+    - Ask Mjolner SQL injection (and looking into things)
+    - Frictionless data, pull it in?
+    - Workflow, each project/package/app would have its own design doc and diagrams, etc?
+- Requirements for how to work together effectively as a team
+    - Shorter-term roadmap (e.g. 3 month cycle, 6 month cycle, 1 year cycle)
+        - [ ] Action: Luke update roadmap and convert into milestones on the docs but also on GitHub as a Milestone
+    - (see items above)
+    - Pre-commit
+        - Pre-commit for unit tests?
+        - Pre-commit for a website? Render?
+        - Format markdown (lint only)
+        - Format code (lint only)
+        - Spellchecker
+    - Justfile
+        - Format markdown and code
+    - PR template
+        - Checklist
+            - Run formatters?
+            - Unit tests included?
+    - Devcontainer
+        - psql
+        - jq (for ndJSON file), Python package?
+        - Black
+        - Justfile
+        - Quarto
+        - PostgreSQL
+        - Python
+        - Django
+        - Poetry for Python environments?
+    - Git Flow
+        - [ ] Action: Signe finish that up
