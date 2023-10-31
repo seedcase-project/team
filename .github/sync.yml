@@ -15,7 +15,7 @@ group:
       seedcase-project/seedcase
       steno-aarhus/sdca_admin
   - files:
-      - source: .github/workflows/python-style.yml
+      - source: common/python-style.yml
         dest: .github/workflows/python-style.yml
       - source: common/justfile-dev
         dest: justfile
