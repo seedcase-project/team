@@ -110,14 +110,14 @@ I'll be creating a blog post about this experience, so won't add much here expec
     - Could either hire them after we have a core functional box or hire them to help use develop our process and workflow (getting started, project management, teamwork practices, "how to work" rather than "what to work on")
     - If hired for process, we'll need to give them clear requirements for what we want from them
         - We might need some time to sit down and define the requirements for designing the how to work together
-    - [X] Action: To contact them about hiring them, what are the next steps? How them charge
+    - [X] Action: To contact them about hiring them, what are the next steps? How do they charge for their services?
     - [ ] Action: Need to spend some time writing doc on how to work together, the process. This could be the next “focus stage”, on starting to write out a design document
     - [ ] Action: Make a detailed list of what outputs we would like from them
         - E.g. training material or documentation on working together and their process
         - E.g. finalize the design doc (maybe another review of it)?
 - Things we could take from them
     - Their approach to visualizing things (e.g. for instance with the vertical lines)
-        - For virtual settings: Look into online tools that help with doing the visualize
+        - For virtual settings: Look into online tools (they use [Figma](https://www.figma.com/collaboration/)) that help with doing the visualize
     - Making sure everything is visible (can’t talk about things that are invisible)
     - Clearer and more descriptive "events"
     - Having time during meetings to dig into "user stories"/tasks
@@ -150,8 +150,8 @@ I'll be creating a blog post about this experience, so won't add much here expec
     - Limit external meeting
     - Make use of Issue’s
         - Issue templates for how to structure or fill in Issue/task
-        - [ ] Action: Richard make the first draft of template
-    - Make a PR template
+        - [X] Action: Signe make the first draft of template
+    - [ ] Action: Make a PR template
         - That includes a checklist of things to do
         - Including “has unit test been added”
     - Every update meeting comes with commit
@@ -159,16 +159,16 @@ I'll be creating a blog post about this experience, so won't add much here expec
     - If one of us are assigned or asked for review, work on it
     - Always have someone assigned to everything
     - Not working on side projects
-    - Annelli will attend an update meeting on
+    - Annelli will attend one of the update meetings, once a month
 - Tasks to do next
     - Converting over the digital copies and updating documentation
         - [ ] Action: Signe and Kris will convert
     - Focusing on diagrams and visualizations in design docs, and updating the existing ones and adding more ones
     - Have more definitions and lists on the definitions of terms
-    - Build up Actions/CI
-    - Pre-commits setup
-    - Basic infrastructure for working together
-    - Make issue template that includes a very detailed requirements for functionality (including input and output of functions/code)
+    - [ ] Action: Build up Actions/CI
+    - [ ] Action: Pre-commits setup
+    - [ ] Action: Basic infrastructure for working together
+    - [ ] Action: Make issue template that includes a very detailed requirements for functionality (including input and output of functions/code)
     - Review process?
         - PR
 - Misc items
@@ -177,21 +177,21 @@ I'll be creating a blog post about this experience, so won't add much here expec
     - Workflow, each project/package/app would have its own design doc and diagrams, etc?
 - Requirements for how to work together effectively as a team
     - Shorter-term roadmap (e.g. 3 month cycle, 6 month cycle, 1 year cycle)
-        - [ ] Action: Luke update roadmap and convert into milestones on the docs but also on GitHub as a Milestone
+        - [ ] Action: Luke update roadmap and convert into milestones on the docs but also on GitHub as a Milestone 
     - (see items above)
-    - Pre-commit
+    - [ ] Action: Setup pre-commit hooks?
         - Pre-commit for unit tests?
         - Pre-commit for a website? Render?
         - Format markdown (lint only)
         - Format code (lint only)
         - Spellchecker
-    - Justfile
+    - [ ] Action: Flesh out the Justfile
         - Format markdown and code
-    - PR template
+    - [ ] Action: PR template
         - Checklist
             - Run formatters?
             - Unit tests included?
-    - Devcontainer
+    - [ ] Action: Create/use a devcontainer
         - psql
         - jq (for ndJSON file), Python package?
         - Black
@@ -202,4 +202,5 @@ I'll be creating a blog post about this experience, so won't add much here expec
         - Django
         - Poetry for Python environments?
     - Git Flow
+        - Multiple commits per day, at minimum push at end of work day
         - [ ] Action: Signe finish that up
