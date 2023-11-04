@@ -1,5 +1,7 @@
 group:
   - files:
+      - source: .github/CODEOWNERS
+        dest: .github/CODEOWNERS
       - source: .editorconfig
         dest: .editorconfig
       - source: .gitignore
