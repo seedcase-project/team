@@ -4,10 +4,10 @@ date: last-modified
 ---
 
 While we try to limit meetings as much as is appropriate, we do have
-weekly update meetings. We draw inspiration from ["daily
+twice-weekly update meetings. We draw inspiration from ["daily
 scrums"](https://www.scrum.org/resources/what-is-a-daily-scrum) to keep
 each other updated on what everyone else is doing. Except, instead of
-daily, we have them weekly. These are some guidelines on running these
+daily, we have them twice-weekly. These are some guidelines on running these
 update meetings:
 
 -   Keep meeting to \~30 minute
@@ -19,6 +19,7 @@ update meetings:
     2.  What are some challenges or blocks you faced and is there
         anything the team can do to help?
     3.  What do you plan to do until the next update meeting?
+- Updates must (with some exceptions) be accompanied by at least one Git commit, preferably a Pull Request. This is to make it easier to see what we're all working on. If it's talked about, it should be visible.
 -   Avoid getting into too much detail about any particular topic. See
     the guide entry on [communication](communication.md) about
     alternatives to these types of discussions.
