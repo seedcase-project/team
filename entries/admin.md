@@ -1,5 +1,6 @@
 ---
 title: "General admin content"
+date: last-modified
 ---
 
 ## Git tags and releases
