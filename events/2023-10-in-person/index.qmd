@@ -162,7 +162,7 @@ I'll be creating a blog post about this experience, so won't add much here expec
     - Annelli will attend one of the update meetings, once a month
 - Tasks to do next
     - Converting over the digital copies and updating documentation
-        - [ ] Action: Signe and Kris will convert
+        - [ ] Action: Signe and Kris will convert them
     - Focusing on diagrams and visualizations in design docs, and updating the existing ones and adding more ones
     - Have more definitions and lists on the definitions of terms
     - [ ] Action: Build up Actions/CI
@@ -177,7 +177,7 @@ I'll be creating a blog post about this experience, so won't add much here expec
     - Workflow, each project/package/app would have its own design doc and diagrams, etc?
 - Requirements for how to work together effectively as a team
     - Shorter-term roadmap (e.g. 3 month cycle, 6 month cycle, 1 year cycle)
-        - [ ] Action: Luke update roadmap and convert into milestones on the docs but also on GitHub as a Milestone 
+        - [X] Action: Luke update roadmap and convert into milestones on the docs but also on GitHub as a Milestone 
     - (see items above)
     - [ ] Action: Setup pre-commit hooks?
         - Pre-commit for unit tests?
