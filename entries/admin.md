@@ -20,7 +20,7 @@ sending an update document to our funder or stakeholders.
 
 ## GitHub settings
 
-Whenever a new GitHub repo is created, run this on it in order to set some default options.
+Whenever a new GitHub repo is created for a new website or software, run this Terminal command on it in order to set some default options for the newly created repository.
 
 ``` bash
 gh repo edit --delete-branch-on-merge=true --enable-wiki=false --enable-discussions=false
