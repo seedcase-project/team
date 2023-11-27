@@ -1,25 +1,22 @@
 ---
-title: "Time-based iterative workflow"
+title: "Time-constrained iterative workflow"
 date: last-modified
 ---
 
-We take inspiration from some aspects of [Agile Software Development](),
-especially this idea of time-boxed periods ("iterations") of work that follows a
-pattern and process for incrementally building or improving things. 
-An iteration for us follows this general sequence of steps:
+We take inspiration from some aspects of [Agile Software
+Development](https://agilemanifesto.org/) and
+[Scrum](https://www.scrum.org/resources/what-scrum-module), especially this idea
+of time-boxed periods ("iterations") of work that follow a specific pattern and process
+for incrementally building or improving things.  An iteration for us follows
+this general sequence of steps:
 
-- Team lead creates a GitHub project board for this iteration using the "Iteration" template.
+- Team lead creates a GitHub Project Board for the upcoming iteration using the "Iteration" template.
 - The first meeting of the iteration is to discuss and plan the specifics of the iteration.
     - Decide on the end output (the "increment" or "milestone").
     - Brainstorm and write out as many tasks as possible that are needed to complete the increment or milestone, or select them from the current list. A task is a GitHub Issue.
-    - Each team member self-assigns themselves to a task (self-assign to Issue) and estimates the time spent on them by using the Iteraction's Roadmap Board.
+    - Each team member self-assigns themselves to a task (self-assign to Issue) and estimates the time spent on them by using the Iteration's Roadmap Board.
     - Decide on how long the iteration should or will take and set a date for the "last iteration meeting".
 - Throughout the iteration, team members work on their assigned tasks, review Pull Requests from others, add more Issues if required (either adding to the current iteration or putting it for later iterations), and comment where required or mentioned in Issues. Update meetings on progress happen twice a week (see the post on [Update Meetings](update-meetings.md) for details on how we run them). 
 - The final iteration's meeting is the debrief meeting to discuss:
     - How things went and what could be improved in the process.
     - Barriers encountered that we should address for next time.
-
-```{mermaid}
-flowchart
-
-```
