@@ -55,7 +55,7 @@ references:
       year: n.d.
     URL: https://www.gitkraken.com/learn/git/best-practices/git-branch-strategy
   - id: githubflowpost
-    title: GitHub Flow - The best wasy to use Git and GitHub
+    title: GitHub Flow - The best way to use Git and GitHub
     author: 
       family: GitHub
     issued: 
@@ -84,11 +84,13 @@ State the context and some background on the issue, then write a
 statement in the form of a question for the problem.
 :::
 
-When developing software in a collaborative setting, as we do, we believe it's important to implement an explicitly stated Git branching strategy. This aligns with our [Guiding Principles](https://seedcase-project.org/design/software-architecture/introduction#guiding-principles). A clear and well-defined branching strategy enables consistency and efficiency, and, as a result, cleaner workflows across contributions with more time to focus on actual collaboration, problem-solving, and ensuring high quality work.
+Since we develop software in a collaborative setting, we believe it's important to implement an explicitly stated Git branching strategy. This aligns with our [Guiding Principles](https://seedcase-project.org/design/software-architecture/introduction#guiding-principles). A clear and well-defined branching strategy enables consistency and efficiency, and, as a result, cleaner workflows across contributions with more time to focus on actual collaboration, problem-solving, and ensuring high quality work.
 
 There are several branching strategies available, each with its own set of advantages and disadvantages. Which strategy is the most suitable depends on the project, the team, and the organisation (as well as preferences).
 
-The question is, therfore: Which branching strategy is the best fit for the Seedcase project?
+The question is, therefore:
+
+> Which branching strategy is the best fit for the Seedcase project?
 
 ## Decision Drivers
 
@@ -97,14 +99,16 @@ List some reasons for why we need to make this decision and what things
 have arisen that impact work.
 :::
 
-With collaborative software development, each developer might have their own way of doing things such as branching, committing, and reviewing their own and other's work. However, explictly agreeing on how we do these things will ensure common workflows across developers to help along efficient collaboration. When a team follows the same workflows, the focus can be shifted from trying to understand *what* each other are currently working on, *how* the problem at hand is solved, and *why* this work is needed, to harnessing each other's expertise and prior experience and highting the quality of everyone's work.
+With collaborative software development, each developer might have their own way of doing things such as branching, committing, creating pull requests and issues, and reviewing. However, explicitly agreeing on how we do these things will ensure common workflows across developers to help along efficient collaboration.
+
+When a team follows the same workflows, the focus can be shifted from trying to understand *what* each other are currently working on (*how* the problem at hand is solved, and *why* this work is needed) to harnessing each other's expertise and prior experience and highting the quality of everyone's work.
 
 For the Seedcase project, we want to employ a branching strategy that:
 
-1) is simple, transparant, and beginner-friendly
+1) is simple, transparent, and beginner-friendly
 2) enables consistency across contributions through clear guidelines for branching, committing, and reviewing
 3) works well with parallel, asynchronous development
-4) supports continuous delivery, and (is that something we want further down the line, when we want to explicitly version the code?)
+4) supports continuous delivery :warning: is that something we want further down the line, when we want to explicitly version the code and/or documentation? :warning:
 5) works well for smaller teams like ours
 
 ## Considered Options
@@ -114,9 +118,9 @@ List and describe some of the options, as well as some of the pros and
 cons for each option.
 :::
 
-In the following sections, we evaluate commonly used branching strageties to decide on which fit the project and our needs the best. These strategies include: Trunk-based development, Git flow, and GitHub flow.
+In the following sections, we evaluate commonly used branching strategies to decide on which strategy fits the project and our needs the best. These strategies include: **Trunk-based development**, **Git flow**, and **GitHub flow**.
 
-NB: To keep this decision post from getting too long, the strategies and their differences are outlined in a rather simple way, which might result in the loss of some nuances.
+Note: To keep this decision post relatively short, the strategies and their differences are outlined in a rather simple way, which might result in the loss of some nuances.
 
 ### Trunk-Based Development
 
@@ -140,7 +144,7 @@ Some smaller teams might even avoid branching altogether and commit directly to 
 
 A contrast to trunk-based development is the [Git flow](https://nvie.com/posts/a-successful-git-branching-model/). Git flow is a comprehensive branching strategy with two central branches: **main** and **develop**. In this strategy, the **main** branch always reflect a production ready state of the codebase. In contrast, the **develop** branch contains the latest development changes for the next release. When the new developments are at a stable point and is ready to be released, all the changes from the develop branch will be merged into the main branch. As a result, whenever there is a new change to the main branch, this is a new release by definition. Each release version will be tagged [@thummala].
 
-Besides the two central branches, supporting branches will be created to enable parallell development across contributors. These supporting branches are created for specific purposes, such as adding or modifying features (a *feature* branch) or fixing a critical issue in the code (a *hotfix* branch).
+Besides the two central branches, supporting branches will be created to enable parallel development across contributors. These supporting branches are created for specific purposes, such as adding or modifying features (a *feature* branch) or fixing a critical issue in the code (a *hotfix* branch).
 A feature branch must always be created from and merged into the develop branch, while a hotfix branch is usually created from the main branch and is be merged into both main and develop.
 
 #### Benefits of Git Flow
@@ -190,7 +194,7 @@ We decided on using the GitHib flow branching strategy because:
 6) not overly complex for a smaller team like ours
 7) allows for continuous development with the same simple processes for both
 
-For a more thorough review of this branching strategy and how we use it, including naming schemes, see the post [Git workflow guidelines](../git-workflow-guidelines.md).
+For a more thorough review of this branching strategy and how we use it, including naming schemes, see the post [Git workflow guidelines](../git-workflow-guidelines/index.md).
 
 ### Consequences
 
@@ -198,8 +202,5 @@ For a more thorough review of this branching strategy and how we use it, includi
 List some potential consequences of this decision.
 :::
 
-Eventhough, the GitHub flow is the most suitable branching strategy for the Seedcase project at this point in time, this choice does come with consequences. For example, working on longer-living branches (compared to trunk-based-development) could increase the risk of merge conflicts (which is easier to avoid using trunck-based-development). This strategy also comes without release tagging (as Git flow does), something we might want to implement for the Seedcase Software Product later on.
-
-In the future, when we the Seedcase repositories are at a more stable state and we have more contributors, we might need a more complex branching strategy, like Git flow, that revolves around formal releases. But currently, when we deploy continuously, a simpler workflow like GitHub flow is the best fit for us.
-
-"The Git-Flow suits large teams and complex projects, while GitHub-Flow excels in open-source and small team environments. GitLab-Flow provides a compromise between Git-Flow and GitHub-Flow, while Trunk Based Development is ideal for experienced teams focused on collaboration and quick releases. Select the strategy that aligns with your team’s capabilities, project complexity, and desired workflow to maximize efficiency and success [@thummala]."
+Even though, the GitHub flow is the most suitable branching strategy for the Seedcase project at this point in time, this choice does come with consequences. For example, working on longer-living branches (compared to trunk-based-development) could increase the risk of merge conflicts (which is easier to avoid using trunk-based-development). This strategy also comes without release tagging (as Git flow does), something we might want to implement for the Seedcase Software Product later on.
+However, GitHub flow eases the process of parallel, asynchronous development and is ideal for smaller teams like ours. While we deploy continuously, a relatively simples workflow like GitHub flow is the best fit for us.
