@@ -10,20 +10,26 @@ of time-boxed periods ("iterations") of work that follow a specific pattern and 
 for incrementally building or improving things. An iteration for us follows
 this general sequence of steps:
 
-- Team lead creates a GitHub Project Board for the upcoming iteration using the ["Iteration" template](https://github.com/orgs/seedcase-project/projects/4).
-    - Team lead will add the aim and output to be discussed and decided on in the first meeting.
-- The first meeting of the iteration, which we aim to be no more than an hour, is to discuss and plan the specifics of the iteration.
-    - Before the first meeting, review the aim and output of the iteration board and then write out potential tasks that we would need to do to complete the output.
-    - During the meeting, decide on the end output (the "increment" or "milestone").
-    - During the meeting, brainstorm and write out more tasks that are needed to complete the increment or milestone, or select them from the existing list of tasks. A task is a GitHub Issue.
-    - Each team member self-assigns themselves to a task (self-assign to Issue) and estimates the time spent on them by using the Iteration's Roadmap Board.
-    - Decide on how long the iteration should or will take and set a date for the "last iteration meeting".
-- Throughout the iteration, we will:
+1. Team lead sets everything up for the next two or three rounds.
+    - Will create a GitHub Project Board for the upcoming iteration using the ["Iteration" template](https://github.com/orgs/seedcase-project/projects/4).
+    - Will add the aim, output, as well as the end date of the iteration to be discussed and decided on in the first meeting.
+    - Will start adding some tasks into the board.
+2. The first planning meeting for the iteration is scheduled well in advance, for between 1-2 hours and right after the previous iteration's debrief. Preferably this meeting is in person.
+    - The aim of the meeting to discuss and plan the specifics of the iteration.
+    - Before the planning meeting, team members will review the aim and output of the iteration board and write out potential tasks (as GitHub Issues) needed to complete the aim.
+    - During the meeting, we'll discuss and decide on the end output (the "increment" or "milestone").
+    - During the meeting, we'll brainstorm and write out more tasks that are needed to complete the increment or milestone, or select them from the existing list of tasks. 
+    - Each team member self-assigns themselves to a task (self-assign to Issue) and estimates the time spent on them by using the Iteration's Roadmap Board. 
+    - We'll review whether the number of tasks, time estimation of those tasks, and the aim of the iteration are realistic in the time available.
+    - We'll discuss and agree on how long the iteration should be or will take and set a date for the "last iteration meeting".
+3. Throughout the iteration, we will:
     - Have our [update meetings](update-meetings.md) to discuss progress, next steps, and any struggles or barriers (with the work or the iteration/process).
-    - Work on their assigned tasks
-    - Review Pull Requests from others
+    - Work on their assigned tasks.
+    - Review Pull Requests from others.
     - Add more Issues if required. If the Issue is relevant to the current iteration, then add it to the Project Board so that we can determine who will self-assign it during one of our meetings. If the Issue isn't relevant, don't add it to the Project Board, and we will save it for future iterations to work on. 
-    - Comment in Issues or Pull Requests if tagged or if we have something to add to the discussion.
-- The final iteration's meeting, which we aim to be no more than an hour long, is the debrief meeting to discuss:
+    - Comment on Issues or Pull Requests if tagged or if we have something to add to the discussion.
+4. The final iteration's meeting is a debrief to discuss the how things went. These are between 1-2 hours and are preferably in person.
     - How things went and what could be improved in the process.
     - Barriers encountered that we should address for next time.
+    - Show off and (optionally) demo the output all together as a team.
+    - (Optionally done occasionally, but strongly suggested) Include someone external (a potential user) to try out the product/demo and give some feedback.
