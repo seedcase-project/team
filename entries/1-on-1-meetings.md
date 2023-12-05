@@ -13,8 +13,8 @@ that is safe and supportive.
 To help achieve this aim, here are a few things to keep in mind as some
 expectations for these meetings:
 
--   The focus is on team member, how they're doing, and their needs in
-    relation to the job.
+-   The focus is on team member, how they're doing, any struggles, and their needs in
+    relation to the job, their personal life (if necessary or relevant), and the relationships with other team members.
 -   We want to create a space that is as non-judgmental and safe (and
     confidential) as possible, so that we can discuss topics openly and
     without consequences.
