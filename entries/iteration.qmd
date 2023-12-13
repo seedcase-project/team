@@ -7,8 +7,16 @@ We take inspiration from some aspects of [Agile Software
 Development](https://agilemanifesto.org/) and
 [Scrum](https://www.scrum.org/resources/what-scrum-module), especially this idea
 of time-boxed periods ("iterations") of work that follow a specific pattern and process
-for incrementally building or improving things. An iteration for us follows
-this general sequence of steps:
+for incrementally building or improving things. The reason we don't completely use Agile or Scrum workflows is because these workflows generally don't fit well in more academic and research environments. Scrum and Agile often assumes that:
+
+- We are in a more traditional "business" environment with customers
+- Everyone on the team is working only on the project, full-time and completely during the iteration (e.g. with the use of "daily standups"),
+- Everyone on the team is highly technically skilled and knowledgeable in software development practices (e.g. with the "self-organizing" principle)
+- We have the resources to have dedicated personnel for managing the iteration and planning the product (e.g. with "Scrum Master" and "Product Owner")
+
+However, often in academic and research settings, these assumptions are not relevant or applicable. For instance, often everyone is or may be involved in multiple projects. Or we have a broad and diverse range in technical skills around software development practices, often because research and academic environments don't foster nor support nor are aware of these types of skills and knowledge. All of these impact how effective a Agile or Scrum workflow are in these environments.
+
+Based on these inspirations, an iteration for us follows this general sequence of steps:
 
 1. Team lead sets everything up for the next two or three rounds.
     - Will create a GitHub Project Board for the upcoming iteration using the ["Iteration" template](https://github.com/orgs/seedcase-project/projects/4).
