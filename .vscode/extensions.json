@@ -16,8 +16,7 @@
 		"njpwerner.autodocstring",
 		"quarto.quarto",
 		"streetsidesoftware.code-spell-checker",
-		"vivaxy.vscode-conventional-commits",
-		"ms-vscode-remote.remote-containers"
+		"vivaxy.vscode-conventional-commits"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [
