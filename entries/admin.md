@@ -16,7 +16,7 @@ This contains details for general administration of projects. For the most part,
     - "Allow specified actors to bypass requirements", the actor being the team leader
     - "Require approval of most recent reviewable push"
     - "Require status checks to pass before merging"
-    - "Restrict who can push to matching branches" and "Restrict pushes that create matching branches" for the `main` branch
+    - "Restrict who can push to matching branches" for the `main` branch
 
 ## GitHub settings
 
