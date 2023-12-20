@@ -18,8 +18,6 @@ This contains details for general administration of projects. For the most part,
     - "Require status checks to pass before merging"
     - "Restrict who can push to matching branches" for the `main` branch
 
-## GitHub settings
-
 Whenever a new GitHub repo is created for a new website or software project, run this Terminal command on it in order to set some default options for the newly created repository. These options set up the repository with things that we need (and omit things we don't need). The command sets up the following settings:
 
 - Delete branches after they've been merged
