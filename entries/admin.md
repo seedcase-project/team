@@ -3,25 +3,29 @@ title: "General admin content"
 date: last-modified
 ---
 
-## Git tags and releases
+This contains details for general administration of projects. For the most part, this document is only relevant to the team leader or if someone else has taken those admin responsibilities.
 
-With the Seedcase product, Git tags and releases are/will be added
-fairly regularly. On the other hand, with the website, we only tag a
-version of the website after a major "milestone" or deadline. For
-instance, after sending the design documents to get reviewed or when
-sending an update document to our funder or stakeholders.
-
-## GitHub repository settings
+## GitHub Repository Settings
 
 -   Always
     [protect](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule)
-    the main branch of the repository to limit forced pushes and
-    deletions.
+    the `main` branch of the repository to limit forced pushes and
+    deletions. Within the branch protection settings, enable (check mark) these options in order to provide more security and checks to protect the `main` branch:
+    - "Require approvals", of at least 2 team members
+    - "Dismiss stale approvals when new commits are added"
+    - "Allow specified actors to bypass requirements", the actor being the team leader
+    - "Require approval of most recent reviewable push"
+    - "Require status checks to pass before merging"
+    - "Restrict who can push to matching branches" for the `main` branch
 
-## GitHub settings
+Whenever a new GitHub repo is created for a new website or software project, run this Terminal command on it in order to set some default options for the newly created repository. These options set up the repository with things that we need (and omit things we don't need). The command sets up the following settings:
 
-Whenever a new GitHub repo is created for a new website or software, run this Terminal command on it in order to set some default options for the newly created repository.
+- Delete branches after they've been merged
+- Omit wiki
+- Disable discussions
+- Allow PR's to have an option to auto-merge after approval
+- Allow PR's to have an option to easily update with the `main` branch.
 
 ``` bash
-gh repo edit --delete-branch-on-merge=true --enable-wiki=false --enable-discussions=false
+gh repo edit --delete-branch-on-merge=true --enable-wiki=false --enable-discussions=false --enable-auto-merge=true --allow-update-branch
 ```
