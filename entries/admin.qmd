@@ -30,7 +30,17 @@ Whenever a new GitHub repo is created for a new website or software project, run
 gh repo edit --delete-branch-on-merge=true --enable-wiki=false --enable-discussions=false --enable-auto-merge=true --allow-update-branch
 ```
 
-If a local repository exists and a GitHub repository needs to be created for that repository, use this code:
+## Creating a GitHub repo from a local one
+
+If a local repository exists and a GitHub repository needs to be created for that repository, run this code using the Terminal while *inside* the local Git repository folder (the root folder of the Git repository), that does the following actions:
+
+- Creates a repo in the `seedcase-project` organization called `REPO` (rename to the folder name of the local repo).
+- Sets the repo to public (not private) via the `--public`.
+- Use the root folder as the local Git repository with `--source=.`.
+- Include a description of the newly created repository with `--description=""`.
+- Push the local repo to the new repo with `--push`.
+- Disable the wiki with `--disable-wiki`.
+- Set the URL for the homepage with `--homepage`, changing the `REPO` with the name of the root folder of the Git repo.
 
 ``` bash
 gh repo create seedcase-project/REPO --public --source=. --description="WRITE DESCRIPTION" --push --disable-wiki --homepage https://REPO.seedcase-project.org 
