@@ -29,3 +29,9 @@ Whenever a new GitHub repo is created for a new website or software project, run
 ``` bash
 gh repo edit --delete-branch-on-merge=true --enable-wiki=false --enable-discussions=false --enable-auto-merge=true --allow-update-branch
 ```
+
+If a local repository exists and a GitHub repository needs to be created for that repository, use this code:
+
+``` bash
+gh repo create seedcase-project/REPO --public --source=. --description="WRITE DESCRIPTION" --push --disable-wiki --homepage https://REPO.seedcase-project.org 
+```
