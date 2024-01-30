@@ -22,6 +22,8 @@ Based on these inspirations, an iteration for us follows this general sequence o
     - Will create a GitHub Project Board for the upcoming iteration using the ["Iteration" template](https://github.com/orgs/seedcase-project/projects/4).
     - Will add the aim, output, as well as the end date of the iteration to be discussed and decided on in the first meeting.
     - Will start adding some tasks into the board.
+    - If possible, plan iterations so that they either end on a major holiday or are right in the middle of it. Don't plan the start of iterations a few days before major holidays start.
+
 2. The first planning meeting for the iteration is scheduled well in advance, for between 1-2 hours and (preferably)right after the previous iteration's debrief. Preferably this meeting is in person.
     - The aim of the meeting to discuss and plan the specifics of the iteration.
     - Before the planning meeting, team members will review the aim and output of the iteration board and write out potential tasks (as GitHub Issues or as drafts on the board) needed to complete the aim.
@@ -30,16 +32,20 @@ Based on these inspirations, an iteration for us follows this general sequence o
     - While making tasks (Issues), keep them as small as is reasonable and as descriptive and targeted as possible.
     - As we discuss each task, we collectively assign team members to tasks (assign to the Issues).
     - We'll review the number of tasks and the aim of the iteration, then discuss and agree on how long the iteration should be (can range from 2-6 weeks, but prefer shorter iterations over longer ones).
-    - After the iteration length is decided, we'll schedule an approximately 2 hour debrief/retrospective meeting on the end date.
-    - Either during or afterward the planning meeting, each team member individually estimates how much time they might need on their assigned tasks, taking into consideration how much time they have available during their work on the iteration. They'll use the the Iteration's Roadmap Board to track and estimate their time spent on tasks.
+    - After the iteration length is decided, we'll schedule an approximately 2-3 hour debrief/retrospective as well as the next iterations planning meeting on the end date (and start of next).
+    - (Optional) Either during or afterward the planning meeting, each team member individually estimates how much time they might need on their assigned tasks, taking into consideration how much time they have available during their work on the iteration. They'll use the the Iteration's Roadmap Board to track and estimate their time spent on tasks.
+
 3. Throughout the iteration, we will:
     - Have our [update meetings](update-meetings.md) to discuss progress, next steps, and any struggles or barriers (with the work or the iteration/process).
-    - Work on our assigned tasks.
+    - Schedule multi-person impromptu meetings as necessary and as relevant for a given task or issue.
+    - Work on our assigned tasks and coordinate with others assigned to multi-person tasks.
     - Review Pull Requests from others.
     - Add more Issues if required. If the Issue is relevant to the current iteration, then add it to the Project Board so that we can determine who will self-assign it during one of our meetings. If the Issue isn't relevant, don't add it to the Project Board, and we will save it for future iterations to work on. 
     - Comment on Issues or Pull Requests if tagged or if we have something to add to the discussion.
+    - Plan for "knowledge sharing" / "code review" sessions as necessary, for instance to go over a new feature or tool used in a Pull Request. For the author of the Pull Request, they will 
+
 4. The iteration's last meeting is a debrief to discuss how things went. These are between 1-2 hours and are preferably in person. It will have been scheduled during the planning meeting. 
     - Evaluate the aim and review whether we've achieved the aim.
     - Show off and (optionally) demo the output all together as a team. We'll assign someone to be responsible for showing or trying out the demo before the meeting.
     - (Optionally done occasionally, but strongly suggested) Include someone external (a potential user) to try out the product/demo and give some feedback.
-    - Do a "retrospective", where we individually write down how things went ("keep doing" category) and what could be improved or removed ("stop doing/improve on" category) in the process. This should ideally be done in a collaborative "notetaking/post-it notes" system (e.g. like [Figma](https://www.figma.com/)).
+    - Do a "retrospective", where we individually write down how things went ("keep doing" category) and what could be improved or removed ("stop doing/improve on" category) in the process. This should ideally be done in a collaborative "notetaking/post-it notes" system ([Figma](https://www.figma.com/) is really nice for this).
