@@ -7,7 +7,7 @@ detail in the page on [Documentation-First Culture](https://seedcase-project.org
 philosophy is:
 
 -   Limit meetings as much as is necessary, excluding our [weekly
-    update](update-meetings.md) meetings
+    update](update-meetings.qmd) meetings
     -   Hold a meeting if we require a more active and dynamic
         discussion and eventual decision on something
     -   Always include an agenda as well as minutes afterwards

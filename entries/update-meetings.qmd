@@ -21,11 +21,11 @@ update meetings:
     3.  What do you plan to do until the next update meeting?
 - Updates must (with some exceptions) be accompanied by at least one Git commit, preferably a Pull Request. This is to make it easier to see what we're all working on. If it's talked about, it should be visible.
 -   Avoid getting into too much detail about any particular topic. See
-    the guide entry on [communication](communication.md) about
+    the guide entry on [communication](communication.qmd) about
     alternatives to these types of discussions.
 
 Save any detailed or technical discussion on or about code for the [code
-review meetings](code-review-meetings.md).
+review meetings](code-review-meetings.qmd).
 
 ::: callout-tip
 These meetings are held on Discord. To enter, simply go to the seedcase project server on Discord, find "Voice channels", in the menu on the left, and click on "General".
