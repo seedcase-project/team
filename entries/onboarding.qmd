@@ -17,7 +17,7 @@ To get you started, there are some first steps you'll need to do and some posts 
     - We use Discord as our communication platform and this way so you can be added to the Seedcase Project server right away. If you don't have a Discord account, you can go to [discord.com](https://discord.com) and create one.
     - You will need to be added to the SDCA and Seedcase organizaions (and potentially other repositories) on GitHub. If you don't have a GitHub account, you can go to [github.com](https://github.com) and create one.
 2. **Set up GitHub two-factor authentication (2FA)**
-    - See [this post](github.md) (you will need 2FA to access the Seedcase repositories)
+    - See [this post](github.qmd) (you will need 2FA to access the Seedcase repositories)
 3. **Order IT equipment**
     - Talk to the Team Leader about which IT equipment you will need (e.g., computer, mouse, keyboard, and dock station) and Team Leader will help you with ordering it.
 
@@ -29,7 +29,7 @@ Therefore, before you start to read and review the pages in the list below, we e
 with introductions and guidelines to our workflows:
 
 1. [Documentation First Culture](https://seedcase-project.org/community/guide-entries/documentation-first/)
-2. [Workflows for adding content](workflow.md)
+2. [Workflows for adding content](workflow.qmd)
 3. If you will need to add new posts: [Adding posts](https://seedcase-project.org/community/guide-entries/adding-posts/) (this post contains guidelines on that)
 
 Now that you have read the above, you can review the pages below:
@@ -50,4 +50,4 @@ If something is unclear to you, you are more than welcome to reach out to the ot
 
 ## Software
 
-When you have received your IT equipment, there are some software you'll need to install. Go to the [Software we use](software.md) post.
+When you have received your IT equipment, there are some software you'll need to install. Go to the [Software we use](software.qmd) post.

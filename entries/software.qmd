@@ -20,7 +20,7 @@ These are the software we use as a team:
 - [Git](https://git-scm.com/downloads)
     - We use Git for version control and our code is located at GitHub. As to you we chose GitHub, see the Why GitHub decision post (not created as of October 2023)
 - [Justfile](https://just.systems/man/en/chapter_4.html)
-    - Just is a command runner that we use to manage many workflow and build tasks, such as creating or re-generating diagrams that were created with PlantUML. For more information, see the [Creating PlantUML images](create-puml-images.md) post.
+    - Just is a command runner that we use to manage many workflow and build tasks, such as creating or re-generating diagrams that were created with PlantUML. For more information, see the [Creating PlantUML images](create-puml-images.qmd) post.
 - [Python 3](https://www.python.org/downloads/)
     - Python is main development language we use. Check out the [Why Python](https://seedcase-project.org/design/decisions/why-python/index.html) post, if you are interested in why this decision was made.
 - [Quarto](https://quarto.org/docs/get-started/)
