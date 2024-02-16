@@ -37,7 +37,7 @@ Based on these inspirations, an iteration for us follows this general sequence o
     - (Optional) Either during or afterward the planning meeting, each team member individually estimates how much time they might need on their assigned tasks, taking into consideration how much time they have available during their work on the iteration. They'll use the the Iteration's Roadmap Board to track and estimate their time spent on tasks.
 
 3. Throughout the iteration, we will:
-    - Have our [update meetings](update-meetings.md) to discuss progress, next steps, and any struggles or barriers (with the work or the iteration/process), as well as to showcase the demo.
+    - Have our [update meetings](update-meetings.qmd) to discuss progress, next steps, and any struggles or barriers (with the work or the iteration/process), as well as to showcase the demo.
     - Schedule multi-person impromptu meetings as necessary and as relevant for a given task or issue.
     - Work on our assigned tasks and coordinate with others assigned to multi-person tasks.
     - Review Pull Requests from others.
