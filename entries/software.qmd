@@ -1,5 +1,6 @@
 ---
 title: "Software we use"
+date: last-modified
 ---
 
 ## Software
