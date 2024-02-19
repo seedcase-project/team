@@ -1,6 +1,9 @@
 ---
-title: "Workflow for adding content"
+title: "Workflow for developing software and documentation"
+date: last-modified
 ---
+
+## GitHub and Git
 
 When adding or modifying content on either the website or the product
 itself, we follow the "branch-pull request" workflow. This is described
@@ -8,19 +11,42 @@ in more detail in the [GitHub
 Flow](https://docs.github.com/en/get-started/quickstart/github-flow)
 page.
 
+When writing commits, follow these general guidelines:
+
+- Keep changes to files per commit as small as is reasonable and as specific as possible. For example, if making edits to the same file path across multiple files, include all those files in one commit that includes only that change to the file path.
+- Write commit messages following the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) style. Use the helper VS Code extension included in our (automatically) recommended extensions to help you write these messages.
+- Write commit messages focusing on the *why* more than the *what*, though this isn't always possible.
+
+When creating branches and Pull Requests, follow these general guidelines:
+
+- Create branches following the [Conventional Branches](https://github.com/pshaddel/conventional-branch) approach by using the VSCode Extension, that is also in our (automatically) recommended extension list.
+- When creating branches and Pull Requests, keep them as focused and specific to the issue as is reasonable and limit how many changes are made in that Pull Requst. The fewer changes made in a Pull Request, the easier and faster it is for reviewers to look it over, make suggestions, and merge it in.
+- After creating a Pull Request, add it to the relevant GitHub Project.
+- As you work on your branch and it starts growing too large in scope and size, strongly consider creating "stacked Pull Requests" by making a new branch on your current working branch and submit a new Pull Request on top of the parent Pull Request branch.
+- In the Pull Request description, try to explain *why* you made the changes in the Pull Request, rather than the *what*.
+
+## Workflow helper
+
 We use some tools to help automate some of the tasks of working on
-the project repositories, such as formatting/linting Markdown and Python code or re-building a website or software. They are all found in the [`justfile`](https://just.systems/man/en/) file (see the decision post [Why Justfile](https://community.seedcase-project.org/decisions/why-justfile.html) for details on why we decided on using Justfiles).
+the project repositories, such as formatting/linting Markdown and Python code or re-building a website or software. They are all found in the [`justfile`](https://just.systems/man/en/) file.
 Using `justfile` requires opening a Terminal, and how you do that depends on the
 application you are using.
 
 > If you don't know what any of this means, the Team Lead or another
 > member will handle it.
 
-## VS Code
-
 If you use VS Code, you can run this command by using `Ctrl/Cmd-Shift-P`
 to access the Command Palette, then type out "terminal create new", and
-finally hit enter.
-A Terminal will open up on the bottom of VS Code
+finally hit enter. A Terminal will open up in VS Code.
 You can also type out "terminal focus" and select the option "Terminal: Focus on Terminal View", which will switch your cursor to the Terminal on th bottom.
-Type out `just` and hit Enter to see a list of commands you can use for helping you develop the project and work better together in a team. Read the descriptions for each of the commands to identify which ones you want or need to use. For instance, if you need to reformat your code or markdown, or start Docker, or build the website locally, all of these commands are found in the `justfile`.
+
+In the Terminal, type out `just` and hit Enter to see a list of commands you can use for helping you develop the project and work better together in a team. Read the descriptions for each of the commands to identify which ones you want or need to use. For instance, if you need to reformat your code or markdown, or start Docker, or build the website locally, all of these commands are found in the `justfile`.
+
+## Writing Python code
+
+While writing Python code, follow these guidelines:
+
+- Use Ruff as well as VSCode "checker" (should work automatically) to check that the format of code is written correctly by follow the styling instructions. For instance:
+    - Write docstrings for every function, class, and method.
+    - Include type hints and return hints.
+
