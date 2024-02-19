@@ -24,4 +24,4 @@ just generate-puml PATH/TO/PUML
 
 You need to have both Docker and Just installed and have Docker running in the
 background in order for these commands to work. To see how to install these
-programs, check out the entry on [software](software.md)) for more details.
+programs, check out the entry on [software](software.qmd)) for more details.
