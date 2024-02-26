@@ -1,5 +1,6 @@
 ---
 title: "Setting up and using GitHub for teamwork"
+date: last-modified
 ---
 
 ## Setting up two-factor authentication (2FA)
@@ -21,4 +22,4 @@ Authenticator](https://support.google.com/accounts/answer/1066447?hl=en&ref_topi
 or [Microsoft
 Authenticator](https://www.microsoft.com/en-ww/security/mobile-authenticator-app).
 
-## Using GitHub Projects for managing tasks
+<!-- ## Using GitHub Projects for managing tasks -->
