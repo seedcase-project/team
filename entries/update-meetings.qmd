@@ -23,6 +23,7 @@ update meetings:
 -   Avoid getting into too much detail about any particular topic. See
     the guide entry on [communication](communication.qmd) about
     alternatives to these types of discussions.
+- Every Thursday's update meeting, we do an internal demo of a Pull Request or of the current state of the product.
 
 Save any detailed or technical discussion on or about code for the [code
 review meetings](code-review-meetings.qmd).
