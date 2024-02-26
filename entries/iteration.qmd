@@ -37,13 +37,13 @@ Based on these inspirations, an iteration for us follows this general sequence o
     - (Optional) Either during or afterward the planning meeting, each team member individually estimates how much time they might need on their assigned tasks, taking into consideration how much time they have available during their work on the iteration. They'll use the the Iteration's Roadmap Board to track and estimate their time spent on tasks.
 
 3. Throughout the iteration, we will:
-    - Have our [update meetings](update-meetings.qmd) to discuss progress, next steps, and any struggles or barriers (with the work or the iteration/process), as well as to showcase the demo.
+    - Have our [update meetings](update-meetings.qmd) to discuss progress, next steps, and any struggles or barriers (with the work or the iteration/process), as well as to present a demo of the progress made within the iteration.
     - Schedule multi-person impromptu meetings as necessary and as relevant for a given task or issue.
-    - Work on our assigned tasks and coordinate with others assigned to multi-person tasks.
+    - Work on our assigned tasks and coordinate with others if need be (`@` mention the people involved in an Issue, don't assign).
     - Review Pull Requests from others.
-    - Add more Issues if required. If the Issue is relevant to the current iteration, then add it to the Project Board so that we can determine who will self-assign it during one of our meetings. If the Issue isn't relevant, don't add it to the Project Board, and we will save it for future iterations to work on. 
+    - Add more Issues if required. If the Issue is relevant to the current iteration, then add it to the Project Board so that we can determine who will self-assign it during one of our meetings. If the Issue isn't relevant, don't add it to the Project Board but to the relevant repository instead, and we will save it for future iterations to work on. 
     - Comment on Issues or Pull Requests if tagged or if we have something to add to the discussion.
-    - Plan for "knowledge sharing" / "code review" sessions as necessary, for instance to go over a new feature or tool used in a Pull Request. For the author of the Pull Request, they will 
+    - Plan for "knowledge sharing" / "code review" sessions as necessary, for instance to go over a new feature or tool used in a Pull Request. For the author of the Pull Request, they will need to do a bit of preparation before hand so that the session runs smoothly.
 
 4. The iteration's last meeting is a debrief and retrospective to discuss how things went. These are between 1-2 hours and are preferably in person. It will have been scheduled during the planning meeting. 
     - Evaluate the aim and review whether we've achieved the aim.
