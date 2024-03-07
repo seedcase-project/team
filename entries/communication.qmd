@@ -1,9 +1,10 @@
 ---
 title: "Communication across team and collaborators"
+date: last-modified
 ---
 
 Our general philosophy regarding communication is described in more
-detail in the page on [Documentation-First Culture](https://seedcase-project.org/community/guide-entries/documentation-first/). Our within-team
+detail in the page on [Documentation-First Culture](https://community.seedcase-project.org/guides/documentation-first/). Our within-team
 philosophy is:
 
 -   Limit meetings as much as is necessary, excluding our [weekly

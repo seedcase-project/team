@@ -24,7 +24,7 @@ update meetings:
 -   Avoid getting into too much detail about any particular topic. See
     the guide entry on [communication](communication.qmd) about
     alternatives to these types of discussions.
-- Once a week (usually on Thursdays) during the update meeting, internally we'll do a demo of the current state of the project.
+- Once a week (usually on Thursdays) during an update meeting, we'll internally do a demo of the current state of the project, either based on the main branch or on a Pull Request.
 
 Save any detailed or technical discussion on or about code for the [code
 review meetings](code-review-meetings.qmd).
