@@ -131,7 +131,7 @@ some topics and less on others.
             supplement with detailed enough comments, with a "top-level"
             comment describing the basic purpose, type of input, and
             type of output.
-    -   **Action**: Luke to put these into the contributing
+    -   **Action**: Luke will put these into the contributing
         document.
     -   For meetings:
         -   Use a template to cover some basic things that each person
@@ -144,9 +144,9 @@ some topics and less on others.
         -   Potential solution for this is create some workshops on
             using Git and GitHub. One for the basics and another for use
             in collaboration settings.
-        -   **Action**: Luke create two new repos on the
+        -   **Action**: Luke will create two new repos on the
             steno-aarhus account with basic setup for how it will look.
-        -   **Action**: Kris organize times with other Steno people
+        -   **Action**: Kris will organize times with other Steno people
             (Julie) on creating these workshops.
 -   Misc:
     -   Got domain name (`seedcase-project.org`) as well as a `.dk`
@@ -181,9 +181,9 @@ some topics and less on others.
         looks like, so we can identify sources of contribution.
 -   Start bringing together people who work on data on the management
     side (not analysis side).
-    -   **Action**: Kris to learn who is doing data management stuff
+    -   **Action**: Kris will learn who is doing data management stuff
         and coordinate bringing them together.
-    -   **Action**: Luke to start creating docs describing what we
+    -   **Action**: Luke will start creating docs describing what we
         are doing and why we are doing it and how to go about it.
 -   Start working more on the project listing/registration module of
     Seedcase, since others at Steno could benefit from that a lot. Would

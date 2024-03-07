@@ -10,7 +10,7 @@ each other updated on what everyone else is doing. Except, instead of
 daily, we have them twice-weekly. These are some guidelines on running these
 update meetings:
 
--   Keep meeting to \~30 minute.
+-   Keep meeting to \~30 minutes.
 -   At the start of the meeting, the team lead will briefly share any
     general updates or discussion points.
 - Briefly review the iteration objective.
