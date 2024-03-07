@@ -11,7 +11,7 @@ This contains details for general administration of projects. For the most part,
     [protect](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule)
     the `main` branch of the repository to limit forced pushes and
     deletions. Within the branch protection settings, enable (check mark) these options in order to provide more security and checks to protect the `main` branch:
-    - "Require approvals", of at least 2 team members
+    - "Require approvals", of at least 1 team members
     - "Dismiss stale approvals when new commits are added"
     - "Allow specified actors to bypass requirements", the actor being the team leader
     - "Require approval of most recent reviewable push"

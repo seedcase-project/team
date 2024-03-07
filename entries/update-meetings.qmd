@@ -10,9 +10,10 @@ each other updated on what everyone else is doing. Except, instead of
 daily, we have them twice-weekly. These are some guidelines on running these
 update meetings:
 
--   Keep meeting to \~30 minute
+-   Keep meeting to \~30 minute.
 -   At the start of the meeting, the team lead will briefly share any
-    general updates or discussion points
+    general updates or discussion points.
+- Briefly review the iteration objective.
 -   Each person then gives an \~5 minute update that answers these
     items, in this order:
     1.  What did you do since the last update?
@@ -23,6 +24,7 @@ update meetings:
 -   Avoid getting into too much detail about any particular topic. See
     the guide entry on [communication](communication.qmd) about
     alternatives to these types of discussions.
+- Once a week (usually on Thursdays) during the update meeting, internally we'll do a demo of the current state of the project.
 
 Save any detailed or technical discussion on or about code for the [code
 review meetings](code-review-meetings.qmd).
