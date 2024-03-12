@@ -110,9 +110,9 @@ I'll be creating a blog post about this experience, so won't add much here expec
     - Could either hire them after we have a core functional box or hire them to help use develop our process and workflow (getting started, project management, teamwork practices, "how to work" rather than "what to work on")
     - If hired for process, we'll need to give them clear requirements for what we want from them
         - We might need some time to sit down and define the requirements for designing the how to work together
-    - [X] Action: To contact them about hiring them, what are the next steps? How do they charge for their services?
-    - [ ] Action: Need to spend some time writing doc on how to work together, the process. This could be the next “focus stage”, on starting to write out a design document
-    - [ ] Action: Make a detailed list of what outputs we would like from them
+    - **Action**: To contact them about hiring them, what are the next steps? How do they charge for their services?
+    - **Action**: Need to spend some time writing doc on how to work together, the process. This could be the next “focus stage”, on starting to write out a design document
+    - **Action**: Make a detailed list of what outputs we would like from them
         - E.g. training material or documentation on working together and their process
         - E.g. finalize the design doc (maybe another review of it)?
 - Things we could take from them
@@ -128,7 +128,7 @@ I'll be creating a blog post about this experience, so won't add much here expec
         - Keep in mind the overall roadmap
         - Have a week of planning and deciding tasks
         - Then have a period of working on those tasks over the next month
-    - [ ] Action: Add these potential items / workflows to our team docs
+    - **Action**: Add these potential items / workflows to our team docs
 - Misc
     - We could include the timeline as part of our documentation
 
@@ -145,13 +145,13 @@ I'll be creating a blog post about this experience, so won't add much here expec
     - Building monthly sprints, with a period of roadmapping in those days
     - Use Kanban board with constrained time periods to use for the focus phases, with dedicated time pre-phase to describe and plan together what needs to be done and how long each task takes
     - Focus on smaller focused periods of working, with iterative development/feedback and smaller units of roadmapping.
-    - [ ] Action: Schedule time shortly 
+    - **Action**: Schedule time shortly 
     - Have twice-weekly update meetings
     - Limit external meeting
     - Make use of Issue’s
         - Issue templates for how to structure or fill in Issue/task
-        - [X] Action: Signe make the first draft of template
-    - [ ] Action: Make a PR template
+        - **Action**: Signe will make the first draft of template
+    - **Action**: Make a PR template
         - That includes a checklist of things to do
         - Including “has unit test been added”
     - Every update meeting comes with commit
@@ -162,13 +162,13 @@ I'll be creating a blog post about this experience, so won't add much here expec
     - Annelli will attend one of the update meetings, once a month
 - Tasks to do next
     - Converting over the digital copies and updating documentation
-        - [ ] Action: Signe and Kris will convert them
+        - **Action**: Signe and Kris will convert them
     - Focusing on diagrams and visualizations in design docs, and updating the existing ones and adding more ones
     - Have more definitions and lists on the definitions of terms
-    - [ ] Action: Build up Actions/CI
-    - [ ] Action: Pre-commits setup
-    - [ ] Action: Basic infrastructure for working together
-    - [ ] Action: Make issue template that includes a very detailed requirements for functionality (including input and output of functions/code)
+    - **Action**: Build up Actions/CI
+    - **Action**: Pre-commits setup
+    - **Action**: Basic infrastructure for working together
+    - **Action**: Make issue template that includes a very detailed requirements for functionality (including input and output of functions/code)
     - Review process?
         - PR
 - Misc items
@@ -177,21 +177,21 @@ I'll be creating a blog post about this experience, so won't add much here expec
     - Workflow, each project/package/app would have its own design doc and diagrams, etc?
 - Requirements for how to work together effectively as a team
     - Shorter-term roadmap (e.g. 3 month cycle, 6 month cycle, 1 year cycle)
-        - [X] Action: Luke update roadmap and convert into milestones on the docs but also on GitHub as a Milestone 
+        - **Action**: Luke will update roadmap and convert into milestones on the docs but also on GitHub as a Milestone 
     - (see items above)
-    - [ ] Action: Setup pre-commit hooks?
+    - **Action**: Setup pre-commit hooks?
         - Pre-commit for unit tests?
         - Pre-commit for a website? Render?
         - Format markdown (lint only)
         - Format code (lint only)
         - Spellchecker
-    - [ ] Action: Flesh out the Justfile
+    - **Action**: Flesh out the Justfile
         - Format markdown and code
-    - [ ] Action: PR template
+    - **Action**: PR template
         - Checklist
             - Run formatters?
             - Unit tests included?
-    - [ ] Action: Create/use a devcontainer
+    - **Action**: Create/use a devcontainer
         - psql
         - jq (for ndJSON file), Python package?
         - Black
@@ -203,4 +203,4 @@ I'll be creating a blog post about this experience, so won't add much here expec
         - Poetry for Python environments?
     - Git Flow
         - Multiple commits per day, at minimum push at end of work day
-        - [ ] Action: Signe finish that up
+        - **Action**: Signe will finish that up

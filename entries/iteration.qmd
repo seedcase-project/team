@@ -19,8 +19,8 @@ However, often in academic and research settings, these assumptions are not rele
 Based on these inspirations, an iteration for us follows this general sequence of steps:
 
 1. Team lead sets everything up for the next two or three rounds.
-    - Will create a GitHub Project Board for the upcoming iteration using the ["Iteration" template](https://github.com/orgs/seedcase-project/projects/4).
-    - Will add the aim, output, as well as the end date of the iteration to be discussed and decided on in the first meeting.
+    - Will create an iteration within the main "Team project planning" board (which are all listed [here](https://github.com/orgs/seedcase-project/projects/), which is found in the Settings in the board.
+    - Will write the title of the iteration as the goal for it, while keeping the goal focused, small, acheivable, and considerate of the time we have available.
     - Will start adding some tasks into the board.
     - If possible, plan iterations so that they either end on a major holiday or are right in the middle of it. Don't plan the start of iterations a few days before major holidays start.
 
