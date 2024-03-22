@@ -111,6 +111,8 @@ sequence of steps:
     discuss how things went. These are between 1-2 hours and are
     preferably in person. It will have been scheduled during the
     planning meeting.
+    -   Assign a timekeeper to keep us on track and not spending too
+        long on any one topic.
     -   Evaluate the aim and review whether we've achieved the aim.
     -   Show off and (optionally) demo the output all together as a
         team. We'll assign someone to be responsible for showing or
