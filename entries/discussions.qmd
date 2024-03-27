@@ -1,0 +1,9 @@
+---
+title: "Formal discussions"
+---
+
+We often need to have formal discussions that go deep into specific
+topics. A discussion topic is always started from opening a GitHub
+issue. Decisions, comments, feedback, and substantial contributions to
+the discussion are made in the issue. If necessary, or if the discussion
+is of high priority, the Issue assignee will schedule a short meeting to
