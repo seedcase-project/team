@@ -1,0 +1,23 @@
+---
+title: "Debugging in VS Code"
+---
+
+In each Seedcase software repository is a file called
+`.vscode/launch.json` with a debugger called `"seedcase-debugger"`. This
+file gives us the ability to set break points and assess variables and
+views at these break points by using the built-in "Run and Debug"
+feature in VS Code.
+
+To use the debugger:
+
+1.  Click the "Run and Debug" icon on the sidebar menu in VS Code
+2.  Check that it says "seedcase-debugger" in the top, next to the
+    "Play" icon button (don't click it yet)
+3.  Set break points where you want the code to stop by going to the
+    script you want, and click at the left side of the line (a red dot
+    will appear)
+4.  Then, in the "Run and debug" tab, click "Play". The debug console
+    will open. Follow the local host link (as when running
+    `just start-app`) and go to the page you want to debug. The code
+    will stop at your break point(s) and you can inspect the variables
+    at that stage in the tab.
