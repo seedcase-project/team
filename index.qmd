@@ -1,6 +1,15 @@
 ---
 title: Team Documentation
 listing:
+  - id: onboarding
+    sort-ui: false
+    filter-ui: false
+    contents: onboarding
+    table-hover: true
+    table-striped: true
+    type: table
+    fields:
+      - "title"
   - id: entries
     sort-ui: false
     contents: entries
@@ -22,6 +31,13 @@ listing:
 ---
 
 {{< include /includes/_wip.qmd >}}
+
+## First steps: Onboarding
+
+These documents contain information for new team members to get started.
+
+::: {#onboarding}
+:::
 
 ## How we work
 
