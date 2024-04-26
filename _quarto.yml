@@ -16,6 +16,7 @@ website:
     pinned: true
     style: "floating"
     contents:
+    - auto: onboarding
     - auto: entries
     - text: Events
       href: index.qmd#past-and-upcoming-events
