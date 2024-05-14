@@ -20,7 +20,7 @@ guidelines:
     recommended extension list (see tip below).
 -   When creating branches and pull requests, keep them as focused and
     specific to the issue as is reasonable and limit how many changes
-    are made in that Pull Requst. The fewer changes made in a pull
+    are made in that pull request. The fewer changes made in a pull
     request, the easier and faster it is for reviewers to look it over,
     make suggestions, and merge it in.
 -   After creating a pull request, add it to the relevant GitHub Project
@@ -38,7 +38,7 @@ guidelines:
 
 #### What are conventional branches?
 
-For naming branches, we follow naming scheme called **conventional
+For naming branches, we follow a naming scheme called **conventional
 branches**. Conventional branches are a way of naming branches that are
 easy to read and understand. This naming follow a specific format that
 includes a type and a branch description. Specifically, the format of a
@@ -54,7 +54,7 @@ Code extension "Conventional Branches" by pshaddel. This extension
 provides autocompletion for conventional branch names and can help you
 create branches that follow the conventional branches format. This
 extension is in our recommended extensions and should automatically pop
-up, when you're using VS code to edit any of the Seedcase GitHub
+up to install when you're using VS code to edit any of the Seedcase GitHub
 repositories. If for some reason, it doesn't pop up, you can install the
 extension by searching for "Conventional Branches" in the Extensions
 view in VS Code.
@@ -122,10 +122,10 @@ To use the extension, follow these steps:
 -   Stage the changes you want to commit, e.g., in the Source Control
     view in VS Code or using a Terminal.
 -   Open the Command Palette in VS Code by pressing `Ctrl/Cmd-Shift-P`.
--   Type "Conventional Commits" and select the option that appears.
--   Follow the steps that appears to write a conventional commit
+-   Type "Conventional Commits" or just "commit" and select the option that appears for Conventional Commits.
+-   Follow the steps that appear to write a conventional commit
     message. The extension will provide auto-completion for the type of
-    the commit message, and it will help you write a message that
+    commit message, and it will help you write a message that
     follows the conventional commits format.
 
 For more information, see the
