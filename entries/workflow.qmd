@@ -17,13 +17,91 @@ When writing commits, follow these general guidelines:
 - Write commit messages following the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) style. Use the helper VS Code extension included in our (automatically) recommended extensions to help you write these messages.
 - Write commit messages focusing on the *why* more than the *what*, though this isn't always possible.
 
-When creating branches and Pull Requests, follow these general guidelines:
+::: callout-tip
+### Writing conventional commits using the VS Code extension
 
-- Create branches following the [Conventional Branches](https://github.com/pshaddel/conventional-branch) approach by using the VSCode Extension, that is also in our (automatically) recommended extension list.
-- When creating branches and Pull Requests, keep them as focused and specific to the issue as is reasonable and limit how many changes are made in that Pull Requst. The fewer changes made in a Pull Request, the easier and faster it is for reviewers to look it over, make suggestions, and merge it in.
-- After creating a Pull Request, add it to the relevant GitHub Project since this is where we keep an overview of what each of us is currently working on.
-- As you work on your branch and it starts growing too large in scope and size, strongly consider creating "stacked Pull Requests" by making a new branch on your current working branch and submit a new Pull Request on top of the parent Pull Request branch.
-- In the Pull Request description, try to explain *why* you made the changes in the Pull Request, rather than the *what*.
+#### What are conventional commits?
+
+Conventional commits are a way of writing commit messages that are easy
+to read and understand. They follow a specific format that includes a
+type, a scope, and a message. The type is a word that describes the kind
+of change that was made, such as "feat" for a new feature or "fix" for a
+bug fix. The scope is a word that describes the part of the codebase
+that was changed, such as "docs" for documentation or "ui" for the user
+interface. The message is a short description of the change that was
+made.
+
+#### Using the VS Code extension
+
+To ease the process of writing conventional commits, we use the VS Code
+extension "Conventional Commits" by vivaxy. This extension provides
+autocompletion for conventional commit messages and can help you write
+messages that follow the conventional commits format. This extension is
+in our recommended extensions and should automatically pop up, when
+you're using VS code to edit any of the Seedcase GitHub repositories. If
+for some reason, it doesn't pop up, you can install the extension by
+searching for "Conventional Commits" in the Extensions view in VS Code.
+
+To use the extension, follow these steps:
+
+-   Make sure you have the "Conventional Commits" extension installed in
+    VS Code.
+-   Stage the changes you want to commit, e.g., in the Source Control
+    view in VS Code or using a Terminal.
+-   Open the Command Palette in VS Code by pressing `Ctrl/Cmd-Shift-P`.
+-   Type "Conventional Commits" and select the option that appears.
+-   Follow the steps that appears to write a conventional commit
+    message. The extension will provide auto-completion for the type of
+    the commit message, and it will help you write a message that
+    follows the conventional commits format.
+
+For more information, see the
+[documentation](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
+for the Conventional Commits extension.
+:::
+
+
+::: callout-tip
+### Creating conventional branches using the VS Code extension
+
+#### What are conventional branches?
+
+For naming branches, we follow naming scheme called **conventional
+branches**. Conventional branches are a way of naming branches that are
+easy to read and understand. This naming follow a specific format that
+includes a type and a branch description. Specifically, the format of a
+conventional branch name is `<type>/<branch>`, where `<type>` is the
+type of the branch and `<branch>` is a short description of the change
+that will be made. The description should be written in imperative mood
+using kebab-case.
+
+#### Using the VS Code extension
+
+To ease the process of creating conventional branches, we use the VS
+Code extension "Conventional Branches" by pshaddel. This extension
+provides autocompletion for conventional branch names and can help you
+create branches that follow the conventional branches format. This
+extension is in our recommended extensions and should automatically pop
+up, when you're using VS code to edit any of the Seedcase GitHub
+repositories. If for some reason, it doesn't pop up, you can install the
+extension by searching for "Conventional Branches" in the Extensions
+view in VS Code.
+
+To use the extension, follow these steps:
+
+-   Make sure you have the "Conventional Branches" extension installed
+    in VS Code.
+-   Open the Command Palette in VS Code by pressing `Ctrl/Cmd-Shift-P`.
+-   Type "Conventional Branches" and select the option that appears.
+-   Follow the steps that appears to create a conventional branch name.
+    The extension will provide auto-completion for the type of the
+    branch name, and it will help you create a branch name that follows
+    the conventional branches format.
+
+For more information, see the
+[documentation](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
+for the Conventional Branch extension.
+:::
 
 ## Workflow helper
 
