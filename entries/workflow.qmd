@@ -71,7 +71,7 @@ To use the extension, follow these steps:
     the conventional branches format.
 
 For more information, see the
-[documentation](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
+[documentation](https://marketplace.visualstudio.com/items?itemName=pshaddel.conventional-branch)
 for the Conventional Branch extension.
 :::
 
