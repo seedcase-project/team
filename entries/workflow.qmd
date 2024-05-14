@@ -45,7 +45,7 @@ includes a type and a branch description. Specifically, the format of a
 conventional branch name is `<type>/<branch>`, where `<type>` is the
 type of the branch and `<branch>` is a short description of the change
 that will be made. The description should be written in imperative mood
-using kebab-case.
+using kebab-case. For example `feat/add-new-feature` or `fix/bug-fix`.
 
 #### Using the VS Code extension
 
