@@ -11,64 +11,6 @@ in more detail in the [GitHub
 flow](https://docs.github.com/en/get-started/quickstart/github-flow)
 page.
 
-When writing commits, follow these general guidelines:
-
--   Keep changes to files per commit as small as is reasonable and as
-    specific as possible. For example, if making edits to the same file
-    path across multiple files, include all those files in one commit
-    that includes only that change to the file path.
--   Write commit messages following the [Conventional
-    Commits](https://www.conventionalcommits.org/en/v1.0.0/) style. Use
-    the [Conventional
-    commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
-    VS Code extension included in our (automatically) recommended
-    extensions to help you write these messages.
--   Write commit messages focusing on the *why* more than the *what*,
-    though this isn't always possible.
-
-::: callout-tip
-### Writing conventional commits using the VS Code extension
-
-#### What are conventional commits?
-
-Conventional commits are a way of writing commit messages that are easy
-to read and understand. They follow a specific format that includes a
-type, a scope, and a message. The type is a word that describes the kind
-of change that was made, such as "feat" for a new feature or "fix" for a
-bug fix. The scope is a word that describes the part of the codebase
-that was changed, such as "docs" for documentation or "ui" for the user
-interface. The message is a short description of the change that was
-made.
-
-#### Using the VS Code extension
-
-To ease the process of writing conventional commits, we use the VS Code
-extension "Conventional Commits" by vivaxy. This extension provides
-autocompletion for conventional commit messages and can help you write
-messages that follow the conventional commits format. This extension is
-in our recommended extensions and should automatically pop up, when
-you're using VS code to edit any of the Seedcase GitHub repositories. If
-for some reason, it doesn't pop up, you can install the extension by
-searching for "Conventional Commits" in the Extensions view in VS Code.
-
-To use the extension, follow these steps:
-
--   Make sure you have the "Conventional Commits" extension installed in
-    VS Code.
--   Stage the changes you want to commit, e.g., in the Source Control
-    view in VS Code or using a Terminal.
--   Open the Command Palette in VS Code by pressing `Ctrl/Cmd-Shift-P`.
--   Type "Conventional Commits" and select the option that appears.
--   Follow the steps that appears to write a conventional commit
-    message. The extension will provide auto-completion for the type of
-    the commit message, and it will help you write a message that
-    follows the conventional commits format.
-
-For more information, see the
-[documentation](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
-for the Conventional Commits extension.
-:::
-
 When creating branches and pull requests, follow these general
 guidelines:
 
@@ -132,6 +74,65 @@ For more information, see the
 [documentation](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
 for the Conventional Branch extension.
 :::
+
+When writing commits, follow these general guidelines:
+
+-   Keep changes to files per commit as small as is reasonable and as
+    specific as possible. For example, if making edits to the same file
+    path across multiple files, include all those files in one commit
+    that includes only that change to the file path.
+-   Write commit messages following the [Conventional
+    Commits](https://www.conventionalcommits.org/en/v1.0.0/) style. Use
+    the [Conventional
+    commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
+    VS Code extension included in our (automatically) recommended
+    extensions to help you write these messages.
+-   Write commit messages focusing on the *why* more than the *what*,
+    though this isn't always possible.
+
+::: callout-tip
+### Writing conventional commits using the VS Code extension
+
+#### What are conventional commits?
+
+Conventional commits are a way of writing commit messages that are easy
+to read and understand. They follow a specific format that includes a
+type, a scope, and a message. The type is a word that describes the kind
+of change that was made, such as "feat" for a new feature or "fix" for a
+bug fix. The scope is a word that describes the part of the codebase
+that was changed, such as "docs" for documentation or "ui" for the user
+interface. The message is a short description of the change that was
+made.
+
+#### Using the VS Code extension
+
+To ease the process of writing conventional commits, we use the VS Code
+extension "Conventional Commits" by vivaxy. This extension provides
+autocompletion for conventional commit messages and can help you write
+messages that follow the conventional commits format. This extension is
+in our recommended extensions and should automatically pop up, when
+you're using VS code to edit any of the Seedcase GitHub repositories. If
+for some reason, it doesn't pop up, you can install the extension by
+searching for "Conventional Commits" in the Extensions view in VS Code.
+
+To use the extension, follow these steps:
+
+-   Make sure you have the "Conventional Commits" extension installed in
+    VS Code.
+-   Stage the changes you want to commit, e.g., in the Source Control
+    view in VS Code or using a Terminal.
+-   Open the Command Palette in VS Code by pressing `Ctrl/Cmd-Shift-P`.
+-   Type "Conventional Commits" and select the option that appears.
+-   Follow the steps that appears to write a conventional commit
+    message. The extension will provide auto-completion for the type of
+    the commit message, and it will help you write a message that
+    follows the conventional commits format.
+
+For more information, see the
+[documentation](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
+for the Conventional Commits extension.
+:::
+
 
 ## Workflow helper
 
