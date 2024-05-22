@@ -18,6 +18,7 @@ website:
     contents:
     - auto: onboarding
     - auto: entries
+    - auto: user-tests
     - text: Events
       href: index.qmd#past-and-upcoming-events
 
