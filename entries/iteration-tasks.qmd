@@ -1,0 +1,29 @@
+---
+title: "Tasks during iterations"
+date: last-modified
+---
+
+While specific details about what we do during an iteration is described
+in the [iteration](iteration.qmd) guide, there are some speific
+situations that need a bit more detail.
+
+In general, tasks we work on during the iteration should support the
+overall iteration goal. However, there are several cases when we should
+work on tasks unrelated to the goal. Specifically:
+
+-   Whenever a decision is made, create a decision post about it as near
+    to the time of decision (or before making the decision) as possible.
+-   Whenever a team member learns something and feels like it would be
+    useful to share with the team, create a learning post about it as
+    near to the time of learning as possible.
+
+Likewise, while issues are assigned a priority, our individual and team
+priorities are to, in order:
+
+-   Respond to reviewer comments on our own pull requests.
+-   Respond to issues where we are tagged/mentioned (`@`).
+-   Review pull requests from others.
+-   Work on the assigned highest priority issues.
+-   Respond to comments and questions in issues, unless it is a
+    discussion issue, where the assigned team member will seek out and
+    request our comments.
