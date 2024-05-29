@@ -8,6 +8,10 @@
       diamond dia2
   }
 
+  package theme as THE {
+      diamond dia3
+  }
+
   package community as COM {
       object "Community.Seedcase-Project.org" as CSP {
         Project blocks
@@ -64,7 +68,8 @@
 
 COM -[hidden]--> TEA
 DEC -[hidden]--> GIT
-DES -[hidden]--> DAT
+DEC -[hidden]--> DAT
+DEC -[hidden]--> THE
 SPROUT -[hidden]--> COM 
 
 @enduml
