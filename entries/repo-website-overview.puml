@@ -1,0 +1,69 @@
+@startuml Repos-Sites
+
+  package .github as GIT {
+      diamond dia1
+  }
+
+  package data as DAT {
+      diamond dia2
+  }
+
+  package community as COM {
+      object "Community.Seedcase-Project.org" as CSP {
+        Project blocks
+        Roadmap
+        Guides
+        Posts
+        Code of Conduct
+      }
+  }
+
+  package decisions as DEC {
+      object "Decisions.Seedcase-Project.org" as DeCP {
+        Posts
+      }
+  }
+
+  package design as DES {
+      object "Design.Seedcase-Project.org" as DeSP {
+        Welcome
+        Software architecture documentation
+      }
+  }
+
+  package team as TEA {
+      object "Team.Seedcase-Project.org" as TSP {
+        Onboarding
+        Entries
+        User Tests
+        Events
+      }
+  }
+
+  package "Seedcase Sprout" as SPROUT {
+      object "localhost" as SSP {
+        App for upload
+        and storing data 
+      }
+  }
+
+  package seedcase {
+      object "About Seedcase" as ABOUT {
+        history
+        team members 
+      }
+
+      map "Seedcase-Project.org" as SP {
+        about seedcase *-> ABOUT
+        community *--> COM
+        design *--> DES
+        decisions *--> DEC
+      }
+  }  
+
+COM -[hidden]--> TEA
+DEC -[hidden]--> GIT
+DES -[hidden]--> DAT
+SPROUT -[hidden]--> COM 
+
+@enduml
