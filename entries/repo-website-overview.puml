@@ -58,11 +58,16 @@
         team members 
       }
 
+      object "Learn" as LEA {
+        Learning Shorts
+      }
+
       map "Seedcase-Project.org" as SP {
         about seedcase *-> ABOUT
         community *--> COM
         design *--> DES
         decisions *--> DEC
+        learn *-> LEA
       }
   }  
 
