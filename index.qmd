@@ -10,9 +10,9 @@ listing:
     type: table
     fields:
       - "title"
-  - id: entries
+  - id: how-we-work
     sort-ui: false
-    contents: entries
+    contents: how-we-work
     type: grid
     sort: 
       - "title"
@@ -44,7 +44,7 @@ These documents contain information for new team members to get started.
 These documents are all evolving as we continue working on this project
 and learn what works and what doesn't.
 
-::: {#entries}
+::: {#how-we-work}
 :::
 
 ## Past and upcoming events

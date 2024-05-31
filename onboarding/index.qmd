@@ -16,13 +16,13 @@ To get you started, there are some first steps you'll need to do and some posts 
     - We use Discord as our communication platform and this way so you can be added to the Seedcase Project server right away. If you don't have a Discord account, you can go to [discord.com](https://discord.com) and create one.
     - You will need to be added to the SDCA and Seedcase organizaions (and potentially other repositories) on GitHub. If you don't have a GitHub account, you can go to [github.com](https://github.com) and create one.
 2. **Set up GitHub two-factor authentication (2FA)**
-    - See [this post](/entries/github.qmd) (you will need 2FA to access the Seedcase repositories).
+    - See [this post](/how-we-work/github.qmd) (you will need 2FA to access the Seedcase repositories).
 3. **Order IT equipment**
     - Talk to the Team Leader about which IT equipment you will need (e.g., computer, mouse, keyboard, and dock station) and Team Leader will help you with ordering it.
 
 ## Software
 
-The [software we use](/entries/software.qmd) post lists the software you will need to install in order to effectively contribute as part of the team. Go to the post and install the software listed there.
+The [software we use](/how-we-work/software.qmd) post lists the software you will need to install in order to effectively contribute as part of the team. Go to the post and install the software listed there.
 
 ## Posts to read and review
 
@@ -32,7 +32,7 @@ Therefore, before you start to read and review the pages in the list below, read
 with introductions and guidelines to our workflows:
 
 1. [Documentation First Culture](https://community.seedcase-project.org/guides/documentation-first/)
-2. [Workflow for developing software and documentation](/entries/workflow.qmd)
+2. [Workflow for developing software and documentation](/how-we-work/workflow.qmd)
 3. If you will need to add new posts, read the how-to ["Adding posts"](https://community.seedcase-project.org/guides/adding-posts/), which contains guidelines on that.
 
 Now that you have read the above, you can review the pages below. As you review them, create any Issues in the respective GitHub repository (e.g. the `team` repo for things about the `team` website) for things you find confusing or unclear, if you have questions, or other suggestions for improvements.
