@@ -8,12 +8,12 @@
       diamond dia2
   }
 
-  package theme as THE {
+  package seedcase-theme as THE {
       diamond dia3
   }
 
   package community as COM {
-      object "Community.Seedcase-Project.org" as CSP {
+      object "community.seedcase-project.org" as CSP {
         Project blocks
         Roadmap
         Guides
@@ -24,28 +24,27 @@
   }
 
   package decisions as DEC {
-      object "Decisions.Seedcase-Project.org" as DeCP {
+      object "decisions.seedcase-project.org" as DeCP {
         Posts
       }
   }
 
   package design as DES {
-      object "Design.Seedcase-Project.org" as DeSP {
-        Welcome
+      object "design.seedcase-project.org" as DeSP {
         Software architecture documentation
       }
   }
 
   package team as TEA {
-      object "Team.Seedcase-Project.org" as TSP {
+      object "team.seedcase-project.org" as TSP {
         Onboarding
         Entries
-        User Tests
+        User tests
         Events
       }
   }
 
-  package "Seedcase Sprout" as SPROUT {
+  package "seedcase-sprout" as SPROUT {
       object "localhost" as SSP {
         App for upload
         and storing data 
@@ -54,20 +53,20 @@
 
   package seedcase {
       object "About Seedcase" as ABOUT {
-        history
-        team members 
+        History
+        Team members 
       }
 
       object "Learn" as LEA {
-        Learning Shorts
+        Learning shorts
       }
 
-      map "Seedcase-Project.org" as SP {
-        about seedcase *-> ABOUT
-        community *--> COM
-        design *--> DES
-        decisions *--> DEC
-        learn *-> LEA
+      map "seedcase-project.org" as SP {
+        About *-> ABOUT
+        Community *--> COM
+        Design *--> DES
+        Decisions *--> DEC
+        Learn *-> LEA
       }
   }  
 
