@@ -32,7 +32,7 @@ listing:
 
 {{< include /includes/_wip.qmd >}}
 
-## First steps: Onboarding
+## First steps
 
 These documents contain information for new team members to get started.
 
