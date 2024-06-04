@@ -5,9 +5,9 @@ date: last-modified
 
 ## GitHub and Git
 
-When adding or modifying content on either the website or the product
-itself, we follow the "branch-pull request" workflow. This is described
-in more detail in the [GitHub
+When adding or modifying content on either the website or the products
+themselves, we follow the "branch-pull request" workflow. This is
+described in more detail in the [GitHub
 flow](https://docs.github.com/en/get-started/quickstart/github-flow)
 page.
 
@@ -54,10 +54,10 @@ Code extension "Conventional Branches" by pshaddel. This extension
 provides autocompletion for conventional branch names and can help you
 create branches that follow the conventional branches format. This
 extension is in our recommended extensions and should automatically pop
-up to install when you're using VS code to edit any of the Seedcase GitHub
-repositories. If for some reason, it doesn't pop up, you can install the
-extension by searching for "Conventional Branches" in the Extensions
-view in VS Code.
+up to install when you're using VS code to edit any of the Seedcase
+GitHub repositories. If for some reason, it doesn't pop up, you can
+install the extension by searching for "Conventional Branches" in the
+Extensions view in VS Code.
 
 To use the extension, follow these steps:
 
@@ -122,17 +122,17 @@ To use the extension, follow these steps:
 -   Stage the changes you want to commit, e.g., in the Source Control
     view in VS Code or using a Terminal.
 -   Open the Command Palette in VS Code by pressing `Ctrl/Cmd-Shift-P`.
--   Type "Conventional Commits" or just "commit" and select the option that appears for Conventional Commits.
--   Follow the steps that appear to write a conventional commit
-    message. The extension will provide auto-completion for the type of
-    commit message, and it will help you write a message that
-    follows the conventional commits format.
+-   Type "Conventional Commits" or just "commit" and select the option
+    that appears for Conventional Commits.
+-   Follow the steps that appear to write a conventional commit message.
+    The extension will provide auto-completion for the type of commit
+    message, and it will help you write a message that follows the
+    conventional commits format.
 
 For more information, see the
 [documentation](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
 for the Conventional Commits extension.
 :::
-
 
 ## Workflow helper
 

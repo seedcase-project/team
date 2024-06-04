@@ -14,7 +14,7 @@ To get you started, there are some first steps you'll need to do and some posts 
 
 1. **Send your GitHub username and Discord username to the Team Leader**
     - We use Discord as our communication platform and this way so you can be added to the Seedcase Project server right away. If you don't have a Discord account, you can go to [discord.com](https://discord.com) and create one.
-    - You will need to be added to the SDCA and Seedcase organizaions (and potentially other repositories) on GitHub. If you don't have a GitHub account, you can go to [github.com](https://github.com) and create one.
+    - You will need to be added to the SDCA and Seedcase organizations (and potentially other repositories) on GitHub. If you don't have a GitHub account, you can go to [github.com](https://github.com) and create one.
 2. **Set up GitHub two-factor authentication (2FA)**
     - See [this post](/how-we-work/github.qmd) (you will need 2FA to access the Seedcase repositories).
 3. **Order IT equipment**
