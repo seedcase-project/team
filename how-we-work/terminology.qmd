@@ -1,0 +1,37 @@
+---
+title: Terminology
+date: last-modified
+---
+
+This post sets out some basic guidelines around the terminology we use
+to refer to the Seedcase Project and its component parts. The aim of
+these guidelines is to make the use of terms in our documentation clear
+and consistent. While they serve as a rule of thumb, individual
+judgement should be exercised depending on context.
+
+-   *Seedcase Project*:
+    -   Always in proper case.
+    -   Use this to refer to the project as a whole, including
+        underpinning ideas and philosophy.
+-   *Seedcase*:
+    -   Limit the bare use of *Seedcase* as a noun to cases where the
+        project as a whole is referred to in very general terms (e.g.
+        *the idea of Seedcase initially formed...*).
+    -   Use *Seedcase* as a qualifier to restrict the meaning of a noun
+        to a project-specific context (e.g. *Seedcase team*, *Seedcase
+        users*, *Seedcase software*).
+-   *Seedcase products* / *Seedcase software* / *Seedcase software
+    products*:
+    -   Use these to refer to the software deliverables of the project
+        collectively.
+    -   Choose best fit based on context.
+    -   Note that, in general, these phrases don't take the definite
+        article (i.e. ~~the~~ Seedcase software).
+-   *Seedcase framework*:
+    -   Use this to refer to the software deliverables which work
+        together to implement core project functionalities as a single
+        conceptual unit.
+-   *Data Resource*:
+    -   Always in proper case.
+    -   Use this to refer to the data layer of the framework and its
+        contents.
