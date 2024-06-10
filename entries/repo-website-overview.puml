@@ -14,11 +14,8 @@
 
   package community as COM {
       object "community.seedcase-project.org" as CSP {
-        Project blocks
         Roadmap
-        Guides
-        Posts
-        Outreach
+        ...
         Code of Conduct
       }
   }
