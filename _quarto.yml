@@ -3,15 +3,21 @@ project:
 
 website:
   title: "Seedcase Project: Team Docs"
-  # favicon: "images/favicon.ico"
   site-url: "https://team.seedcase-project.org/"
   repo-url: "https://github.com/seedcase-project/team"
   page-navigation: true
   navbar:
+    title: false
+    logo: _extensions/seedcase-project/seedcase-theme/logos/navbar-logo-seedcase-team.svg
+    logo-alt: "Seedcase Team logo: Main page"
     pinned: true
     tools:
+      - icon: house
+        href: https://seedcase-project.org
+        aria-label: "House icon: Seedcase Project home page"
       - icon: github
         href: "https://github.com/seedcase-project/team"
+        aria-label: "GitHub icon: Source code"
   sidebar:
     pinned: true
     style: "floating"
