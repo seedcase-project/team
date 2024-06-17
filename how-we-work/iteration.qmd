@@ -82,7 +82,7 @@ A basic agenda for the meeting might be:
 
 In general, only the team lead is required to prepare for the planning
 meeting. Before the planning meeting, the team lead will move any
-existing tasks (GitHub Issues) into the iteration that is relevant to
+existing tasks (GitHub issues) into the iteration that is relevant to
 the aim of the iteration. The team lead will also create any issues that
 are missing from the current list of issues. While making issues, keep
 them as small as is reasonable and as descriptive and targeted as
