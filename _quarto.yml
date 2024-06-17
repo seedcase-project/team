@@ -17,7 +17,7 @@ website:
         aria-label: "House icon: Seedcase Project home page"
       - icon: github
         href: "https://github.com/seedcase-project/team"
-        aria-label: "Github icon: Source code"
+        aria-label: "GitHub icon: Source code"
   sidebar:
     pinned: true
     style: "floating"
