@@ -43,7 +43,7 @@ Team lead sets everything up for the next two or three iterations.
     [here](https://github.com/orgs/seedcase-project/projects/), which is
     found in the Settings in the board.
 -   Will write the title of the iteration as the goal for it, while
-    keeping the goal focused, small, acheivable, and considerate of the
+    keeping the goal focused, small, achievable, and considerate of the
     time we have available.
 -   Will add the main tasks to achieve the iteration goal to the board.
 -   Will plan iterations so that they either end on a major holiday or
@@ -184,7 +184,7 @@ During the debrief and retrospective meeting, we will:
 -   Do a "retrospective", where we individually write down how things
     went ("keep doing" category) and what could be improved or removed
     ("stop doing/improve on" category) in the process. The retrospective
-    should ideally be done in a collaborative "notetaking/post-it notes"
+    should ideally be done in a collaborative "note-taking/post-it notes"
     system ([Figma](https://www.figma.com/) is really nice for this).
     These notes will be collected into topics and we will add action
     items to each of the topics. The team lead will add these action
