@@ -9,12 +9,12 @@ website:
   navbar:
     title: false
     logo: _extensions/seedcase-project/seedcase-theme/logos/navbar-logo-seedcase-team.svg
-    logo-alt: "Seedcase logo"
+    logo-alt: "Seedcase Team logo: Main page"
     pinned: true
     tools:
       - icon: github
         href: "https://github.com/seedcase-project/team"
-        aria-label: GitHub
+        aria-label: "Github icon: Source code"
   sidebar:
     pinned: true
     style: "floating"
