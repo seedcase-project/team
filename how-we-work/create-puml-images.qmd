@@ -3,14 +3,17 @@ title: Creating PlantUML images
 date: last-modified
 ---
 
-We use [PlantUML](https://plantuml.com) to create diagrams across most of content, such as:
+We use [PlantUML](https://plantuml.com) to create diagrams across most
+of content, such as:
 
-1. [C4 diagrams](https://c4model.com) to visualise the software architecture.
-2. [Sequence diagrams](https://plantuml.com/sequence-diagram) that visualise how and in what order things work together.
+1.  [C4 diagrams](https://c4model.com) to visualise the software
+    architecture.
+2.  [Sequence diagrams](https://plantuml.com/sequence-diagram) that
+    visualise how and in what order things work together.
 
-To create PNG images of the PlantUML files, open a Terminal while inside the
-project that has the PlantUML files and that has the `justfile`, and run the
-command:
+To create PNG images of the PlantUML files, open a Terminal while inside
+the project that has the PlantUML files and that has the `justfile`, and
+run the command:
 
 ``` bash
 just generate-puml-all
@@ -21,6 +24,11 @@ If you want to generate a specific image, run:
 ``` bash
 just generate-puml PATH/TO/PUML
 ```
+
+You need to have both Docker and Just installed and have Docker running
+in the background in order for these commands to work. To see how to
+install these programs, check out the entry on [software](software.qmd))
+for more details.
 
 ## Seedcase theme
 
