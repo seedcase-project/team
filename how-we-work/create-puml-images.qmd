@@ -22,6 +22,30 @@ If you want to generate a specific image, run:
 just generate-puml PATH/TO/PUML
 ```
 
-You need to have both Docker and Just installed and have Docker running in the
-background in order for these commands to work. To see how to install these
-programs, check out the entry on [software](software.qmd)) for more details.
+## Seedcase theme
+
+We have created a PlantUML theme that we use across all our PlantUML
+diagrams. This theme is located in the
+[`seedcase-theme`](https://github.com/seedcase-project/seedcase-theme)
+repository and is synced to the remaining Seedcase repositories. In
+these repositories, the theme is located in the
+`_extensions/seedcase-project/seedcase-theme` directory.
+
+To include the theme in a PlantUML file, add the following line at the
+top of the file:
+
+``` bash
+@startuml diagram-name
+
+!theme seedcase from ../_extensions/seedcase-project/seedcase-theme
+
+[add your diagram code here] 
+
+@enduml
+```
+
+Note that depending on the location of your `.puml` file, you might need
+to adjust the path above, so that it points to the correct location of
+the theme. The script above assumes that the PlantUML file is located in
+a subdirectory one level below the root of the repository.
+
