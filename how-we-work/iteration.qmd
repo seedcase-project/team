@@ -31,98 +31,161 @@ research and academic environments don't foster nor support nor are
 aware of these types of skills and knowledge. All of these impact how
 effective an Agile or Scrum workflow are in these environments.
 
-Based on these inspirations, an iteration for us follows this general
-sequence of steps:
+Based on these inspirations, an iteration for us follows a general
+sequence of steps.
 
-1.  Team lead sets everything up for the next two or three rounds.
-    -   Will create an iteration within the main "Team project planning"
-        board (which are all listed
-        [here](https://github.com/orgs/seedcase-project/projects/),
-        which is found in the Settings in the board.
-    -   Will write the title of the iteration as the goal for it, while
-        keeping the goal focused, small, acheivable, and considerate of
-        the time we have available.
-    -   Will start adding some tasks into the board.
-    -   If possible, plan iterations so that they either end on a major
-        holiday or are right in the middle of it. Don't plan the start
-        of iterations a few days before major holidays start.
-2.  The first planning meeting for the iteration is scheduled well in
-    advance, for between 1-2 hours and (preferably) right after the
-    previous iteration's debrief and retrospective. Preferably this
-    meeting is in person.
-    -   The aim of the meeting to discuss and plan the specifics of the
-        iteration.
-    -   Before the planning meeting, team members will review the aim
-        and output of the iteration board and write out potential tasks
-        (as GitHub Issues or as drafts on the board) needed to complete
-        the aim.
-    -   During the meeting, we'll discuss and decide or agree on the end
-        output (the "increment" or "milestone").
-    -   During the meeting, we'll brainstorm and write out more tasks
-        that are needed to complete the increment or milestone, or
-        select them from the existing list of tasks. Preferably someone
-        will share their screen (if virtual) and the team goes through
-        the tasks together.
-    -   While making tasks (Issues), keep them as small as is reasonable
-        and as descriptive and targeted as possible.
-    -   As we discuss each task, we collectively assign team members to
-        tasks (assign to the Issues).
-        -   Assign only one person per Issue so that the Project board
-            can be kept organized and so that each Issue has someone who
-            is responsible for them. Anyone can help with the Issue
-            though.
-    -   We'll review the number of tasks and the aim of the iteration,
-        then discuss and agree on how long the iteration should be (can
-        range from 2-6 weeks, but prefer shorter iterations over longer
-        ones, for instance, 3 weeks).
-    -   After the iteration length is decided, we'll schedule an
-        approximately 2-3 hour debrief/retrospective as well as the next
-        iterations planning meeting on the end date (and start of next).
-    -   (Optional) Either during or afterward the planning meeting, each
-        team member individually estimates how much time they might need
-        on their assigned tasks, taking into consideration how much time
-        they have available during their work on the iteration. They'll
-        use the the Iteration's Roadmap Board to track and estimate
-        their time spent on tasks.
-3.  Throughout the iteration, we will:
-    -   Have our [update meetings](update-meetings.qmd) to discuss
-        progress, next steps, and any struggles or barriers (with the
-        work or the iteration/process), as well as to present a demo of
-        the progress made within the iteration.
-    -   Schedule multi-person impromptu meetings as necessary and as
-        relevant for a given task or issue.
-    -   Work on our assigned tasks and coordinate with others if need be
-        (`@` mention the people involved in an Issue, don't assign).
-    -   Review Pull Requests from others.
-    -   Add more Issues if required. If the Issue is relevant to the
-        current iteration, then add it to the Project Board so that we
-        can determine who will self-assign it during one of our
-        meetings. If the Issue isn't relevant, don't add it to the
-        Project Board but to the relevant repository instead, and we
-        will save it for future iterations to work on.
-    -   Comment on Issues or Pull Requests if tagged or if we have
-        something to add to the discussion.
-    -   Plan for "knowledge sharing" / "code review" sessions as
-        necessary, for instance to go over a new feature or tool used in
-        a Pull Request. For the author of the Pull Request, they will
-        need to do a bit of preparation before hand so that the session
-        runs smoothly.
-4.  The iteration's last meeting is a debrief and retrospective to
-    discuss how things went. These are between 1-2 hours and are
-    preferably in person. It will have been scheduled during the
-    planning meeting.
-    -   Assign a timekeeper to keep us on track and not spending too
-        long on any one topic.
-    -   Evaluate the aim and review whether we've achieved the aim.
-    -   Show off and (optionally) demo the output all together as a
-        team. We'll assign someone to be responsible for showing or
-        trying out the demo before the meeting.
-    -   (Optionally done occasionally, but strongly suggested) Include
-        someone external (a potential user) to try out the product/demo
-        and give some feedback.
-    -   Do a "retrospective", where we individually write down how
-        things went ("keep doing" category) and what could be improved
-        or removed ("stop doing/improve on" category) in the process.
-        This should ideally be done in a collaborative
-        "notetaking/post-it notes" system
-        ([Figma](https://www.figma.com/) is really nice for this).
+## Future iteration planning
+
+Team lead sets everything up for the next two or three iterations.
+
+-   Will create an iteration within the main "Team project planning"
+    board (which are all listed
+    [here](https://github.com/orgs/seedcase-project/projects/), which is
+    found in the Settings in the board.
+-   Will write the title of the iteration as the goal for it, while
+    keeping the goal focused, small, achievable, and considerate of the
+    time we have available.
+-   Will add the main tasks to achieve the iteration goal to the board.
+-   Will plan iterations so that they either end on a major holiday or
+    are right in the middle of it. If possible, don't plan the start of
+    iterations a few days before major holidays start.
+-   Will plan and decide on how long the future iterations should be
+    (can range from 2-6 weeks, but prefer shorter iterations over longer
+    ones). So far, we find that 3 week iterations work the best.
+
+## Start of iteration
+
+::: callout-important
+We track our iterations' progress and tasks on GitHub with [this project
+board](https://github.com/orgs/seedcase-project/projects/18/).
+:::
+
+An iteration starts with a first planning meeting that is scheduled well
+in advance, for between 1-2 hours and (preferably) right after the
+previous iteration's debrief and retrospective. Preferably this meeting
+is in person. The aim of the meeting to discuss and plan the specifics
+of the iteration.
+
+::: callout-note
+A basic agenda for the meeting might be:
+
+-   Assign a timekeeper.
+-   Review and agree on the iteration aim and end date.
+-   Review the list of tasks already listed.
+-   Brainstorm and add any other issues as needed.
+-   Assign a team member to each task.
+-   Schedule the next iteration's end and start meetings.
+:::
+
+::: panel-tabset
+### Before meeting
+
+In general, only the team lead is required to prepare for the planning
+meeting. Before the planning meeting, the team lead will move any
+existing tasks (GitHub Issues) into the iteration that is relevant to
+the aim of the iteration. The team lead will also create any issues that
+are missing from the current list of issues. While making issues, keep
+them as small as is reasonable and as descriptive and targeted as
+possible.
+
+Other team members can optionally review the aim and output of the
+iteration board, review the list of issues already listed, and write out
+any potential issues as needed to complete the iteration aim.
+
+### During meeting
+
+During the meeting, someone will share their screen (if virtual) and the
+team goes through the tasks on the board together. We'll discuss and
+decide or agree on the iteration goal (the "increment" or "milestone").
+If relevant, we can also brainstorm any other tasks that are needed
+needed to complete the increment or milestone.
+
+As we discuss each task, we collectively assign team members to the
+issues. Assign only one person per issue so that the project board can
+be kept organized and so that each issue has someone who is responsible
+for them. Anyone can help with the issue though. When assigning and
+distributing tasks, keep in mind the team member's availability and time
+constraints, including days/hours required for other projects and any
+upcoming days off.
+
+We'll review and agree on the number of tasks (aim for 5-10 per person),
+the priority label on each task (low, medium, or high), the aim of the
+iteration,\
+and the end date. We agree on and schedule the end date debrief and
+retrospective meeting, which should be approximately 2-3 hour and
+preferably before lunch, as well as the next iterations planning meeting
+(preferably on the same date, but after lunch to ensure a proper break
+before moving to a new iteration).
+:::
+
+## During the iteration
+
+We have a [guide](iteration-tasks.qmd) that describes in a bit more
+detail in how we work on tasks during an iteration. In general though,
+throughout the iteration, we will:
+
+-   Have our [update meetings](update-meetings.qmd) to discuss progress,
+    next steps, and any struggles or barriers (with the work or the
+    iteration/process), as well as to present a demo of the progress
+    made within the iteration.
+-   Schedule multi-person impromptu meetings as necessary and as
+    relevant for a given task or issue.
+-   Work on our assigned tasks (generally focus on higher priority tasks
+    first) and coordinate with others if need be (`@` mention the people
+    involved in an issue, don't assign).
+-   Add more issues if required. If the issue is relevant to the current
+    iteration, then add it to the project board so that we can determine
+    who will self-assign it during one of our meetings. If the issue
+    isn't relevant, don't add it to the project board but to the
+    relevant repository instead, and we will save it for future
+    iterations to work on.
+-   Plan for "knowledge sharing" / "code review" sessions as necessary,
+    for instance to go over a new feature or tool used in a pull
+    request. For the author of the pull request, they will need to do a
+    bit of preparation before hand so that the session runs smoothly.
+
+## End of iteration
+
+::: callout-important
+We track our iterations' progress and tasks on GitHub with [this project
+board](https://github.com/orgs/seedcase-project/projects/18/).
+:::
+
+The iteration's end is a last meeting for a debrief and retrospective to
+discuss how things went. These are between 1-2 hours and are preferably
+in person. The time and place of this meeting will have been scheduled
+during the planning meeting.
+
+::: callout-note
+A basic agenda is:
+
+-   Assign timekeeper.
+-   Demo (internally or externally) the progress of the iteration.
+-   Evaluate the iteration aim.
+-   Go over what we accomplished and how we felt we did (including
+    struggles).
+-   Do a retrospective.
+:::
+
+During the debrief and retrospective meeting, we will:
+
+-   Assign a timekeeper to keep us on track and so we avoid spending too
+    long on any one topic.
+-   Show off and (optionally) demo the output of the iteration all
+    together as a team. We'll assign someone to be responsible for
+    showing or trying out the demo before the meeting.
+-   (Optionally done occasionally, but strongly suggested) Include
+    someone external (a potential user) to try out the product/demo and
+    give some feedback.
+-   Evaluate the aim and review whether we've achieved the aim.
+-   Briefly go over what we each did during the iteration and how we
+    felt we did. Include any barriers, struggles, or challenges that
+    came up during the iteration here.
+-   Do a "retrospective", where we individually write down how things
+    went ("keep doing" category) and what could be improved or removed
+    ("stop doing/improve on" category) in the process. The retrospective
+    should ideally be done in a collaborative "note-taking/post-it notes"
+    system ([Figma](https://www.figma.com/) is really nice for this).
+    These notes will be collected into topics and we will add action
+    items to each of the topics. The team lead will add these action
+    items to issues or posts on how we work.
