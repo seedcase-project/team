@@ -57,14 +57,10 @@ top of the file:
 ``` bash
 @startuml diagram-name
 
-!theme seedcase from ../_extensions/seedcase-project/seedcase-theme
+!theme seedcase from https://raw.githubusercontent.com/seedcase-project/seedcase-theme/main
 
 [add your diagram code here] 
 
 @enduml
 ```
 
-Note that depending on the location of your `.puml` file, you might need
-to adjust the path above, so that it points to the correct location of
-the theme. The script above assumes that the PlantUML file is located in
-a subdirectory one level below the root of the repository.
