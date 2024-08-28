@@ -3,28 +3,39 @@ title: "General admin content"
 date: last-modified
 ---
 
-This contains details for general administration of projects. For the most part, this document is only relevant to the team leader or if someone else has taken those admin responsibilities.
+This contains details for general administration of projects. For the
+most part, this document is only relevant to the team leader or if
+someone else has taken those admin responsibilities.
 
 ## GitHub Repository Settings
 
 -   Always
     [protect](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule)
     the `main` branch of the repository to limit forced pushes and
-    deletions. Within the branch protection settings, enable (check mark) these options in order to provide more security and checks to protect the `main` branch:
-    - "Require approvals", of at least 1 team members
-    - "Dismiss stale approvals when new commits are added"
-    - "Allow specified actors to bypass requirements", the actor being the team leader
-    - "Require approval of most recent reviewable push"
-    - "Require status checks to pass before merging"
-    - "Restrict who can push to matching branches" for the `main` branch
+    deletions. Within the branch protection settings, enable (check
+    mark) these options in order to provide more security and checks to
+    protect the `main` branch:
+    -   "Require approvals", of at least 1 team members
+    -   "Dismiss stale approvals when new commits are added"
+    -   "Allow specified actors to bypass requirements", the actor being
+        the team leader
+    -   "Require approval of most recent reviewable push"
+    -   "Require status checks to pass before merging"
+    -   "Restrict who can push to matching branches" for the `main`
+        branch
 
-Whenever a new GitHub repo is created for a new website or software project, run this Terminal command on it in order to set some default options for the newly created repository. These options set up the repository with things that we need (and omit things we don't need). The command sets up the following settings:
+Whenever a new GitHub repo is created for a new website or software
+project, run this Terminal command on it in order to set some default
+options for the newly created repository. These options set up the
+repository with things that we need (and omit things we don't need). The
+command sets up the following settings:
 
-- Delete branches after they've been merged
-- Omit wiki
-- Disable discussions
-- Allow PR's to have an option to auto-merge after approval
-- Allow PR's to have an option to easily update with the `main` branch.
+-   Delete branches after they've been merged
+-   Omit wiki
+-   Disable discussions
+-   Allow PR's to have an option to auto-merge after approval
+-   Allow PR's to have an option to easily update with the `main`
+    branch.
 
 ``` bash
 gh repo edit --delete-branch-on-merge=true --enable-wiki=false --enable-discussions=false --enable-auto-merge=true --allow-update-branch
@@ -32,16 +43,49 @@ gh repo edit --delete-branch-on-merge=true --enable-wiki=false --enable-discussi
 
 ## Creating a GitHub repo from a local one
 
-If a local repository exists and a GitHub repository needs to be created for that repository, run this command in the Terminal while *inside* the local Git repository folder (the root folder of the Git repository), that does the following actions:
+If a local repository exists and a GitHub repository needs to be created
+for that repository, run this command in the Terminal while *inside* the
+local Git repository folder (the root folder of the Git repository),
+that does the following actions:
 
-- Creates a repo in the `seedcase-project` organization called `REPO` (rename to the folder name of the local repo).
-- Sets the repo to public (not private) via the `--public` flag.
-- Uses the root folder as the local Git repository with `--source=.`.
-- Includes a description of the newly created repository with `--description="WRITE DESCRIPTION"` (write the description of what's in the repo instead of *WRITE DESCRIPTION*). 
-- Pushes the local repo to the new repo with `--push`.
-- Disables the wiki with `--disable-wiki`.
-- Sets the URL for the homepage with `--homepage` (change `REPO` in the link following this flag with the name of the root folder of the Git repo).
+-   Creates a repo in the `seedcase-project` organization called `REPO`
+    (rename to the folder name of the local repo).
+-   Sets the repo to public (not private) via the `--public` flag.
+-   Uses the root folder as the local Git repository with `--source=.`.
+-   Includes a description of the newly created repository with
+    `--description="WRITE DESCRIPTION"` (write the description of what's
+    in the repo instead of *WRITE DESCRIPTION*).
+-   Pushes the local repo to the new repo with `--push`.
+-   Disables the wiki with `--disable-wiki`.
+-   Sets the URL for the homepage with `--homepage` (change `REPO` in
+    the link following this flag with the name of the root folder of the
+    Git repo).
 
 ``` bash
 gh repo create seedcase-project/REPO --public --source=. --description="WRITE DESCRIPTION" --push --disable-wiki --homepage https://REPO.seedcase-project.org 
 ```
+
+## Merging topic branches
+
+Since we use
+[SemVer](https://decisions.seedcase-project.org/why-semver/) and want to
+have a more automated release process (including automated changelogs),
+we need to have a clear and consistent way of merging topic branches.
+This way, we ensure that the changes made in each release can be
+easily traced.
+
+In our repositories, we follow the [GitHub
+flow](https://decisions.seedcase-project.org/why-github-flow/), and to
+decide which kind of merge to perform on topic branches, we follow these
+general guidelines:
+
+-   **Squash:** Atomic PRs
+
+-   **Rebase:** Commits or PRs that have `build` and `chore` types as well as `sync` scopes (which usually fall under `chore` type)
+
+-   **Merge:** Non-atomic/other PRs
+
+By atomic PRs, we mean PRs that only include "self-contained changes"
+that are independent and fully functional on their own. E.g., a single
+feature and the accompanying tests or a bug fix. This way, if we
+accidentally introduced a bug, it would be easy to reverse that change.
