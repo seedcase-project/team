@@ -71,7 +71,7 @@ Since we use
 [SemVer](https://decisions.seedcase-project.org/why-semver/) and want to
 have a more automated release process (including automated changelogs),
 we need to have a clear and consistent way of merging topic branches.
-This way, we ensure that the changes are made in each release can be
+This way, we ensure that the changes made in each release can be
 easily traced.
 
 In our repositories, we follow the [GitHub
@@ -81,11 +81,11 @@ general guidelines:
 
 -   **Squash:** Atomic PRs
 
--   **Rebase:** Build, chore, and sync
+-   **Rebase:** Commits or PRs that have `build` and `chore` types as well as `sync` scopes (which usually fall under `chore` type)
 
 -   **Merge:** Non-atomic/other PRs
 
-With atomic PRs, we mean PRs that only include "self-contained changes"
+By atomic PRs, we mean PRs that only include "self-contained changes"
 that are independent and fully functional on their own. E.g., a single
 feature and the accompanying tests or a bug fix. This way, if we
 accidentally introduced a bug, it would be easy to reverse that change.
