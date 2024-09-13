@@ -20,6 +20,26 @@ To get you started, there are some first steps you'll need to do and some posts 
 3. **Order IT equipment**
     - Talk to the Team Leader about which IT equipment you will need (e.g., computer, mouse, keyboard, and dock station) and Team Leader will help you with ordering it.
 
+## Team calendars
+
+We have a set of team calendars to schedule meetings, annual leave, iterations, and so on. For this, we use [Team Up](https://teamup.com/) calendars. Someone from the team will send you an invite link. You will need to create an account on teamup.com for this.
+
+To get the calendars in your own calendar app, follow these instructions:
+
+1. Go to [teamup.com](teamup.com) and log in.
+2. Open the calendar that you want to subscribe to.
+3. Click the blue menu button in the top right corner, select `Preferences` > `iCalendar Feeds`.
+4. Select the calendar you want to subscribe to. You can choose to subscribe to calendars individually or select all of them in one go. Some of us prefer not to have all of them in our personal calendar, so it's up to you. 
+
+    - Tip: If you subscribe to the calendars individually you can choose to only show e.g., the iteration calendar on your computer, but not on your phone.
+
+5. Copy the URL and add it to your calendar app. How you do this depends on the app you use:
+    
+    - For Mac users: Open the Calendar app, go to `File` > `New Calendar Subscription`, paste the URL, and click `Subscribe`.
+
+For more help, you can take a look at the guide on [Outbound iCalendar Feeds](https://calendar.teamup.com/kb/subscribe-to-teamup-icalendar-feeds/) in the Team Up Knowledge Base.
+
+
 ## Software
 
 The [software we use](/how-we-work/software.qmd) post lists the software you will need to install in order to effectively contribute as part of the team. Go to the post and install the software listed there.
