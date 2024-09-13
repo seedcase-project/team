@@ -105,7 +105,7 @@ improvements.
     website](https://steno-aarhus.github.io/research/onboarding.html):
     This website is for general onboarding at SDCA and covers general
     onboarding, such as the general code of conduct and details on
-    varous social activities and events.
+    various social activities and events.
 2.  [Our Seedcase Team Docs
     website](https://team.seedcase-project.org/): This website is where
     this post is located and covers the documentation, contributing
