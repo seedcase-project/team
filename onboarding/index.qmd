@@ -35,9 +35,9 @@ some posts for you to read and review.
 ## Team calendars
 
 We have a set of team calendars to schedule meetings, annual leave,
-iterations, and so on. For this, we use [Team Up](https://teamup.com/)
+iterations, and so on. For this, we use [Teamup](https://teamup.com/)
 calendars. Someone from the team will send you an invite link. You will
-need to create an account on teamup.com for this.
+need to create an account on Teamup for this.
 
 To get the calendars in your own calendar app, follow these
 instructions:
