@@ -11,6 +11,11 @@ website:
     logo: _extensions/seedcase-project/seedcase-theme/logos/navbar-logo-seedcase-team.svg
     logo-alt: "Seedcase Team logo: Main page"
     pinned: true
+    left:
+      - href: onboarding/index.qmd
+      - href: how-we-work/index.qmd
+      - text: Events
+        href: events/index.qmd
     tools:
       - icon: house
         href: https://seedcase-project.org
@@ -18,15 +23,6 @@ website:
       - icon: github
         href: "https://github.com/seedcase-project/team"
         aria-label: "GitHub icon: Source code"
-  sidebar:
-    pinned: true
-    style: "floating"
-    contents:
-    - auto: onboarding
-    - auto: how-we-work
-    - auto: user-tests
-    - text: Events
-      href: index.qmd#past-and-upcoming-events
 
 # format:
 #   seedcase-theme-html:
