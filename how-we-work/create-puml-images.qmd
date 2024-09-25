@@ -1,6 +1,5 @@
 ---
 title: Creating PlantUML images
-date: last-modified
 ---
 
 We use [PlantUML](https://plantuml.com) to create diagrams across most
@@ -59,8 +58,7 @@ top of the file:
 
 !theme seedcase from https://raw.githubusercontent.com/seedcase-project/seedcase-theme/main
 
-[add your diagram code here] 
+[add your diagram code here]
 
 @enduml
 ```
-

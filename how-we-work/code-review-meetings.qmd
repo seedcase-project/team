@@ -1,6 +1,5 @@
 ---
 title: "Code review meetings"
-date: last-modified
 ---
 
 This *optional* meeting is to go over and discuss code if any team
@@ -16,4 +15,3 @@ most* review two Pull Requests, with 15 minutes for each PR.
 
 More details about this type of meeting will be added as we practice and
 do them.
-

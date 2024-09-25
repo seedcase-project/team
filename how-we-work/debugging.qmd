@@ -12,7 +12,8 @@ To use the debugger:
 
 1.  Click the "Run and Debug" icon on the sidebar menu in VS Code
 2.  Check that it says "seedcase-debugger" in the top, next to the
-    "Play" icon button (don't click it yet, if you want to add break points)
+    "Play" icon button (don't click it yet, if you want to add break
+    points)
 3.  Set break points where you want the code to stop by going to the
     script you want, and click at the left side of the line (a red dot
     will appear)

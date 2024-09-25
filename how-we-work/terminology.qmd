@@ -1,6 +1,5 @@
 ---
 title: Terminology
-date: last-modified
 ---
 
 This post sets out some basic guidelines around the terminology we use

@@ -1,6 +1,5 @@
 ---
 title: "Time-constrained iterative workflow"
-date: last-modified
 ---
 
 We take inspiration from some aspects of [Agile Software
@@ -184,8 +183,8 @@ During the debrief and retrospective meeting, we will:
 -   Do a "retrospective", where we individually write down how things
     went ("keep doing" category) and what could be improved or removed
     ("stop doing/improve on" category) in the process. The retrospective
-    should ideally be done in a collaborative "note-taking/post-it notes"
-    system ([Figma](https://www.figma.com/) is really nice for this).
-    These notes will be collected into topics and we will add action
-    items to each of the topics. The team lead will add these action
-    items to issues or posts on how we work.
+    should ideally be done in a collaborative "note-taking/post-it
+    notes" system ([Figma](https://www.figma.com/) is really nice for
+    this). These notes will be collected into topics and we will add
+    action items to each of the topics. The team lead will add these
+    action items to issues or posts on how we work.

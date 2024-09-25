@@ -1,6 +1,5 @@
 ---
 title: "General admin content"
-date: last-modified
 ---
 
 This contains details for general administration of projects. For the
@@ -62,7 +61,7 @@ that does the following actions:
     Git repo).
 
 ``` bash
-gh repo create seedcase-project/REPO --public --source=. --description="WRITE DESCRIPTION" --push --disable-wiki --homepage https://REPO.seedcase-project.org 
+gh repo create seedcase-project/REPO --public --source=. --description="WRITE DESCRIPTION" --push --disable-wiki --homepage https://REPO.seedcase-project.org
 ```
 
 ## Merging topic branches
@@ -71,8 +70,8 @@ Since we use
 [SemVer](https://decisions.seedcase-project.org/why-semver/) and want to
 have a more automated release process (including automated changelogs),
 we need to have a clear and consistent way of merging topic branches.
-This way, we ensure that the changes made in each release can be
-easily traced.
+This way, we ensure that the changes made in each release can be easily
+traced.
 
 In our repositories, we follow the [GitHub
 flow](https://decisions.seedcase-project.org/why-github-flow/), and to
@@ -81,7 +80,8 @@ general guidelines:
 
 -   **Squash:** Atomic PRs
 
--   **Rebase:** Commits or PRs that have `build` and `chore` types as well as `sync` scopes (which usually fall under `chore` type)
+-   **Rebase:** Commits or PRs that have `build` and `chore` types as
+    well as `sync` scopes (which usually fall under `chore` type)
 
 -   **Merge:** Non-atomic/other PRs
 

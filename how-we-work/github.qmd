@@ -1,6 +1,5 @@
 ---
 title: "Setting up and using GitHub for teamwork"
-date: last-modified
 ---
 
 ## Setting up two-factor authentication (2FA)
