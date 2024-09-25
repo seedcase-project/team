@@ -72,7 +72,6 @@ A basic agenda for the meeting might be:
 -   Review and agree on the iteration aim and end date.
 -   Review the list of tasks already listed.
 -   Brainstorm and add any other issues as needed.
--   Assign a team member to each task.
 -   Schedule the next iteration's end and start meetings.
 :::
 
@@ -95,26 +94,20 @@ any potential issues as needed to complete the iteration aim.
 
 During the meeting, someone will share their screen (if virtual) and the
 team goes through the tasks on the board together. We'll discuss and
-decide or agree on the iteration goal (the "increment" or "milestone").
-If relevant, we can also brainstorm any other tasks that are needed
-needed to complete the increment or milestone.
+decide or agree on the iteration goal (the "increment" or "milestone")
+and the end date.
 
-As we discuss each task, we collectively assign team members to the
-issues. Assign only one person per issue so that the project board can
-be kept organized and so that each issue has someone who is responsible
-for them. Anyone can help with the issue though. When assigning and
-distributing tasks, keep in mind the team member's availability and time
-constraints, including days/hours required for other projects and any
-upcoming days off.
+We'll review the current list of tasks on the board, brainstorm any
+other tasks that are needed, We'll then agree on the number of tasks in
+the iteration as well as the distribution of priority labels of the
+tasks.
 
-We'll review and agree on the number of tasks (aim for 5-10 per person),
-the priority label on each task (low, medium, or high), the aim of the
-iteration,\
-and the end date. We agree on and schedule the end date debrief and
-retrospective meeting, which should be approximately 2-3 hour and
-preferably before lunch, as well as the next iterations planning meeting
-(preferably on the same date, but after lunch to ensure a proper break
-before moving to a new iteration).
+Then, we agree on and schedule the end date debrief and retrospective
+meeting, which should be approximately 2-3 hours and preferably before
+lunch, as well as the next iterations planning meeting. The next
+planning meeting should either be on the same date after lunch, to
+ensure a proper break before moving to a new iteration, or the next day
+to give some break between meetings.
 :::
 
 ## During the iteration
