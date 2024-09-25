@@ -60,10 +60,11 @@ board](https://github.com/orgs/seedcase-project/projects/18/).
 :::
 
 An iteration starts with a first planning meeting that is scheduled well
-in advance, for between 1-2 hours and (preferably) right after the
-previous iteration's debrief and retrospective. Preferably this meeting
-is in person. The aim of the meeting to discuss and plan the specifics
-of the iteration.
+in advance, for between 30-45 minutes and either right after the
+previous iteration's debrief and retrospective or in the morning of the
+next day (to give a bit of break between meetings). Preferably this
+meeting is in person. The aim of the meeting to discuss and plan the
+specifics of the iteration.
 
 ::: callout-note
 A basic agenda for the meeting might be:
