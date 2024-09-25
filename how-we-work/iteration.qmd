@@ -113,29 +113,8 @@ to give some break between meetings.
 
 ## During the iteration
 
-We have a [guide](iteration-tasks.qmd) that describes in a bit more
-detail in how we work on tasks during an iteration. In general though,
-throughout the iteration, we will:
-
--   Have our [update meetings](update-meetings.qmd) to discuss progress,
-    next steps, and any struggles or barriers (with the work or the
-    iteration/process), as well as to present a demo of the progress
-    made within the iteration.
--   Schedule multi-person impromptu meetings as necessary and as
-    relevant for a given task or issue.
--   Work on our assigned tasks (generally focus on higher priority tasks
-    first) and coordinate with others if need be (`@` mention the people
-    involved in an issue, don't assign).
--   Add more issues if required. If the issue is relevant to the current
-    iteration, then add it to the project board so that we can determine
-    who will self-assign it during one of our meetings. If the issue
-    isn't relevant, don't add it to the project board but to the
-    relevant repository instead, and we will save it for future
-    iterations to work on.
--   Plan for "knowledge sharing" / "code review" sessions as necessary,
-    for instance to go over a new feature or tool used in a pull
-    request. For the author of the pull request, they will need to do a
-    bit of preparation before hand so that the session runs smoothly.
+We have a [guide](iteration-tasks.qmd) that describes in detail how we
+work on tasks during an iteration.
 
 ## End of iteration
 
