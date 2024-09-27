@@ -1,0 +1,17 @@
+---
+title: How we work
+listing:
+  - id: how-we-work
+    sort-ui: false
+    contents: ./
+    type: grid
+    sort:
+      - "title"
+    fields:
+      - "title"
+---
+
+{{< include /includes/_wip.qmd >}}
+
+::: {#how-we-work}
+:::

@@ -1,0 +1,17 @@
+---
+title: Past and upcoming events
+listing:
+  - id: events
+    contents: .
+    type: table
+    sort: "date desc"
+    table-hover: true
+    table-striped: true
+    feed: true
+    fields:
+      - "date"
+      - "title"
+---
+
+::: {#events}
+:::
