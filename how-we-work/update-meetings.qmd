@@ -1,34 +1,40 @@
 ---
 title: "Weekly update meetings"
-date: last-modified
 ---
 
 While we try to limit meetings as much as is appropriate, we do have
 twice-weekly update meetings. We draw inspiration from ["daily
 scrums"](https://www.scrum.org/resources/what-is-a-daily-scrum) to keep
 each other updated on what everyone else is doing. Except, instead of
-daily, we have them twice-weekly. These are some guidelines on running these
-update meetings:
+daily, we have them twice-weekly. These are some guidelines on running
+these update meetings:
 
 -   Keep meeting to \~30 minutes.
 -   At the start of the meeting, the team lead will briefly share any
     general updates or discussion points.
-- Briefly review the iteration objective.
+-   Briefly review the iteration objective.
 -   Each person then gives an \~5 minute update that answers these
     items, in this order:
     1.  What did you do since the last update?
     2.  What are some challenges or blocks you faced and is there
         anything the team can do to help?
     3.  What do you plan to do until the next update meeting?
-- Updates must (with some exceptions) be accompanied by at least one Git commit, preferably a Pull Request. This is to make it easier to see what we're all working on. If it's talked about, it should be visible.
+-   Updates must (with some exceptions) be accompanied by at least one
+    Git commit, preferably a Pull Request. This is to make it easier to
+    see what we're all working on. If it's talked about, it should be
+    visible.
 -   Avoid getting into too much detail about any particular topic. See
     the guide entry on [communication](communication.qmd) about
     alternatives to these types of discussions.
-- Once a week (usually on Thursdays) during an update meeting, we'll internally do a demo of the current state of the project, either based on the main branch or on a Pull Request.
+-   Once a week (usually on Thursdays) during an update meeting, we'll
+    internally do a demo of the current state of the project, either
+    based on the main branch or on a Pull Request.
 
 Save any detailed or technical discussion on or about code for the [code
 review meetings](code-review-meetings.qmd).
 
 ::: callout-tip
-These meetings are held on Discord. To enter, simply go to the seedcase project server on Discord, find "Voice channels", in the menu on the left, and click on "General".
+These meetings are held on Discord. To enter, simply go to the seedcase
+project server on Discord, find "Voice channels", in the menu on the
+left, and click on "General".
 :::

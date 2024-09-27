@@ -1,33 +1,56 @@
 ---
 title: "Software we use"
-date: last-modified
 ---
 
 ## Software
 
-These are the software we use as a team. The decisions for why we chose many of these options can be found in our [decisions website](https://decisions.seedcase-project.org).
+These are the software we use as a team. The decisions for why we chose
+many of these options can be found in our [decisions
+website](https://decisions.seedcase-project.org).
 
-- [VS Code](https://code.visualstudio.com/download): A lightweight but powerful source code editor that comes with built-in support for multiple languages and has a rich ecosystem of extensions for all types of purposes and uses.
-- [Discord](https://discord.com/download): Our main communication software for messaging and having meetings.
-- [Docker](https://docs.docker.com/get-docker/): This handles the containerization of our products.
-- [Git](https://git-scm.com/downloads): We use Git for version control and we host all our content on GitHub.
-- [Justfile](https://just.systems/man/en/chapter_4.html): Just is a command runner that we use to manage many workflow and build tasks, such as creating or re-generating diagrams that were created with PlantUML, running tests on code, and building the software apps.
-- [Python 3](https://www.python.org/downloads/): We use Python to build our software.
-- [Quarto](https://quarto.org/docs/get-started/): We use Quarto to build the website and write general documentation.
+-   [VS Code](https://code.visualstudio.com/download): A lightweight but
+    powerful source code editor that comes with built-in support for
+    multiple languages and has a rich ecosystem of extensions for all
+    types of purposes and uses.
+-   [Discord](https://discord.com/download): Our main communication
+    software for messaging and having meetings.
+-   [Docker](https://docs.docker.com/get-docker/): This handles the
+    containerization of our products.
+-   [Git](https://git-scm.com/downloads): We use Git for version control
+    and we host all our content on GitHub.
+-   [Justfile](https://just.systems/man/en/chapter_4.html): Just is a
+    command runner that we use to manage many workflow and build tasks,
+    such as creating or re-generating diagrams that were created with
+    PlantUML, running tests on code, and building the software apps.
+-   [Python 3](https://www.python.org/downloads/): We use Python to
+    build our software.
+-   [Quarto](https://quarto.org/docs/get-started/): We use Quarto to
+    build the website and write general documentation.
 
 These are the recommended helper or workflow type software:
 
-- [GitHub CLI](https://cli.github.com/manual/): GitHub CLI (command line interface) is a command-line tool that brings pull requests, issues, GitHub Actions, and other features specific to GitHub to the terminal.
-- [Homebrew](https://docs.brew.sh/Installation): If you work on a Macbook, Homebrew can ease the installation process of some of the software listed above by enabling you to install software directly in the Terminal by using the `brew install [package_name]` command. E.g., Git can be installed by writing `brew install git` in the terminal. Easy!
+-   [GitHub CLI](https://cli.github.com/manual/): GitHub CLI (command
+    line interface) is a command-line tool that brings pull requests,
+    issues, GitHub Actions, and other features specific to GitHub to the
+    terminal.
+-   [Homebrew](https://docs.brew.sh/Installation): If you work on a
+    Macbook, Homebrew can ease the installation process of some of the
+    software listed above by enabling you to install software directly
+    in the Terminal by using the `brew install [package_name]` command.
+    E.g., Git can be installed by writing `brew install git` in the
+    terminal. Easy!
 
 ## Recommended VS Code Extensions
 
-If you use VS Code, but are not familiar with extensions, they are add-ons or plugins
-that enhance the functionality of VS Code. They can be installed to customise and extend the
-capabilities of VS Code to support a wide range of programming languages, frameworks, and
+If you use VS Code, but are not familiar with extensions, they are
+add-ons or plugins that enhance the functionality of VS Code. They can
+be installed to customise and extend the capabilities of VS Code to
+support a wide range of programming languages, frameworks, and
 development tasks.
 
-Inside each of our repositories is a `.vscode/extensions.json` file that lists all the extensions we recommend for working
-in that repository with VS Code. When you clone any of our repositories and open the local repository
-folder in VS Code, a pop-up message will recommend the extensions in this file.
-We recommend that you install these to help you set up smoother workflows.
+Inside each of our repositories is a `.vscode/extensions.json` file that
+lists all the extensions we recommend for working in that repository
+with VS Code. When you clone any of our repositories and open the local
+repository folder in VS Code, a pop-up message will recommend the
+extensions in this file. We recommend that you install these to help you
+set up smoother workflows.

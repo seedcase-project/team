@@ -1,6 +1,5 @@
 ---
 title: "Workflow for developing software and documentation"
-date: last-modified
 ---
 
 ## GitHub and Git
