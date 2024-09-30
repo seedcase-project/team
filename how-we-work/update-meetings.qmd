@@ -31,7 +31,9 @@ these update meetings:
     based on the main branch or on a Pull Request.
 
 Save any detailed or technical discussion on or about code for the [code
-review meetings](code-review-meetings.qmd).
+review meetings](code-review-meetings.qmd). Likewise, for any extended
+discussions, schedule a separate [discussion meeting](discussions.qmd)
+instead.
 
 ::: callout-tip
 These meetings are held on Discord. To enter, simply go to the seedcase
