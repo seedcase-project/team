@@ -63,7 +63,7 @@ An iteration starts with a first planning meeting that is scheduled well
 in advance, for between 30-45 minutes and either right after the
 previous iteration's debrief and retrospective or in the morning of the
 next day (to give a bit of break between meetings). Preferably this
-meeting is in person. The aim of the meeting to discuss and plan the
+meeting is in person. The aim of the meeting is to discuss and plan the
 specifics of the iteration.
 
 ::: callout-note
@@ -98,8 +98,8 @@ team goes through the tasks on the board together. We'll discuss and
 decide or agree on the iteration goal (the "increment" or "milestone")
 and the end date.
 
-We'll review the current list of tasks on the board, brainstorm any
-other tasks that are needed, We'll then agree on the number of tasks in
+We'll review the current list of tasks on the board and brainstorm any
+other tasks that are needed. We'll then agree on the number of tasks in
 the iteration as well as the distribution of priority labels of the
 tasks.
 

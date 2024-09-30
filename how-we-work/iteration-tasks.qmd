@@ -10,14 +10,14 @@ more extensive and warrant a separate guide.
 
 All todo items related to an iteration are put as issues on the board
 during the planning stage and many will be unassigned. Throughout the
-iteration, individual team members self-assign themselves on these
-unassigned issues that they would like to work on. Here are some
+iteration, individual team members self-assign the unassigned
+issues that they would like to work on. Here are some
 guidelines for self-assignment:
 
 -   Only one person (in general) should be assigned per issue, so that
     the project board can be kept organized and so that each issue has
-    someone who is responsible for them. However, anyone can help with
-    the issue though.
+    someone who is responsible for it. However, anyone can help with
+    the issue.
     -   If a given issue might need input or help from another team
         member, coordinate with them if need be by `@` mentioning them
         in the issue instead of assigning them.
@@ -68,7 +68,7 @@ Specifically:
 
 ## Meetings
 
-In general, we limit meetings as much as is necessary, however some can
+In general, we limit meetings as much as possible, however some can
 be very helpful. Here are some guidelines for meetings during the
 iteration:
 
@@ -83,6 +83,6 @@ iteration:
 -   Plan meetings on knowledge sharing or for code reviewing when, for
     instance, a new and more technically complicated feature is added or
     a new tool is used in a pull request. For the author of the pull
-    request, they will need to do a bit of preparation before hand for
+    request, they will need to do a bit of preparation beforehand for
     the meeting so that it runs smoothly and is an effective use of
     time.
