@@ -1,4 +1,5 @@
-::: callout-warning
-🚧 This section is still in active development and is subject to changes
-🚧
+::: {.callout-note appearance="default" icon="true"}
+🚧 These documents are all constantly evolving as we continue working on
+this project and learn what works and what doesn't. So things may very
+likely change, and sometimes drastically. 🚧
 :::
