@@ -1,0 +1,139 @@
+---
+title: "In-person, 2-day team brainstorming and planning sessions"
+description: "Details and agendas for our 2-day in-person sessions."
+author: "Luke W. Johnston"
+date: "2024-11-27"
+categories:
+  - in-person
+  - meeting
+  - brainstorming
+  - planning
+---
+
+## Details
+
+-   Informal dinner on Nov 27 and full team dinner on Nov 28.
+-   **Main aims**:
+    -   Understand each other on more personal levels (related to work
+        and Seedcase).
+    -   Not to focus too much on technical aspects, but more on human
+        and social aspects.
+    -   Become informed about other projects that we might collaborate
+        with and how we can contribute.
+
+## Schedule
+
+The schedule is meant as a **guide only**. We might spend more time on
+some topics and less on others.
+
+### Nov 27
+
+| Time  | Item                                                          |
+|-------|---------------------------------------------------------------|
+| 10:00 | Align understandings on Seedcase                              |
+| 12:00 | Lunch                                                         |
+| 13:00 | Personal goals and perspectives                               |
+| 14:00 | ON-LiMiT and DP-Next projects presentations and brainstorming |
+| 15:00 | :coffee: Coffee break                                         |
+| 15:15 | Continue from previous session                                |
+| 16:30 | Wrap Up                                                       |
+| 17:30 | Dinner and visit to ARoS                                      |
+
+### Nov 28
+
+| Time  | Item                                   |
+|-------|----------------------------------------|
+| 10:00 | Overview of progress and current state |
+| 11:45 | Lunch                                  |
+| 12:30 | Status update with Annelli             |
+| 14:00 | :coffee: Coffee break                  |
+| 14:15 | Roadmap, deliverables, and milestones  |
+| 16:30 | Wrap Up                                |
+| 17:30 | Team dinner                            |
+
+## Sessions
+
+All brainstorming sessions start with some dedicated individual time to
+think and write down thoughts, then we will discuss them all together.
+
+Maybe use stickies to write down thoughts and then discuss them?
+
+### Align understandings about the current state of Seedcase
+
+**Aim**: Make sure we are all aligned with what we are building and why
+and for who and what it might look like.
+
+-   It seems like there is a bit of a drift in understanding of what
+    we're doing, why, and how. So this is some dedicated time to assess
+    how we all understand things and take some time to update and
+    discuss it.
+-   Discuss and brainstorm how Seedcase will look like in the end and
+    how users might interact with it.
+-   Start broad with all of Seedcase, then slowly focus in on Sprout and
+    it's subcomponents.
+-   Lastly, Luke share his broader vision for Seedcase.
+### Personal goals and perspectives of what we create
+
+**Aim**: Brainstorm, share, and discuss our own personal goals and
+perspectives on what we create and do when working on Seedcase. This is
+mainly to help us understand each other better and to help us support
+each other in working with our strengths, interests, and passions.
+
+-   Write out and share how we each would like to see Seedcase develop
+    in the next few years *and* what we would like to work on over that
+    time.
+-   Brainstorm what we can do to support and encourage these goals and
+    perspectives in our work.
+
+### Overview of progress and current status
+
+**Aim**: Discuss where we are at and what we've done in order to connect
+with previous sessions.
+
+-   What we've achieved so far and how close we are to an minimum viable
+    product (MVP).
+
+-   Discuss any barriers and challenges, both individually and as a
+    team.
+
+    -   Brainstorm ways we can work to resolve them.
+
+-   How does the progress and current status, as well as the challenges
+    and barriers, align with the goals and perspectives we just
+    discussed?
+
+### Roadmap, deliverables, and milestones
+
+**Aim**: To agree on and set the priority of each deliverable and level
+of interest in working on it, so that we can set the order we want to
+work on them.
+
+1.  Review updates to roadmap in pull request ##.
+2.  Decide on the priorities for them and interest in each, then sort
+    them.
+3.  Review the deliverables at the top of the list we sorted, then
+    discuss and agree on milestones for them and what we might (very
+    roughly) estimate for a timeline.
+
+### Presentations/updates
+
+-   Status update to Annelli:
+    -   Broad overview of current state and status.
+    -   Review main deliverables and a general overview of the roadmap.
+    -   General update on what we've done in the year (e.g. with
+        Mjølner).
+    -   Share any challenges and barriers we've had.
+    -   Share how we intend to showcase our work to people (e.g. with
+        data showcases and guide).
+    -   Any future plans (collaboration projects).
+-   Presentations on ON-LiMiT and DP-Next projects:
+    -   **Aim**: Learn about new projects, what their needs are, and how
+        we can contribute.
+    -   ON-LiMiT by Daniel Ibsen (\~15 min).
+    -   [DP-Next](https://dp-next.github.io/) by Daniel Witte (\~15
+        min).
+    -   Seedcase by us :relaxed: (\~15 min).
+    -   Discuss their needs and how we can contribute (\~60 min).
+
+
+## Minutes
