@@ -71,7 +71,7 @@ and for who and what it might look like.
     how users might interact with it.
 -   Start broad with all of Seedcase, then slowly focus in on Sprout and
     it's subcomponents.
-
+-   Lastly, Luke share his broader vision for Seedcase.
 ### Personal goals and perspectives of what we create
 
 **Aim**: Brainstorm, share, and discuss our own personal goals and
@@ -93,10 +93,10 @@ with previous sessions.
 -   What we've achieved so far and how close we are to an minimum viable
     product (MVP).
 
--   Discuss any barriers and challenges? Both individually and as a
+-   Discuss any barriers and challenges, both individually and as a
     team.
 
-    -   Brainstorm ways we can work to resolve them?
+    -   Brainstorm ways we can work to resolve them
 
 -   How does the progress and current status, as well as the challenges
     and barriers, align with the goals and perspectives we just
