@@ -37,7 +37,7 @@ some topics and less on others.
 | 15:00 | :coffee: Coffee break                                         |
 | 15:15 | Continue from previous session                                |
 | 16:30 | Wrap Up                                                       |
-| 17:30 | Dinner and social time?                                       |
+| 17:30 | Dinner and visit to ARoS                                      |
 
 ### Nov 28
 
@@ -96,7 +96,7 @@ with previous sessions.
 -   Discuss any barriers and challenges, both individually and as a
     team.
 
-    -   Brainstorm ways we can work to resolve them
+    -   Brainstorm ways we can work to resolve them.
 
 -   How does the progress and current status, as well as the challenges
     and barriers, align with the goals and perspectives we just
@@ -135,8 +135,5 @@ work on them.
     -   Seedcase by us :relaxed: (\~15 min).
     -   Discuss their needs and how we can contribute (\~60 min).
 
-### Knowledge sharing?
-
-### Social?
 
 ## Minutes
