@@ -71,6 +71,7 @@ and for who and what it might look like.
 -   Start broad with all of Seedcase, then slowly focus in on Sprout and
     it's subcomponents.
 -   Lastly, Luke share his broader vision for Seedcase.
+
 ### Personal goals and perspectives of what we create
 
 **Aim**: Brainstorm, share, and discuss our own personal goals and
@@ -107,7 +108,8 @@ with previous sessions.
 of interest in working on it, so that we can set the order we want to
 work on them.
 
-1.  Review updates to roadmap in pull request ##.
+1.  Review updates to roadmap in pull request
+    [seedcase-project/community#67](https://github.com/seedcase-project/community/pull/67).
 2.  Decide on the priorities for them and interest in each, then sort
     them.
 3.  Review the deliverables at the top of the list we sorted, then
@@ -133,6 +135,5 @@ work on them.
         min).
     -   Seedcase by us :relaxed: (\~15 min).
     -   Discuss their needs and how we can contribute (\~60 min).
-
 
 ## Minutes
