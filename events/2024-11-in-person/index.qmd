@@ -28,28 +28,27 @@ some topics and less on others.
 
 ### Nov 27
 
-| Time  | Item                                                          |
-|-------|---------------------------------------------------------------|
-| 10:00 | Align understandings on Seedcase                              |
-| 12:00 | Lunch                                                         |
-| 13:00 | Personal goals and perspectives                               |
-| 14:00 | ON-LiMiT and DP-Next projects presentations and brainstorming |
-| 15:00 | :coffee: Coffee break                                         |
-| 15:15 | Continue from previous session                                |
-| 16:30 | Wrap Up                                                       |
-| 17:30 | Dinner and visit to ARoS                                      |
+| Time  | Item                                  |
+|-------|---------------------------------------|
+| 10:00 | Align understandings on Seedcase      |
+| 12:00 | Lunch                                 |
+| 13:00 | Personal goals and perspectives       |
+| 14:45 | :coffee: Coffee break                 |
+| 15:00 | Roadmap, deliverables, and milestones |
+| 16:30 | Wrap Up                               |
+| 17:30 | Dinner and visit to ARoS              |
 
 ### Nov 28
 
-| Time  | Item                                   |
-|-------|----------------------------------------|
-| 10:00 | Overview of progress and current state |
-| 11:45 | Lunch                                  |
-| 12:30 | Status update with Annelli             |
-| 14:00 | :coffee: Coffee break                  |
-| 14:15 | Roadmap, deliverables, and milestones  |
-| 16:30 | Wrap Up                                |
-| 17:30 | Team dinner                            |
+| Time  | Item                                                          |
+|-------|---------------------------------------------------------------|
+| 10:00 | Overview of progress and current state                        |
+| 11:45 | Lunch                                                         |
+| 12:30 | Status update with Annelli                                    |
+| 14:00 | :coffee: Coffee break and debrief                             |
+| 15:00 | ON-LiMiT and DP-Next projects presentations and brainstorming |
+| 16:30 | Wrap Up                                                       |
+| 17:30 | Team dinner                                                   |
 
 ## Sessions
 
