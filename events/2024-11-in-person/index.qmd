@@ -28,28 +28,27 @@ some topics and less on others.
 
 ### Nov 27
 
-| Time  | Item                                                          |
-|-------|---------------------------------------------------------------|
-| 10:00 | Align understandings on Seedcase                              |
-| 12:00 | Lunch                                                         |
-| 13:00 | Personal goals and perspectives                               |
-| 14:00 | ON-LiMiT and DP-Next projects presentations and brainstorming |
-| 15:00 | :coffee: Coffee break                                         |
-| 15:15 | Continue from previous session                                |
-| 16:30 | Wrap Up                                                       |
-| 17:30 | Dinner and visit to ARoS                                      |
+| Time  | Item                                  |
+|-------|---------------------------------------|
+| 10:00 | Align understandings on Seedcase      |
+| 12:00 | Lunch                                 |
+| 13:00 | Personal goals and perspectives       |
+| 14:45 | :coffee: Coffee break                 |
+| 15:00 | Roadmap, deliverables, and milestones |
+| 16:30 | Wrap Up                               |
+| 17:30 | Dinner and visit to ARoS              |
 
 ### Nov 28
 
-| Time  | Item                                   |
-|-------|----------------------------------------|
-| 10:00 | Overview of progress and current state |
-| 11:45 | Lunch                                  |
-| 12:30 | Status update with Annelli             |
-| 14:00 | :coffee: Coffee break                  |
-| 14:15 | Roadmap, deliverables, and milestones  |
-| 16:30 | Wrap Up                                |
-| 17:30 | Team dinner                            |
+| Time  | Item                                                          |
+|-------|---------------------------------------------------------------|
+| 10:00 | Overview of progress and current state                        |
+| 11:45 | Lunch                                                         |
+| 12:30 | Status update with Annelli                                    |
+| 14:00 | :coffee: Coffee break and debrief                             |
+| 15:00 | ON-LiMiT and DP-Next project presentations and brainstorming |
+| 16:30 | Wrap Up                                                       |
+| 17:30 | Team dinner                                                   |
 
 ## Sessions
 
@@ -72,6 +71,7 @@ and for who and what it might look like.
 -   Start broad with all of Seedcase, then slowly focus in on Sprout and
     it's subcomponents.
 -   Lastly, Luke share his broader vision for Seedcase.
+
 ### Personal goals and perspectives of what we create
 
 **Aim**: Brainstorm, share, and discuss our own personal goals and
@@ -108,7 +108,8 @@ with previous sessions.
 of interest in working on it, so that we can set the order we want to
 work on them.
 
-1.  Review updates to roadmap in pull request ##.
+1.  Review updates to roadmap in pull request
+    [seedcase-project/community#67](https://github.com/seedcase-project/community/pull/67).
 2.  Decide on the priorities for them and interest in each, then sort
     them.
 3.  Review the deliverables at the top of the list we sorted, then
@@ -134,6 +135,5 @@ work on them.
         min).
     -   Seedcase by us :relaxed: (\~15 min).
     -   Discuss their needs and how we can contribute (\~60 min).
-
 
 ## Minutes
