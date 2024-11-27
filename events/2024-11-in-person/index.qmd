@@ -85,23 +85,6 @@ each other in working with our strengths, interests, and passions.
 -   Brainstorm what we can do to support and encourage these goals and
     perspectives in our work.
 
-### Overview of progress and current status
-
-**Aim**: Discuss where we are at and what we've done in order to connect
-with previous sessions.
-
--   What we've achieved so far and how close we are to an minimum viable
-    product (MVP).
-
--   Discuss any barriers and challenges, both individually and as a
-    team.
-
-    -   Brainstorm ways we can work to resolve them.
-
--   How does the progress and current status, as well as the challenges
-    and barriers, align with the goals and perspectives we just
-    discussed?
-
 ### Roadmap, deliverables, and milestones
 
 **Aim**: To agree on and set the priority of each deliverable and level
@@ -115,6 +98,20 @@ work on them.
 3.  Review the deliverables at the top of the list we sorted, then
     discuss and agree on milestones for them and what we might (very
     roughly) estimate for a timeline.
+
+### Overview of progress and current status
+
+**Aim**: Discuss where we are at and what we've done in order to connect
+with previous sessions.
+
+-   What we've achieved so far and how close we are to an minimum viable
+    product (MVP).
+-   Discuss any barriers and challenges, both individually and as a
+    team.
+    -   Brainstorm ways we can work to resolve them.
+-   How does the progress and current status, as well as the challenges
+    and barriers, align with the goals and perspectives we just
+    discussed?
 
 ### Presentations/updates
 
