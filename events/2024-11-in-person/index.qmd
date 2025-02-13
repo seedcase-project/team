@@ -40,15 +40,15 @@ some topics and less on others.
 
 ### Nov 28
 
-| Time  | Item                                                          |
-|-------|---------------------------------------------------------------|
-| 10:00 | Overview of progress and current state                        |
-| 11:45 | Lunch                                                         |
-| 12:30 | Status update with Annelli                                    |
-| 14:00 | :coffee: Coffee break and debrief                             |
+| Time  | Item                                                         |
+|-------|--------------------------------------------------------------|
+| 10:00 | Overview of progress and current state                       |
+| 11:45 | Lunch                                                        |
+| 12:30 | Status update with Annelli                                   |
+| 14:00 | :coffee: Coffee break and debrief                            |
 | 15:00 | ON-LiMiT and DP-Next project presentations and brainstorming |
-| 16:30 | Wrap Up                                                       |
-| 17:30 | Team dinner                                                   |
+| 16:30 | Wrap Up                                                      |
+| 17:30 | Team dinner                                                  |
 
 ## Sessions
 
@@ -134,3 +134,28 @@ with previous sessions.
     -   Discuss their needs and how we can contribute (\~60 min).
 
 ## Minutes
+
+::: callout-warning
+I had forgotten to write these minutes out after the meeting, so there
+are some things that I might have missed or forgotten. In general, these
+meetings were more about aligning our understandings and discussing our
+overall goals and aspirations, so there were fewer concrete minutes to
+take.
+:::
+
+-   We spent a good amount of time aligning what we understood we were
+    building towards. Then agreeing on what we each individually wanted
+    to be doing and working on. In the end, we all felt more aligned and
+    understood each other better.
+-   We trimmed down many of the potential deliverables to ones we wanted
+    to work on, moved several into "potential/interested" and kept only
+    a few in "will do" or "doing" categories. We also went over and
+    agreed that more detailed roadmaps would be on the GitHub Project
+    [Long-term
+    Planning](https://github.com/orgs/seedcase-project/projects/22/views/1)
+    board.
+-   Our meetings with ON-LiMiT and DP-Next were very helpful and
+    informative. Since they both are early in their development, we
+    don't have an tangible actions, expectations, or deliverables yet.
+    But we do plan on collaborating together and to revisit these
+    discussions in future meetings.
