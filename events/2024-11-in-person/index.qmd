@@ -156,6 +156,6 @@ take.
     board.
 -   Our meetings with ON-LiMiT and DP-Next were very helpful and
     informative. Since they both are early in their development, we
-    don't have an tangible actions, expectations, or deliverables yet.
-    But we do plan on collaborating together and to revisit these
+    don't have any tangible actions, expectations, or deliverables yet.
+    But we do plan on collaborating and revisiting these
     discussions in future meetings.
