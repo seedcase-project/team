@@ -7,8 +7,8 @@ about:
   template: jolla
   image-width: 40em
   image-shape: rectangle
-  image-title: Image from Freepik
+  image-title: Image from Storyset
   image-alt: Illustration of people working together, with checklists, tasks, a laptop, charts, and plants.
 ---
 
-## Image from [Freepik](https://www.freepik.com) {.appendix}
+## Image from [Storyset](https://www.storyset.com) {.appendix}
