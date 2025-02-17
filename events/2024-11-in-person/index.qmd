@@ -40,15 +40,15 @@ some topics and less on others.
 
 ### Nov 28
 
-| Time  | Item                                                          |
-|-------|---------------------------------------------------------------|
-| 10:00 | Overview of progress and current state                        |
-| 11:45 | Lunch                                                         |
-| 12:30 | Status update with Annelli                                    |
-| 14:00 | :coffee: Coffee break and debrief                             |
+| Time  | Item                                                         |
+|-------|--------------------------------------------------------------|
+| 10:00 | Overview of progress and current state                       |
+| 11:45 | Lunch                                                        |
+| 12:30 | Status update with Annelli                                   |
+| 14:00 | :coffee: Coffee break and debrief                            |
 | 15:00 | ON-LiMiT and DP-Next project presentations and brainstorming |
-| 16:30 | Wrap Up                                                       |
-| 17:30 | Team dinner                                                   |
+| 16:30 | Wrap Up                                                      |
+| 17:30 | Team dinner                                                  |
 
 ## Sessions
 
@@ -134,3 +134,69 @@ with previous sessions.
     -   Discuss their needs and how we can contribute (\~60 min).
 
 ## Minutes
+
+::: callout-warning
+I had forgotten to write these minutes out after the meeting, so there
+are some things that I might have missed or forgotten. In general, these
+meetings were more about aligning our understandings and discussing our
+overall goals and aspirations, so there were fewer concrete minutes to
+take.
+:::
+
+### Alignment and interests
+
+We spent a good amount of time aligning what we understood we were
+building towards. Then agreeing on what we each individually wanted to
+be doing and working on. In the end, we all felt more aligned and
+understood each other better.
+
+#### Signe
+
+-   Develop in Python more
+-   Expand on *software design* skills, such as what functionality is
+    needed, how can it be designed, etc.? Learn about best
+    practices/strategies
+-   DevOps (e.g., GitHib Actions)
+
+#### Kris
+
+-   Pivot to focus on *usage* of Sprout and user documentation / user
+    side
+    -   Work on the example repos, using real world data
+-   Would also like to help on `git4cats`, but only on reviewing tasks
+
+#### Marton
+
+-   Doesn't mind which bits, can see the usefulness of all of them
+-   The problem domain is generally very interesting! :+1:
+-   Software engineer workflow is nice in a meaningful setting
+-   Learn more on Python and the design side
+-   Learn more about the researchers themselves (when they start using
+    it)
+
+#### Luke
+
+-   More courses!
+-   Would love to hire more people (for documentation+training side of
+    things)
+-   Work with more people who are excited to use this stuff that we
+    build
+-   More funding to keep going
+-   Less time on wasteful IT and bureaucracy stuff
+
+### Roadmap and deliverables
+
+We trimmed down many of the potential deliverables to ones we wanted to
+work on, moved several into "potential/interested" and kept only a few
+in "will do" or "doing" categories. We also went over and agreed that
+more detailed roadmaps would be on the GitHub Project [Long-term
+Planning](https://github.com/orgs/seedcase-project/projects/22/views/1)
+board.
+
+### Potential collaborators
+
+Our meetings with ON-LiMiT and DP-Next were very helpful and
+informative. Since they both are early in their development, we don't
+have any tangible actions, expectations, or deliverables yet. But we do
+plan on collaborating and revisiting these discussions in future
+meetings.
