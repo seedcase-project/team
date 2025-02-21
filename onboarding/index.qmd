@@ -87,8 +87,7 @@ Therefore, before you start to read and review the pages in the list
 below, read the following posts with introductions and guidelines to our
 workflows:
 
-1.  [Organisation](https://design.seedcase-project.org/organisation)
-    design principles and patterns, including for collaboration and
+1.  [Organisation design principles and patterns](https://design.seedcase-project.org/organisation), including for collaboration and
     contribution.
 2.  [Workflow for developing software and
     documentation](/how-we-work/workflow.qmd)
