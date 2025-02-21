@@ -87,8 +87,8 @@ Therefore, before you start to read and review the pages in the list
 below, read the following posts with introductions and guidelines to our
 workflows:
 
-1.  [Documentation First
-    Culture](https://community.seedcase-project.org/guides/documentation-first/)
+1.  [Organisation design principles and patterns](https://design.seedcase-project.org/organisation), including for collaboration and
+    contribution.
 2.  [Workflow for developing software and
     documentation](/how-we-work/workflow.qmd)
 3.  If you will need to add new posts, read the how-to ["Adding
@@ -121,9 +121,9 @@ improvements.
     material, and events.
 5.  [Our Decisions Posts](https://decisions.seedcase-project.org/): This
     describes why we made the choices we did.
-6.  [Overall design documentation](https://design.seedcase-project.org):
-    The design documentation covers stakeholders, design decisions,
-    software architecture, data architecture, and more.
+6.  [Design documentation](https://design.seedcase-project.org):
+    The design documentation covers general design principles and patterns
+    at the organisational level, for software, and for data.
 
 If something is unclear to you, you are more than welcome to reach out
 to the other team members on Discord. We'd love to help you out.
