@@ -24,45 +24,16 @@ someone else has taken those admin responsibilities.
         branch
 
 Whenever a new GitHub repo is created for a new website or software
-project, run this Terminal command on it in order to set some default
-options for the newly created repository. These options set up the
-repository with things that we need (and omit things we don't need). The
-command sets up the following settings:
-
--   Delete branches after they've been merged
--   Omit wiki
--   Disable discussions
--   Allow PR's to have an option to auto-merge after approval
--   Allow PR's to have an option to easily update with the `main`
-    branch.
-
-``` bash
-gh repo edit --delete-branch-on-merge=true --enable-wiki=false --enable-discussions=false --enable-auto-merge=true --allow-update-branch
-```
+project, run our custom command from our
+[spaid](https://github.com/seedcase-project/spaid) toolkit (which
+will need to be installed to use it) to set our custom repository settings. See that repo for more details.
 
 ## Creating a GitHub repo from a local one
 
 If a local repository exists and a GitHub repository needs to be created
-for that repository, run this command in the Terminal while *inside* the
-local Git repository folder (the root folder of the Git repository),
-that does the following actions:
-
--   Creates a repo in the `seedcase-project` organization called `REPO`
-    (rename to the folder name of the local repo).
--   Sets the repo to public (not private) via the `--public` flag.
--   Uses the root folder as the local Git repository with `--source=.`.
--   Includes a description of the newly created repository with
-    `--description="WRITE DESCRIPTION"` (write the description of what's
-    in the repo instead of *WRITE DESCRIPTION*).
--   Pushes the local repo to the new repo with `--push`.
--   Disables the wiki with `--disable-wiki`.
--   Sets the URL for the homepage with `--homepage` (change `REPO` in
-    the link following this flag with the name of the root folder of the
-    Git repo).
-
-``` bash
-gh repo create seedcase-project/REPO --public --source=. --description="WRITE DESCRIPTION" --push --disable-wiki --homepage https://REPO.seedcase-project.org
-```
+for that repository, run our custom command from our
+[spaid](https://github.com/seedcase-project/spaid) toolkit (which
+will need to be installed to use it) to create the repo. See the spaid repo for more details.
 
 ## Merging topic branches
 
@@ -83,7 +54,7 @@ general guidelines:
 -   **Rebase:** Commits or PRs that have `build` and `chore` types as
     well as `sync` scopes (which usually fall under `chore` type)
 
--   **Merge:** Non-atomic/other PRs
+-   **Merge:** Non-atomic/other PRs (or if the PR title starts with `chore: :twisted_rightwards_arrows:`)
 
 By atomic PRs, we mean PRs that only include "self-contained changes"
 that are independent and fully functional on their own. E.g., a single
