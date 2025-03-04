@@ -72,10 +72,14 @@ specifics of the iteration.
 ::: callout-note
 A basic agenda for the meeting might be:
 
--   Review and agree on the iteration aim and end date.
+-   Review and agree on the iteration aims and end date.
 -   Review the list of tasks already listed.
 -   Brainstorm and add any other issues as needed.
 -   Schedule the next iteration's end and start meetings.
+
+We usually have separate aims for each person in the team, and each of
+us will add tasks to the board relevant to that aim aim as needed. This
+usually happens as the iteration progresses.
 :::
 
 ::: panel-tabset
