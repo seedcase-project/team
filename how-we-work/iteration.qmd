@@ -110,7 +110,7 @@ the iteration as well as the distribution of priority labels of the
 tasks.
 
 Then, we agree on and schedule the end date debrief and retrospective
-meeting, which should be approximately 2-3 hours and preferably before
+meeting, which should be approximately 1-2 hours and preferably before
 lunch, as well as the next iterations planning meeting. The next
 planning meeting should either be on the same date after lunch, to
 ensure a proper break before moving to a new iteration, or the next day
