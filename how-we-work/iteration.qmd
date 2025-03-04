@@ -69,7 +69,6 @@ specifics of the iteration.
 ::: callout-note
 A basic agenda for the meeting might be:
 
--   Assign a timekeeper.
 -   Review and agree on the iteration aim and end date.
 -   Review the list of tasks already listed.
 -   Brainstorm and add any other issues as needed.
@@ -131,7 +130,6 @@ during the planning meeting.
 ::: callout-note
 A basic agenda is:
 
--   Assign timekeeper.
 -   Demo (internally or externally) the progress of the iteration.
 -   Evaluate the iteration aim.
 -   Go over what we accomplished and how we felt we did (including
