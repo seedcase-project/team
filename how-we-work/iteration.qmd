@@ -134,7 +134,10 @@ A basic agenda is:
 -   Evaluate the iteration aim.
 -   Go over what we accomplished and how we felt we did (including
     struggles).
--   Do a retrospective.
+-   Do a retrospective reflecting on what we each think we should keep
+    doing and what we should stop doing or improve on. Afterwards, we'll
+    group the notes into topics and add action items to each of the
+    topics.
 :::
 
 During the debrief and retrospective meeting, we will:
