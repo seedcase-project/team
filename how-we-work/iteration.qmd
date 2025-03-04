@@ -50,7 +50,10 @@ Team lead sets everything up for the next two or three iterations.
     iterations a few days before major holidays start.
 -   Will plan and decide on how long the future iterations should be
     (can range from 2-6 weeks, but prefer shorter iterations over longer
-    ones). So far, we find that 3 week iterations work the best.
+    ones). Currently, we find iterations with a duration of one month
+    work the best for us. This way, we have the planning meeting at the
+    beginning of the month and the debrief and retrospective meeting at
+    the end of the month.
 
 ## Start of iteration
 
