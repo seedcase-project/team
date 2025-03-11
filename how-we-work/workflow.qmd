@@ -25,12 +25,29 @@ guidelines:
 -   After creating a pull request, add it to the relevant GitHub Project
     since this is where we keep an overview of what each of us is
     currently working on.
--   As you work on your branch and it starts growing too large in scope
-    and size, strongly consider creating "stacked pull requests" by
-    making a new branch on your current working branch and submit a new
-    pull request on top of the parent pull request branch.
 -   In the pull request description, try to explain *why* you made the
     changes in the pull request, rather than the *what*.
+
+If your task is too large in scope, modifies or adds many new files, or
+has several complicated pieces, *strongly* consider making "stacked pull
+requests". A stacked pull request is a pull request that is made on top
+of another pull request. This way, you can separate the changes into
+smaller, more manageable pieces that can be reviewed more easily and
+quickly since larger pull requests take longer and are more difficult to
+review. When making Stacked pull requests, follow these general
+guidelines:
+
+-   When making the first, base pull request, write in the description
+    that this will be a stacked pull request so that no one should merge
+    it, only until all the stacked pull requests are ready.
+-   As each stacked pull request is ready for review, team members will
+    review and make suggestions as needed. As the author, you'll need to
+    make sure all suggestions are merged downstream to the later pull
+    requests by rebasing.
+-   Once all stacked pull requests are reviewed and approved, they will
+    all be rebased onto the base pull request before being finally
+    squashed into the base pull request. This way, the base pull request
+    will contain all the changes from the stacked pull requests.
 
 ::: callout-tip
 ### Creating conventional branches using the VS Code extension
