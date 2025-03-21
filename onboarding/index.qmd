@@ -42,7 +42,7 @@ need to create an account on Teamup for this.
 To get the calendars in your own calendar app, follow these
 instructions:
 
-1.  Go to [teamup.com](teamup.com) and log in.
+1.  Go to [teamup.com](https://teamup.com/) and log in.
 
 2.  Open the calendar that you want to subscribe to.
 
