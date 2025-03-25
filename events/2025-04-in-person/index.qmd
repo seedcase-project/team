@@ -1,0 +1,49 @@
+---
+title: "In-person, 2-day team brainstorming and planning sessions"
+description: "Details and agendas for our 2-day in-person sessions."
+author: "Luke W. Johnston"
+date: "2025-04-01"
+categories:
+  - in-person
+  - meeting
+  - brainstorming
+  - planning
+---
+
+## Details
+
+-   Informal dinner on Apr 1st and a team outing on Apr 2nd.
+-   **Main aims**:
+
+## Schedule
+
+The schedule is meant as a **guide only**. We might spend more time on
+some topics and less on others.
+
+### Apr 1
+
+| Time  | Item                                  |
+|-------|---------------------------------------|
+| 10:00 | Debrief and retrospective for iteration, including demo by Kris      |
+| 12:00 | Lunch                                 |
+| 13:00 | Brainstorming on versioning of data and tracking changes       |
+| 14:45 | :coffee: Coffee break                 |
+| 16:30 | Wrap Up                               |
+| 17:30 | Dinner together (potentially?)              |
+
+### Apr 2
+
+| Time  | Item                                                         |
+|-------|--------------------------------------------------------------|
+| 10:00 | Chat with Daniel Ibsen about ON-LiMiT collaboration |
+| 11:00 | Debrief as team on chat about ON-LiMiT |
+| 12:00 | Lunch                                                        |
+| 14:00 | :coffee: Coffee break and debrief                            |
+| 15:30 | Head to Moesgaard for a team social trip, plus dinner there                                                     |
+
+## Sessions
+
+All brainstorming sessions start with some dedicated individual time to
+think and write down thoughts, then we will discuss them all together.
+
+Maybe use stickies to write down thoughts and then discuss them?
