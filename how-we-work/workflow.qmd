@@ -185,3 +185,23 @@ While writing Python code, follow these guidelines:
     instructions. For instance:
     -   Write docstrings for every function, class, and method.
     -   Include type hints for both inputs and returns.
+
+## Writing documentation (`.qmd` files)
+
+When writing documentation, we write in Quarto Markdown (`.qmd`) files.
+See the [Quarto
+documentation](https://quarto.org/docs/authoring/markdown-basics.html)
+for more information on how to write Markdown.
+
+To format the Markdown files, as we aim to do before committing our
+changes, we use VS Code. To format a Quarto file, follow these steps:
+
+1.  Open the Command Palette in VS Code by pressing `Ctrl/Cmd-Shift-P`.
+2.  Type "Visual Mode" and select the option that appears ("Quarto: Edit
+    in Visual Mode").
+3.  In Visual Mode, save the file (`Ctrl/Cmd-S`). This will format the
+    file.
+4.  To go back to the Source Mode (the default mode), open the Command
+    Palette again, type "Source Mode", and select the option that
+    appears ("Quarto: Edit in Source mode").
+5.  Now, you're ready to commit your changes.
