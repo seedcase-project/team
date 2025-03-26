@@ -66,11 +66,11 @@ accidentally introduced a bug, it would be easy to reverse that change.
 
 ### Stacked PRs
 
-When a PR is stacked, the process for merging is:
+The process for merging a stacked PR is:
 
 1.  Wait until all PRs in the stack are reviewed and approved.
 2.  Starting from the top of the stack, do a merge commit along with
     renaming the title to indicate it is a merge commit, as described
     above. The merge commit is used to maintain a link to the previous
     PR (otherwise a rebase would remove that link).
-3.  Finally, squash the base PR into main.
+3.  Finally, squash the base PR into `main`.
