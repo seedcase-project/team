@@ -185,3 +185,46 @@ While writing Python code, follow these guidelines:
     instructions. For instance:
     -   Write docstrings for every function, class, and method.
     -   Include type hints for both inputs and returns.
+
+## Creating pull requests
+
+### Stacking pull requests
+
+A stacked pull request is when one pull request has been opened to merge
+into the `main` branch and then another pull request is opened to merge
+into that first pull request. See the diagram below for a visual
+representation of this:
+
+```{mermaid}
+gitGraph
+    commit
+    branch first-pull-request
+    checkout first-pull-request
+    commit
+    branch second-pull-request
+    checkout second-pull-request
+    commit
+    checkout first-pull-request
+    merge second-pull-request id: "merge commit"
+    checkout main
+    merge first-pull-request id: "squash merge"
+```
+
+Stacking pull requests are useful when the task we are working on is
+fairly large or modifies many files in different ways. We want to keep
+pull requests small enough to be easily reviewed, as a pull request's
+change gets larger, it becomes increasingly harder to review. So to keep
+each stacked pull request small while ensuring that the final pull request is atomic
+and “squashable".
+
+Stacked pull requests are not without challenges. So, when stacking
+pull requests, we aim to follow these guidelines:
+
+1.  Firstly, as much as possible, *avoid* stacking pull requests.
+2.  If a stacked pull request is necessary, then clearly communicate
+    that it will be a stacked pull request in the description by clearly writing that this is a stacked pull request and linking to the relevant pull request(s).
+3.  Then, a team member with merge permissions will *hold off* merging
+    until all development has finished in the stacked pull requests.
+4.  As requests for changes come in, it is the responsibility of the
+    pull request author to rebase the changes to later pull requests in
+    the stack.
