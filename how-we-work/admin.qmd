@@ -25,15 +25,17 @@ someone else has taken those admin responsibilities.
 
 Whenever a new GitHub repo is created for a new website or software
 project, run our custom command from our
-[spaid](https://github.com/seedcase-project/spaid) toolkit (which
-will need to be installed to use it) to set our custom repository settings. See that repo for more details.
+[spaid](https://github.com/seedcase-project/spaid) toolkit (which will
+need to be installed to use it) to set our custom repository settings.
+See that repo for more details.
 
 ## Creating a GitHub repo from a local one
 
 If a local repository exists and a GitHub repository needs to be created
 for that repository, run our custom command from our
-[spaid](https://github.com/seedcase-project/spaid) toolkit (which
-will need to be installed to use it) to create the repo. See the spaid repo for more details.
+[spaid](https://github.com/seedcase-project/spaid) toolkit (which will
+need to be installed to use it) to create the repo. See the spaid repo
+for more details.
 
 ## Merging topic branches
 
@@ -54,9 +56,20 @@ general guidelines:
 -   **Rebase:** Commits or PRs that have `build` and `chore` types as
     well as `sync` scopes (which usually fall under `chore` type)
 
--   **Merge:** Non-atomic/other PRs (or if the PR title starts with `chore: :twisted_rightwards_arrows:`)
+-   **Merge:** Non-atomic/other PRs (or if the PR title starts with
+    `chore: :twisted_rightwards_arrows:`)
 
 By atomic PRs, we mean PRs that only include "self-contained changes"
 that are independent and fully functional on their own. E.g., a single
 feature and the accompanying tests or a bug fix. This way, if we
 accidentally introduced a bug, it would be easy to reverse that change.
+
+### Stacked PRs
+
+When a PR is stacked, the process for merging is:
+
+1.  Wait until all PRs in the stack are reviewed and approved.
+2.  Starting from the top of the stack, do a merge commit along with
+    renaming the title to indicate it is a merge commit, as described
+    above. The merge commit is used to maintain a link to the previous
+    PR (otherwise a rebase would remove that link).
