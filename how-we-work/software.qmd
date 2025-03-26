@@ -18,7 +18,7 @@ website](https://decisions.seedcase-project.org).
     containerization of our products.
 -   [Git](https://git-scm.com/downloads): We use Git for version control
     and we host all our content on GitHub.
--   [Justfile](https://just.systems/man/en/chapter_4.html): Just is a
+-   [Justfile](https://just.systems/): Just is a
     command runner that we use to manage many workflow and build tasks,
     such as creating or re-generating diagrams that were created with
     PlantUML, running tests on code, and building the software apps.

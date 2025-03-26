@@ -73,3 +73,4 @@ When a PR is stacked, the process for merging is:
     renaming the title to indicate it is a merge commit, as described
     above. The merge commit is used to maintain a link to the previous
     PR (otherwise a rebase would remove that link).
+3.  Finally, squash the base PR into main.

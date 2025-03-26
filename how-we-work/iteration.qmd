@@ -50,7 +50,10 @@ Team lead sets everything up for the next two or three iterations.
     iterations a few days before major holidays start.
 -   Will plan and decide on how long the future iterations should be
     (can range from 2-6 weeks, but prefer shorter iterations over longer
-    ones). So far, we find that 3 week iterations work the best.
+    ones). Currently, we find iterations with a duration of one calendar month
+    work the best for us. This way, we have the planning meeting at the
+    beginning of the month and the debrief and retrospective meeting at
+    the end of the month.
 
 ## Start of iteration
 
@@ -69,11 +72,14 @@ specifics of the iteration.
 ::: callout-note
 A basic agenda for the meeting might be:
 
--   Assign a timekeeper.
--   Review and agree on the iteration aim and end date.
+-   Review and agree on the iteration aims and end date.
 -   Review the list of tasks already listed.
 -   Brainstorm and add any other issues as needed.
 -   Schedule the next iteration's end and start meetings.
+
+We usually have separate aims for each person in the team, and each of
+us will add tasks to the team project board relevant to that aim aim as needed. This
+usually happens as the iteration progresses.
 :::
 
 ::: panel-tabset
@@ -104,10 +110,9 @@ the iteration as well as the distribution of priority labels of the
 tasks.
 
 Then, we agree on and schedule the end date debrief and retrospective
-meeting, which should be approximately 2-3 hours and preferably before
-lunch, as well as the next iterations planning meeting. The next
-planning meeting should either be on the same date after lunch, to
-ensure a proper break before moving to a new iteration, or the next day
+meeting, which should be approximately 1-2 hours and preferably before
+lunch, as well as the next iterations planning meeting. We have found that the
+planning meeting is best held the day after to ensure that we don't get too tired towards the end. Alternatively it can be the same day as the debrief, but there should be a substantial break between the two meetings.
 to give some break between meetings.
 :::
 
@@ -131,12 +136,14 @@ during the planning meeting.
 ::: callout-note
 A basic agenda is:
 
--   Assign timekeeper.
 -   Demo (internally or externally) the progress of the iteration.
 -   Evaluate the iteration aim.
 -   Go over what we accomplished and how we felt we did (including
     struggles).
--   Do a retrospective.
+-   Do a retrospective reflecting on what we each think we should keep
+    doing and what we should stop doing or improve on. Afterwards, we'll
+    group the notes into topics and add action items to each of the
+    topics.
 :::
 
 During the debrief and retrospective meeting, we will:
