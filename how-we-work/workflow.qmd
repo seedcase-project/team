@@ -205,3 +205,5 @@ changes, we use VS Code. To format a Quarto file, follow these steps:
     Palette again, type "Source Mode", and select the option that
     appears ("Quarto: Edit in Source mode").
 5.  Now, you're ready to commit your changes.
+
+Alternatively, use `Ctrl/Cmd-Shift-F4` keybinding to switch to Visual Mode, then use the same keybind to switch back to Source Mode.
