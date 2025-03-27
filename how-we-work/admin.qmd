@@ -64,10 +64,13 @@ that are independent and fully functional on their own. E.g., a single
 feature and the accompanying tests or a bug fix. This way, if we
 accidentally introduced a bug, it would be easy to reverse that change.
 
-For PRs that are stacked, follow these steps:
+### Stacked PRs
 
--   Do not squash merge the base PR. Wait until all stacked PRs have
-    been approved.
--   After each stacked PR has been approved, rebase all of them onto the
-    base PR.
--   Finally, squash merge the base PR.
+The process for merging a stacked PR is:
+
+1.  Wait until all PRs in the stack are reviewed and approved.
+2.  Starting from the top of the stack, do a merge commit along with
+    renaming the title to indicate it is a merge commit, as described
+    above. The merge commit is used to maintain a link to the previous
+    PR (otherwise a rebase would remove that link).
+3.  Finally, squash the base PR into `main`.
