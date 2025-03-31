@@ -1,0 +1,113 @@
+---
+title: "In-person, 2-day team brainstorming and planning sessions"
+description: "Details and agendas for our 2-day in-person sessions."
+author: "Luke W. Johnston"
+date: "2025-04-01"
+categories:
+  - in-person
+  - meeting
+  - brainstorming
+  - planning
+---
+
+## Details
+
+-   Maybe a dinner on April 1 and a team outing to Moesgaard Museum on April 2.
+-   **Main aims**:
+    -   Do debrief, retrospective, and planning.
+    -   Continue getting to know each other better.
+    -   Brainstorm on versioning of data and tracking changes.
+    -   Learn more about and discuss ON-LiMiT collaboration.
+
+## Schedule
+
+The schedule is meant as a **guide only**. We might spend more time on
+some topics and less on others.
+
+### April 1
+
+| Time  | Item                                                            |
+|-------|-----------------------------------------------------------------|
+| 10:00 | Debrief and retrospective for iteration, including demo by Kris |
+| 12:00 | Lunch                                                           |
+| 13:00 | Brainstorming on versioning of data and tracking changes        |
+| 14:00 | :coffee: Coffee break                                           |
+| 14:15 | Continue with brainstorming                                     |
+| 16:00 | Wrap up                                                         |
+| 17:00 | Dinner together?                                                |
+
+### April 2
+
+| Time | Item |
+|--------------|----------------------------------------------------------|
+| 10:00 | Chat with Daniel Ibsen about ON-LiMiT collaboration |
+| 11:00 | Debrief and discuss on chat about ON-LiMiT (will likely continue after lunch) |
+| 12:00 | Lunch |
+| 13:00 | Planning for next iteration, plus general discussions about longer term plans |
+| 14:00 | :coffee: Coffee break, then continue |
+| \~15:00 | Head to Moesgaard for a team social trip, plus dinner there |
+
+## Sessions
+
+All brainstorming sessions start with some dedicated individual time to
+think and write down thoughts, then we will discuss them all together.
+
+The debrief, retrospective, and planning are the usual ones we do, so
+there is nothing needed to explain or describe about it here.
+
+### Brainstorming on versioning
+
+::: callout-note
+We may (or may not!) do the versioning after first uploading to PyPI, so
+maybe a short iteration or two on that after the next two milestones.
+:::
+
+This brainstorming is very open-ended, though I do have some ideas about
+it. But would be good to get different thoughts and perspectives around
+versioning data. Here is a unfiltered list of some things that have been
+in my head:
+
+-   Versioning of data (e.g. `v0.1.0`), Frictionless recommends SemVer,
+    is that good enough?
+-   Tracking changes to data... ideas on how? Do it, or not?
+-   Tracking of changes in general? Explicitly recommend using Git
+    and/or make functions in Sprout that integrate with Git?
+-   If we track data, only track data in `batch/`? What about
+    downloaded/ingested/raw?
+-   If we track, we'd have to figure out what tool. DVC, Git LFS, etc?
+    (We probably can't answer that during these meetings).
+-   If we track, how do we implement it? Making a function to do that would
+    mean that any time the user runs the script, it will make a version?
+    How would it work in the workflow? Separate script?
+-   How to do CHANGELOG? Do we automate it like we do with commitizen or
+    do we include it as part of Sprout?
+-   What is versioning based on? When is something a version update?
+-   How to handle commits, what are the names of the commits? Make use
+    of conventional commits?
+-   Use tags for versions? How to handle tags? How do DVC and Git LFS
+    handle tags (not sure we can answer that, but something to
+    consider)?
+-   How might that be implemented on e.g. GenomeDK or Denmark
+    Statistics?
+
+### Discussions about ON-LiMiT
+
+We'll meet with Daniel Ibsen to discuss the ON-LiMiT collaboration,
+where he'll share some updates and we can get into some details about
+how we will work together.
+
+The debrief sessions will be going over the chat we had and discussing
+what we think about it. Depending on what we chat about, we could have a
+lot to discuss here that could get into some practical details and
+brainstorming. But really depends on what happens in the chat.
+
+Some things we might discuss in the meeting debrief:
+
+-   Thinking how Sprout will fit in with downloading/inputting different
+    sources of data, coming from, e.g. RedCap, "FitBit" type watches.
+-   Using GenomeDK for data storage (is Linux server), how that will fit
+    with our potential workflows around using Sprout.
+-   How would we like to work together? What are our wants?
+
+These discussions will also have some connections to what we will do
+with DP-Next, so we may talk about that project too.
