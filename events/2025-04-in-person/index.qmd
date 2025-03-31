@@ -76,6 +76,9 @@ in my head:
     downloaded/ingested/raw?
 -   If we track, we'd have to figure out what tool. DVC, Git LFS, etc?
     (We probably can't answer that during these meetings).
+-   If we track, how do we implement it? Making a function to do that would
+    mean that any time the user runs the script, it will make a version?
+    How would it work in the workflow? Separate script?
 -   How to do CHANGELOG? Do we automate it like we do with commitizen or
     do we include it as part of Sprout?
 -   What is versioning based on? When is something a version update?
