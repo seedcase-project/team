@@ -1,0 +1,46 @@
+---
+title: "How we work with GenomeDK"
+---
+
+::: {.callout-note appearance="default" icon="true"}
+This document is a work in progress. It is not yet complete and should
+not be considered final.
+:::
+
+## GenomeDK
+
+[GenomeDK](https://genome.au.dk) is the name of Aarhus University's
+super computer cluster. It is a high-performance computing (HPC) system.
+It is ISO 27001 certified and approved to store sensitive data in
+compliance with GDPR and the Danish Data Protection Act.
+
+Within a Seedcase context we are going to use it as an example of how
+Sprout can be used to import, organise and store data on a remote
+cluster. It will also be used by the two projects that we are currently
+working with, DP Next and OnLimit.
+
+## Access
+
+Anyone can ask for an account on GenomeDK. This is done through a web
+form which then goes to be manually assessed and processed. There is a
+slight niggle with the form at present, as it isn't clear that you need
+to state your preferred username and password, and not only complete the
+section if you are wanting to re-activate an old account.
+
+## Setting up
+
+Once you get approved for access you can run through the
+[documentation](https://genome.au.dk/docs/), which is extensive and
+quite detailed. You should be familiar with using a Shell and
+manipulating shell scripts, you should also be ready to set up
+two-factor authentication using an authenticator app (they don't
+stipulate any in particular).
+
+## Desktop versus SSH
+
+In Seedcase we expect that we will primarily be working with an SSH
+connection in VS Code, this can be set up quite easily, and the guidance
+on how to set up a public key to make connection easier is simple and
+easy to follow. There is also a remote desktop solution which recently
+(spring 2025) launched, this looks promising, but isn't a current
+priority for us.
