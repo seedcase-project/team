@@ -193,7 +193,7 @@ I'll be creating a blog post about this experience, so won't add much here expec
             - Unit tests included?
     - **Action**: Create/use a devcontainer
         - psql
-        - jq (for ndJSON file), Python package?
+        - jq (for NDJSON file), Python package?
         - Black
         - Justfile
         - Quarto
