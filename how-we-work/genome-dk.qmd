@@ -39,8 +39,42 @@ stipulate any in particular).
 ## Desktop versus SSH
 
 In Seedcase we expect that we will primarily be working with an SSH
-connection in VS Code, this can be set up quite easily, and the guidance
-on how to set up a public key to make connection easier is simple and
-easy to follow. There is also a remote desktop solution which recently
-(spring 2025) launched, this looks promising, but isn't a current
-priority for us.
+connection, this can be set up quite easily, and the guidance on how to
+set up a public key to make connection easier is simple and easy to
+follow. There is also a remote desktop solution which recently (spring
+2025) launched, this looks promising, but isn't a current priority for
+us.
+
+## Setting up Conda
+
+In order to work with the scripts from GitHub, you will need to set up a
+Conda environment. The initial setup is described in the genomeDK
+documentation which we reccommend you follow. Once that is done, you can
+set up a new Conda environment with the latest version of Python using
+the following command:
+
+``` bash
+conda create --name [NAME OF ENV] python=3.12
+conda activate [NAME OF ENV]
+conda install -c conda-forge polars
+conda install -c conda-forge pyjanitor
+```
+
+This will create a new Conda environment with the name you specify and
+install the latest version of Python 3.12. You can then activate the
+environment using the `conda activate` command. The two packages
+`polars` and `pyjanitor` are installed from the conda-forge channel.
+
+Another option is to use the `environment.yml` file that is in the
+relevant GitHub repository. This file contains a list of all the
+packages and their versions that are required to run the scripts. You
+can create a new Conda environment using this file by running the
+following command:
+
+``` bash
+conda env create -f environment.yml
+```
+
+This will create a new Conda environment with the name specified in the
+`environment.yml` file and install all the required packages. You can
+then activate the environment using the `conda activate` command.
