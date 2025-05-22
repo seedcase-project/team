@@ -12,43 +12,46 @@ compliance with GDPR and the Danish Data Protection Act.
 Within a Seedcase context we are going to use it as an example of how
 Sprout can be used to import, organise and store data on a remote
 cluster. It will also be used by the two projects that we are currently
-working with, [DP-Next](https://dp-next.github.io) and [ON-LiMiT](https://on-limit.github.io).
+working with, [DP-Next](https://dp-next.github.io) and
+[ON-LiMiT](https://on-limit.github.io).
 
 ## Access
 
-Employee's of Aarhus University or Aarhus University Hospital can ask for an account on GenomeDK,
-which is done via the [request account](https://console.genome.au.dk/user-requests/create/) portal. 
-For now, we will need to select the "Open" zone. You need
-to state your preferred username and password even though the
-form seems to say to only do it if you want to re-activate an old account.
+People associated with a university, the public sector (government
+agencies, regions, and municipalities), or small and medium-sized
+enterprises (SMEs) can ask for an account on GenomeDK, which is done via
+the [request
+account](https://console.genome.au.dk/user-requests/create/) portal. For
+now, we will need to select the "Open" zone. You need to state your
+preferred username and password even though the form seems to say to
+only do it if you want to re-activate an old account.
 
 ## Setting up
 
 Once you get approved for access you can run through the
 [documentation](https://genome.au.dk/docs/), which is extensive and
-quite detailed. Because GenomeDK is a Linux-based server,
-you setup, access, and do many actions through a shell terminal. 
-You will have to set up
-two-factor authentication using an authenticator app (they don't
+quite detailed. Because GenomeDK is a Linux-based server, you setup,
+access, and do many actions through a shell terminal. You will have to
+set up two-factor authentication using an authenticator app (they don't
 stipulate any in particular).
 
 ## Connecting via SSH
 
-We will primarily be working with an SSH
-connection, with the guidance on how to
-set up a public key to connect to the server is fairly easy to
+We will primarily be working with an SSH connection, with the guidance
+on how to set up a public key to connect to the server is fairly easy to
 follow.
 
-You can then also access the files [local](https://genome.au.dk/docs/working-with-data/#mounting) 
-to be able to use text editors as normal.
+You can then also access the files
+[local](https://genome.au.dk/docs/working-with-data/#mounting) to be
+able to use text editors as normal.
 
 ## Setting up Conda
 
 In order to work with the scripts from GitHub, you need to set up a
 Conda environment. The initial setup is described in the GenomeDK
-[documentation](https://genome.au.dk/docs/getting-started/). Once done, you can
-set up a new Conda environment with the latest version of Python using
-the following command:
+[documentation](https://genome.au.dk/docs/getting-started/). Once done,
+you can set up a new Conda environment with the latest version of Python
+using the following command:
 
 ``` bash
 conda create --name [NAME OF ENV] python=3.12
