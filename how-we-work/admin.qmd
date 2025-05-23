@@ -6,36 +6,16 @@ This contains details for general administration of projects. For the
 most part, this document is only relevant to the team leader or if
 someone else has taken those admin responsibilities.
 
-## GitHub Repository Settings
+We use a set of custom commands to help with some of the admin tasks.
+These commands are found in our
+[`spaid`](https://github.com/seedcase-project/spaid) repository.
 
--   Always
-    [protect](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule)
-    the `main` branch of the repository to limit forced pushes and
-    deletions. Within the branch protection settings, enable (check
-    mark) these options in order to provide more security and checks to
-    protect the `main` branch:
-    -   "Require approvals", of at least 1 team members
-    -   "Dismiss stale approvals when new commits are added"
-    -   "Allow specified actors to bypass requirements", the actor being
-        the team leader
-    -   "Require approval of most recent reviewable push"
-    -   "Require status checks to pass before merging"
-    -   "Restrict who can push to matching branches" for the `main`
-        branch
+This includes commands to:
 
-Whenever a new GitHub repo is created for a new website or software
-project, run our custom command from our
-[spaid](https://github.com/seedcase-project/spaid) toolkit (which will
-need to be installed to use it) to set our custom repository settings.
-See that repo for more details.
-
-## Creating a GitHub repo from a local one
-
-If a local repository exists and a GitHub repository needs to be created
-for that repository, run our custom command from our
-[spaid](https://github.com/seedcase-project/spaid) toolkit (which will
-need to be installed to use it) to create the repo. See the spaid repo
-for more details.
+-   Create repository rulesets to protect our branches.
+-   Set basic settings for our repositories.
+-   Create a GitHub repository from a local one.
+-   Merging chore and sync PRs.
 
 ## Merging topic branches
 
