@@ -77,7 +77,7 @@ some topics and less on others.
 -   Areas of struggle or barriers?
     - Discussion on why progress has been slow.
     - What are some things we need to improve on?
-- Idea for team workflow: 
+- Idea for team workflow:
     - Focused work on individual projects on a rotation basis. For example, one month is on `seedcase-registry`, another is on `team`. We could rotate between one month core activity followed by a two week focus on smaller projects (like volunteer database).
 
 ## Minutes
@@ -145,7 +145,7 @@ I'll be creating a blog post about this experience, so won't add much here expec
     - Building monthly sprints, with a period of roadmapping in those days
     - Use Kanban board with constrained time periods to use for the focus phases, with dedicated time pre-phase to describe and plan together what needs to be done and how long each task takes
     - Focus on smaller focused periods of working, with iterative development/feedback and smaller units of roadmapping.
-    - **Action**: Schedule time shortly 
+    - **Action**: Schedule time shortly
     - Have twice-weekly update meetings
     - Limit external meeting
     - Make use of Issue’s
@@ -177,7 +177,7 @@ I'll be creating a blog post about this experience, so won't add much here expec
     - Workflow, each project/package/app would have its own design doc and diagrams, etc?
 - Requirements for how to work together effectively as a team
     - Shorter-term roadmap (e.g. 3 month cycle, 6 month cycle, 1 year cycle)
-        - **Action**: Luke will update roadmap and convert into milestones on the docs but also on GitHub as a Milestone 
+        - **Action**: Luke will update roadmap and convert into milestones on the docs but also on GitHub as a Milestone
     - (see items above)
     - **Action**: Setup pre-commit hooks?
         - Pre-commit for unit tests?
