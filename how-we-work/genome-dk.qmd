@@ -42,7 +42,7 @@ on how to set up a public key to connect to the server is fairly easy to
 follow.
 
 You can then also access the files
-[local](https://genome.au.dk/docs/working-with-data/#mounting) to be
+[locally](https://genome.au.dk/docs/working-with-data/#mounting) to be
 able to use text editors as normal.
 
 ## Setting up Conda
