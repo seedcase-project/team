@@ -111,3 +111,24 @@ Some things we might discuss in the meeting debrief:
 
 These discussions will also have some connections to what we will do
 with DP-Next, so we may talk about that project too.
+
+## Minutes
+
+For the versioning of the data package, we decided that it would be a separate
+package or tool (like a Git hook). Since it doesn't fit nicely into the
+Python script workflow and is also outside the scope of Python. For example,
+how do we determine when something is a version update? Since we have been
+using Conventional Commits, we can use that to determine when something is a
+version update. Which means we need another tool to handle bumping versions,
+something that watches the commits. Or we do it manually. If we use Conventional
+Commits, we can write a guide to determine what gets considered a version update
+and then use existing tools (like commitizen) to bump the version.
+
+We also agreed that using Git LFS would be the better choice. But that we will
+first have to see how it works in practice and on the GenomeDK server.
+
+In our discussions with Daniel Ibsen, we got more details about what they
+need and how we can work together. We'll shift our current workflows to
+start focusing on fulfilling needs (for ON-LiMiT and DP-Next), with the
+secondary goal of building packages based on our experiences and lessons
+learned.
