@@ -12,7 +12,8 @@ categories:
 
 ## Details
 
--   Maybe a dinner on April 1 and a team outing to Moesgaard Museum on April 2.
+-   Maybe a dinner on April 1 and a team outing to Moesgaard Museum on
+    April 2.
 -   **Main aims**:
     -   Do debrief, retrospective, and planning.
     -   Continue getting to know each other better.
@@ -39,7 +40,7 @@ some topics and less on others.
 ### April 2
 
 | Time | Item |
-|--------------|----------------------------------------------------------|
+|-----------------|-------------------------------------------------------|
 | 10:00 | Chat with Daniel Ibsen about ON-LiMiT collaboration |
 | 11:00 | Debrief and discuss on chat about ON-LiMiT (will likely continue after lunch) |
 | 12:00 | Lunch |
@@ -76,9 +77,9 @@ in my head:
     downloaded/ingested/raw?
 -   If we track, we'd have to figure out what tool. DVC, Git LFS, etc?
     (We probably can't answer that during these meetings).
--   If we track, how do we implement it? Making a function to do that would
-    mean that any time the user runs the script, it will make a version?
-    How would it work in the workflow? Separate script?
+-   If we track, how do we implement it? Making a function to do that
+    would mean that any time the user runs the script, it will make a
+    version? How would it work in the workflow? Separate script?
 -   How to do CHANGELOG? Do we automate it like we do with commitizen or
     do we include it as part of Sprout?
 -   What is versioning based on? When is something a version update?
@@ -114,21 +115,23 @@ with DP-Next, so we may talk about that project too.
 
 ## Minutes
 
-For the versioning of the data package, we decided that it would be a separate
-package or tool (like a Git hook). Since it doesn't fit nicely into the
-Python script workflow and is also outside the scope of Python. For example,
-how do we determine when something is a version update? Since we have been
-using Conventional Commits, we can use that to determine when something is a
-version update. Which means we need another tool to handle bumping versions,
-something that watches the commits. Or we do it manually. If we use Conventional
-Commits, we can write a guide to determine what gets considered a version update
-and then use existing tools (like commitizen) to bump the version.
+For the versioning of the data package, we decided that it would be a
+separate package or tool (like a Git hook). Since it doesn't fit nicely
+into the Python script workflow and is also outside the scope of Python.
+For example, how do we determine when something is a version update?
+Since we have been using Conventional Commits, we can use that to
+determine when something is a version update. Which means we need
+another tool to handle bumping versions, something that watches the
+commits. Or we do it manually. If we use Conventional Commits, we can
+write a guide to determine what gets considered a version update and
+then use existing tools (like commitizen) to bump the version.
 
-We also agreed that using Git LFS would be the better choice. But that we will
-first have to see how it works in practice and on the GenomeDK server.
+We also agreed that using Git LFS would be the better choice. But that
+we will first have to see how it works in practice and on the GenomeDK
+server.
 
-In our discussions with Daniel Ibsen, we got more details about what they
-need and how we can work together. We'll shift our current workflows to
-start focusing on fulfilling needs (for ON-LiMiT and DP-Next), with the
-secondary goal of building packages based on our experiences and lessons
-learned.
+In our discussions with Daniel Ibsen, we got more details about what
+they need and how we can work together. We'll shift our current
+workflows to start focusing on fulfilling needs (for ON-LiMiT and
+DP-Next), with the secondary goal of building packages based on our
+experiences and lessons learned.
