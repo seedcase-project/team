@@ -1,0 +1,53 @@
+---
+title: "Reimbursing expenses"
+---
+
+Since we work under Aarhus University, we need to use their process and
+application for reimbursing expenses. This is done through
+[RejsUd](https://sso.indfak2.dk).
+
+Once you log in, create a new reimbursement request by following these
+steps:
+
+1.  Click the "RejsUd" airplane icon on the left sidebar.
+2.  Click the "Opret/redigér afregning" button with the icon that has a
+    plus on top of a document.
+3.  Click the big blue plus button.
+4.  Fill in the fields:
+    -   Afregningsnavn: The name of the reimbursement request, e.g.,
+        "Reimbursement for travel to conference".
+    -   Afregningsskabelon: This is the type of request. This will
+        almost always be "Udgifter og Kørsel - Expenses/Driving".
+    -   Formål: The purpose, though there are only two options. Either
+        the expense was from outside of Denmark or inside Denmark. Most
+        of the time, it will be "Køb/Rejser foretaget i DK/Expenses
+        Denmark".
+    -   RejsUd stedkode: This is always 4366.
+    -   Sag: This is always 39158.
+    -   Sagsopgave: For reimbursing expenses, this is always 26101
+        ("Driftsudgifter", which is "operating expenses").
+    -   Click "Gem" to save the request.
+5.  A new page will open with two tabs: "Udgifter" and "Kørsel". Click
+    the "Udgifter" tab.
+6.  Click the blue plus button to add a new expense. Add one expense for
+    each receipt you have in this section.
+7.  A new page will open with fields to fill in related to the receipt
+    and expense.
+    -   Dato: The date of the expense.
+    -   Omkostning: A description of the expense, which is a dropdown.
+        Select which is appropriate for you.
+    -   Formål: The purpose of the expense, or rather, where the expense
+        took place, which is a dropdown. Either in Denmark or outside of
+        Denmark.
+    -   Beskrivelse: A description of the expense, e.g., "Lunch at
+        conference".
+    -   Deltagere: This is the participants of the expense. This is only
+        relevant if you are, e.g. reimbursing a meal with multiple
+        people. If so, add the names of the participants here.
+    -   Bilag: This is the receipt for the expense. Click the "Upload
+        fil" button to select the file from your computer. This will
+        switch to a new page where you can upload and describe the file.
+    -   Beløb: The amount of the expense.
+    -   Valuta: The currency of the expense, which is a dropdown. Select
+        the appropriate currency.
+    -   Click "Gem" to save the expense.
