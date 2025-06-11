@@ -14,7 +14,7 @@ This includes commands to:
 
 -   Create repository rulesets to protect our branches.
 -   Set basic settings for our repositories.
--   Create a GitHub repository from a local one.
+-   Create a GitHub repository from a local Git repository.
 -   Merging chore and sync PRs.
 
 ## Merging topic branches
@@ -34,17 +34,17 @@ general guidelines:
 -   **Squash:** Only those with atomic PRs. Atomic PRs are those that
     only include "self-contained changes" that are independent and fully
     functional on their own. E.g., a single feature and the accompanying
-    tests or a bug fix. This way, if we accidentally introduced a bug,
-    it would be easy to reverse that change.
+    tests or a bug fix. This way, if we accidentally introduce a bug,
+    it is easy to reverse that change.
 
 -   **Rebase:** Commits or PRs that have `build` and `chore` types as
     well as `sync` scopes (which usually fall under `chore` type). We
-    use rebase since we don't really care about the history and we don't
-    care if the PR number is included in the commit message.
+    use rebase since it keeps the history of `main` cleaner than merging does,  and we don't
+    need the PR number to be included in the commit message.
 
 -   **Merge:** Non-atomic/other PRs (or if the PR title starts with
     `chore: :twisted_rightwards_arrows:`). We generally avoid this
-    unless we have a good reason to do so. This is because merge commits
+    strategy unless we have a good reason to do it. This is because merge commits
     can make the history harder to read and understand.
 
 ### Stacked PRs
