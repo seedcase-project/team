@@ -124,14 +124,14 @@ determine when something is a version update. Which means we need
 another tool to handle bumping versions, something that watches the
 commits. Or we do it manually. If we use Conventional Commits, we can
 write a guide to determine what gets considered a version update and
-then use existing tools (like commitizen) to bump the version.
+then use existing tools (like Commitizen) to bump the version.
 
-We also agreed that using Git LFS would be the better choice. But that
+We also agreed that using Git LFS might be the better choice, but
 we will first have to see how it works in practice and on the GenomeDK
 server.
 
 In our discussions with Daniel Ibsen, we got more details about what
-they need and how we can work together. We'll shift our current
+they need for the ON-LiMiT project and how we can work together. We'll shift our current
 workflows to start focusing on fulfilling needs (for ON-LiMiT and
 DP-Next), with the secondary goal of building packages based on our
 experiences and lessons learned.
