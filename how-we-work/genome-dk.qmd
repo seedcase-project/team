@@ -35,46 +35,101 @@ access, and do many actions through a shell terminal. You will have to
 set up two-factor authentication using an authenticator app (they don't
 stipulate any in particular).
 
-## Connecting via SSH
+## Connecting
 
-We will primarily be working with an SSH connection, with the guidance
-on how to set up a public key to connect to the server is fairly easy to
-follow.
+### SSH {#ssh}
 
-You can then also access the files
-[locally](https://genome.au.dk/docs/working-with-data/#mounting) to be
-able to use text editors as normal.
+You can connect to your GenomeDK environment from the terminal on your
+local machine. Follow the
+[instructions](https://genome.au.dk/docs/getting-started/#ssh) on
+GenomeDK's website.
 
-## Setting up Conda
+### Desktop {#desktop}
 
-In order to work with the scripts from GitHub, you need to set up a
-Conda environment. The initial setup is described in the GenomeDK
-[documentation](https://genome.au.dk/docs/getting-started/). Once done,
-you can set up a new Conda environment with the latest version of Python
-using the following command:
+If you prefer a graphical interface, you can also access GenomeDK
+through their [virtual desktop](https://desktop.genome.au.dk). Follow
+the [instructions](https://genome.au.dk/docs/getting-started/#desktop)
+on GenomeDK's website.
 
-``` bash
-conda create --name [NAME OF ENV] python=3.12
-conda activate [NAME OF ENV]
-conda install -c conda-forge polars
-conda install -c conda-forge pyjanitor
+### Mounting files
+
+If you want to view and edit the files stored on GenomeDK using
+applications installed on your local machine, you can mount your
+GenomeDK file system locally. Follow the
+[instructions](https://genome.au.dk/docs/working-with-data/#mounting) on
+GenomeDK's website.
+
+## Installing software tools
+
+To develop Seedcase projects on GenomeDK, you will need to install uv.
+If you want to render markdown documents, you will also need to install
+Quarto.
+
+### Installing uv {#installing-uv}
+
+Log in to GenomeDK (either through [SSH](#ssh) or the [desktop
+interface](#desktop)) and open a terminal window. Run:
+
+``` {.bash filename="Terminal"}
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-This will create a new Conda environment with the name you specify and
-install the latest version of Python 3.12. You can then activate the
-environment using the `conda activate` command. The two packages
-`polars` and `pyjanitor` are installed from the conda-forge channel.
+### Installing Quarto
 
-Another option is to use the `environment.yml` file that is in the
-relevant GitHub repository. This file contains a list of all the
-packages and their versions that are required to run the scripts. You
-can create a new Conda environment using this file by running the
-following command:
+Log in to GenomeDK (either through [SSH](#ssh) or the [desktop
+interface](#desktop)) and open a terminal window. Follow the
+instructions on Quarto's
+[website](https://quarto.org/docs/download/tarball.html?version=1.7.32&idPrefix=download).
 
-``` bash
-conda env create -f environment.yml
+Notes:
+
+-   Step 3: if `~/.local/bin` exists, you don't need to run
+    `mkdir ~/.local/bin`
+-   Step 4: as the instructions say, you can probably skip this step
+-   If VS Code is open, you’ll need to restart it to detect the Quarto
+    CLI
+
+## Developing with VS Code
+
+The best way to work on Seedcase projects in VS Code is to use the VS
+Code application on your local machine and connect to GenomeDK via SSH.
+This allows you to edit files and run code on GenomeDK as if you were
+working locally. This setup uses the [Remote SSH VS Code
+extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh),
+which works by adding a `.vscode-server` folder in your home directory
+on GenomeDK. This is a lightweight backend that allows VS Code to run
+terminals, extensions, debuggers, etc., remotely on GenomeDK. If at any
+point you want to remove the backend, you can simply delete this folder.
+
+1.  Open VS Code on your local machine and install the [Remote SSH VS
+    Code
+    extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+2.  Select "Remote-SSH: Connect to Host..." from the Command Palette
+    (`F1`, `Ctrl+Shift+P`) and enter `<username>@login.genome.au.dk`
+3.  Enter your GenomeDK password when prompted
+4.  Clone your repository using the VS Code terminal, if you haven’t
+    already:
+
+``` {.bash filename="Terminal"}
+cd <.../my/projects>
+git clone <repo-url>
+cd <repo-name>
 ```
 
-This will create a new Conda environment with the name specified in the
-`environment.yml` file and install all the required packages. You can
-then activate the environment using the `conda activate` command.
+5.  Open your project folder in VS Code by clicking the "Open Folder"
+    button in the panel on the left-hand side
+6.  Install your project dependencies:
+
+``` {.bash filename="Terminal"}
+uv sync
+```
+
+For this step, you'll need to have [uv installed](#installing-uv).
+
+7.  Install any VS Code extensions needed for development (e.g. the
+    Python language extension). To list recommended extensions, open the
+    Extensions panel and type `@recommended` into the search bar. You
+    can install extensions from here.
+
+Now, you should be able to run scripts in your project using either the
+VS Code terminal or the Run/Debug UI.
