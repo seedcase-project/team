@@ -86,7 +86,7 @@ Notes:
 -   Step 3: if `~/.local/bin` exists, you don't need to run
     `mkdir ~/.local/bin`
 -   Step 4: as the instructions say, you can probably skip this step
--   If VS Code is open, you’ll need to restart it to detect the Quarto
+-   If VS Code is open, you'll need to restart it to detect the Quarto
     CLI
 
 ## Developing with VS Code
@@ -110,21 +110,20 @@ point you want to remove the backend, you can simply delete this folder.
 4.  Clone your repository using the VS Code terminal, if you haven’t
     already:
 
-``` {.bash filename="Terminal"}
-cd <.../my/projects>
-git clone <repo-url>
-cd <repo-name>
+    ``` {.bash filename="Terminal"}
+    cd <.../my/projects>
+    git clone <repo-url>
+    cd <repo-name>
 ```
 
 5.  Open your project folder in VS Code by clicking the "Open Folder"
     button in the panel on the left-hand side
-6.  Install your project dependencies:
+6.  Install your project dependencies (you'll need [uv installed](#installing-uv)):
 
-``` {.bash filename="Terminal"}
-uv sync
-```
+    ``` {.bash filename="Terminal"}
+    uv sync
+    ```
 
-For this step, you'll need to have [uv installed](#installing-uv).
 
 7.  Install any VS Code extensions needed for development (e.g. the
     Python language extension). To list recommended extensions, open the
