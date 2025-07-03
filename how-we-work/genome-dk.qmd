@@ -104,9 +104,12 @@ point you want to remove the backend, you can simply delete this folder.
 1.  Open VS Code on your local machine and install the [Remote SSH VS
     Code
     extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+
 2.  Select "Remote-SSH: Connect to Host..." from the Command Palette
     (`F1`, `Ctrl+Shift+P`) and enter `<username>@login.genome.au.dk`
+
 3.  Enter your GenomeDK password when prompted
+
 4.  Clone your repository using the VS Code terminal, if you haven’t
     already:
 
@@ -114,16 +117,17 @@ point you want to remove the backend, you can simply delete this folder.
     cd <.../my/projects>
     git clone <repo-url>
     cd <repo-name>
-```
+    ```
 
 5.  Open your project folder in VS Code by clicking the "Open Folder"
     button in the panel on the left-hand side
-6.  Install your project dependencies (you'll need [uv installed](#installing-uv)):
+
+6.  Install your project dependencies (you'll need [uv
+    installed](#installing-uv)):
 
     ``` {.bash filename="Terminal"}
     uv sync
     ```
-
 
 7.  Install any VS Code extensions needed for development (e.g. the
     Python language extension). To list recommended extensions, open the
