@@ -13,7 +13,7 @@ Within a Seedcase context we are going to use it as an example of how
 Sprout can be used to import, organise and store data on a remote
 cluster. It will also be used by the two projects that we are currently
 working with, [DP-Next](https://dp-next.github.io) and
-[ON-LiMiT](https://on-limit.github.io).
+[ON-LiMiT](https://onlimit.org/).
 
 ## Access
 
