@@ -63,7 +63,9 @@ GenomeDK's website.
 
 To develop Seedcase projects on GenomeDK, you will need to install uv.
 If you want to render markdown documents, you will also need to install
-Quarto.
+Quarto. Finally, if you want to run recipes in the
+[`justfile`](workflow.qmd#workflow-helper), you will need to install
+`just`.
 
 ### Installing uv {#installing-uv}
 
@@ -88,6 +90,15 @@ Notes:
 -   Step 4: as the instructions say, you can probably skip this step
 -   If VS Code is open, you'll need to restart it to detect the Quarto
     CLI
+
+### Installing `just`
+
+Log in to GenomeDK (either through [SSH](#ssh) or the [desktop
+interface](#desktop)) and open a terminal window. Run:
+
+``` {.bash filename="Terminal"}
+curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to ~/bin
+```
 
 ## Developing with VS Code
 
