@@ -156,5 +156,14 @@ point you want to remove the backend, you can simply delete this folder.
     Extensions panel and type `@recommended` into the search bar. You
     can install extensions from here.
 
+8.  To be able to commit to GitHub, you will need to set up your Git
+    credentials. You can do this by running the following commands in
+    the terminal:
+
+    ``` {.bash filename="Terminal"}
+    git config --global user.name "Your Name"
+    git config --global user.email "you@example.com"
+    ```
+
 Now, you should be able to run scripts in your project using either the
-VS Code terminal or the Run/Debug UI.
+VS Code terminal or the Run/Debug UI, as well as push changes to GitHub.
