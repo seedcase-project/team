@@ -123,9 +123,14 @@ point you want to remove the backend, you can simply delete this folder.
     extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
 2.  Select "Remote-SSH: Connect to Host..." from the Command Palette
-    (`F1`, `Ctrl+Shift+P`) and enter `<username>@login.genome.au.dk`
+    (`F1`, `Ctrl+Shift+P`) and enter `<username>@login.genome.au.dk`.
+    Follow the prompts given to update or create your config file. In
+    the "Remotes Explorer" panel, you should now see the GenomeDK host
+    listed as `login.genome.au.dk`.
 
-3.  Enter your GenomeDK password when prompted
+3.  Click the GenomeDK SSH entry and enter your GenomeDK password when
+    prompted. Now, you should be connected to GenomeDK and see the
+    remote file system if you open up the VS Code terminal.
 
 4.  Clone your repository using the VS Code terminal, if you haven’t
     already:
@@ -151,5 +156,14 @@ point you want to remove the backend, you can simply delete this folder.
     Extensions panel and type `@recommended` into the search bar. You
     can install extensions from here.
 
+8.  To be able to commit to GitHub, you will need to set up your Git
+    credentials. You can do this by running the following commands in
+    the terminal:
+
+    ``` {.bash filename="Terminal"}
+    git config --global user.name "Your Name"
+    git config --global user.email "you@example.com"
+    ```
+
 Now, you should be able to run scripts in your project using either the
-VS Code terminal or the Run/Debug UI.
+VS Code terminal or the Run/Debug UI, as well as push changes to GitHub.
