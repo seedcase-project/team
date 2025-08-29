@@ -51,3 +51,7 @@ steps:
     -   Valuta: The currency of the expense, which is a dropdown. Select
         the appropriate currency.
     -   Click "Gem" to save the expense.
+8.  To submit the reimbursement request, go back to the list of your
+    expenses ("kladder"), and click the "Send" button in the top right
+    corner. This will open a new page. Click the "Send" button at the
+    bottom of the page.
