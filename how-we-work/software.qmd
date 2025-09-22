@@ -14,8 +14,6 @@ website](https://decisions.seedcase-project.org).
     types of purposes and uses.
 -   [Discord](https://discord.com/download): Our main communication
     software for messaging and having meetings.
--   [Docker](https://docs.docker.com/get-docker/): This handles the
-    containerization of our products.
 -   [Git](https://git-scm.com/downloads): We use Git for version control
     and we host all our content on GitHub.
 -   [Justfile](https://just.systems/): Just is a
