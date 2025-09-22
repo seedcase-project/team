@@ -172,7 +172,7 @@ In the Terminal, type out `just` and hit Enter to see a list of commands
 you can use for helping you develop the project and work better together
 in a team. Read the descriptions for each of the commands to identify
 which ones you want or need to use. For instance, if you need to
-reformat your code or markdown, or start Docker, or build the website
+reformat your code or Markdown, or build the website
 locally, all of these commands are found in the `justfile`.
 
 ## Writing Python code
