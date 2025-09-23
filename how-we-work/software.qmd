@@ -17,9 +17,8 @@ website](https://decisions.seedcase-project.org).
 -   [Git](https://git-scm.com/downloads): We use Git for version control
     and we host all our content on GitHub.
 -   [Justfile](https://just.systems/): Just is a command runner that we
-    use to manage many workflow and build tasks, such as creating or
-    re-generating diagrams that were created with PlantUML, running
-    tests on code, and building the software apps.
+    use to manage many workflow and build tasks, such as running
+    tests on code, check spelling, and building the website.
 -   [Python 3](https://www.python.org/downloads/): We use Python to
     build our software.
 -   [Quarto](https://quarto.org/docs/get-started/): We use Quarto to
