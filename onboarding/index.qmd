@@ -112,8 +112,8 @@ improvements.
     guidelines, onboarding material, and event details/agendas for the
     Seedcase Project team.
 3.  [General contributing guidelines
-    website](https://community.seedcase-project.org/#contributing): This
-    website covers some general contributing guidelines for the Seedcase
+    website](https://guidebook.seedcase-project.org/): This website
+    covers some general contributing guidelines for the Seedcase
     Project.
 4.  [Community pages](https://community.seedcase-project.org/): This
     website is used for content we want people outside the team, like an
