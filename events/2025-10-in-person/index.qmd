@@ -1,0 +1,163 @@
+---
+title: "Two day in-person team planning and learning sessions"
+description: "Details and agendas for our 2-day in-person sessions."
+author: "Luke W. Johnston"
+date: "2025-10-22"
+categories:
+  - in-person
+  - meeting
+  - planning
+  - learning
+---
+
+## Details
+
+-   A team outing to Moesgaard Museum on October 22.
+-   **Main aims**:
+    -   Do debrief, retrospective, and planning.
+    -   Continue getting to know each other better.
+    -   Brainstorm on versioning of data and tracking changes.
+    -   Learn more about and discuss ON-LiMiT collaboration.
+
+## Schedule
+
+The schedule is meant as a **guide only**. We might spend more time on
+some topics and less on others.
+
+### April 1
+
+| Time  | Item                                                            |
+|-------|-----------------------------------------------------------------|
+| 10:00 | Debrief and retrospective for iteration, including demo by Kris |
+| 12:00 | Lunch                                                           |
+| 13:00 | Brainstorming on versioning of data and tracking changes        |
+| 14:00 | :coffee: Coffee break                                           |
+| 14:15 | Continue with brainstorming                                     |
+| 16:00 | Wrap up                                                         |
+| 17:00 | Dinner together?                                                |
+
+### April 2
+
+| Time | Item |
+|-----------------|-------------------------------------------------------|
+| 10:00 | Chat with Daniel Ibsen about ON-LiMiT collaboration |
+| 11:00 | Debrief and discuss on chat about ON-LiMiT (will likely continue after lunch) |
+| 12:00 | Lunch |
+| 13:00 | Planning for next iteration, plus general discussions about longer term plans |
+| 14:00 | :coffee: Coffee break, then continue |
+| \~15:00 | Head to Moesgaard for a team social trip, plus dinner there |
+
+## Sessions
+
+All brainstorming sessions start with some dedicated individual time to
+think and write down thoughts, then we will discuss them all together.
+
+The debrief, retrospective, and planning are the usual ones we do, so
+there is nothing needed to explain or describe about it here.
+
+### Introduction to Denmark Statistics work in DP-Next
+
+Since we're collaborating with DP-Next on tooling and some of the data side of
+things, the aim of this session is to provide information on Denmark Statistics (DST),
+how it relates to work in DP-Next and to Steno Aarhus in general, and how the Seedcase
+team would like to contribute in this area.
+
+we've talked about having some internal informational meetings about how
+DST is structured and how we'd go about formally creating the tool to convert
+the SAS registers into Parquet (I already have done that during my post-doc).
+
+Anders suggested expanding that internal meeting out and including more people. For example, Kasper and Marie, we've heard that you guys are discussing Parquet conversion already, so this would be a good time to include you in this meeting too.
+
+The general agenda will be:
+
+- Introductions to this session, overall aim for outcomes.
+- Describing DST and how they organize their data (files, folders, format). Anders will demonstrate this part.
+- Describing what Parquet is, why it's great, and what problems it solves in DST. Done by Luke.
+- Sharing any updates on what Steno Aarhus wants to do in this area with registers. Kasper and Marie can share this part.
+- Explaining how StatTransfer works and
+
+
+
+The general idea is to have a 2 hour meeting for mostly informational purposes, but also general discussions, about what Parquet is, how does it relate to DST, how is the folder/file structure in DST, how StatTransfer works, and how my code works, as well as some discussions on converting that out into a tool that any Steno center can use to do automated effective conversions to (and use of) Parquet.
+
+###
+
+### Brainstorming on versioning
+
+::: callout-note
+We may (or may not!) do the versioning after first uploading to PyPI, so
+maybe a short iteration or two on that after the next two milestones.
+:::
+
+This brainstorming is very open-ended, though I do have some ideas about
+it. But would be good to get different thoughts and perspectives around
+versioning data. Here is a unfiltered list of some things that have been
+in my head:
+
+-   Versioning of data (e.g. `v0.1.0`), Frictionless recommends SemVer,
+    is that good enough?
+-   Tracking changes to data... ideas on how? Do it, or not?
+-   Tracking of changes in general? Explicitly recommend using Git
+    and/or make functions in Sprout that integrate with Git?
+-   If we track data, only track data in `batch/`? What about
+    downloaded/ingested/raw?
+-   If we track, we'd have to figure out what tool. DVC, Git LFS, etc?
+    (We probably can't answer that during these meetings).
+-   If we track, how do we implement it? Making a function to do that
+    would mean that any time the user runs the script, it will make a
+    version? How would it work in the workflow? Separate script?
+-   How to do CHANGELOG? Do we automate it like we do with commitizen or
+    do we include it as part of Sprout?
+-   What is versioning based on? When is something a version update?
+-   How to handle commits, what are the names of the commits? Make use
+    of conventional commits?
+-   Use tags for versions? How to handle tags? How do DVC and Git LFS
+    handle tags (not sure we can answer that, but something to
+    consider)?
+-   How might that be implemented on e.g. GenomeDK or Denmark
+    Statistics?
+
+### Discussions about ON-LiMiT
+
+We'll meet with Daniel Ibsen to discuss the ON-LiMiT collaboration,
+where he'll share some updates and we can get into some details about
+how we will work together.
+
+The debrief sessions will be going over the chat we had and discussing
+what we think about it. Depending on what we chat about, we could have a
+lot to discuss here that could get into some practical details and
+brainstorming. But really depends on what happens in the chat.
+
+Some things we might discuss in the meeting debrief:
+
+-   Thinking how Sprout will fit in with downloading/inputting different
+    sources of data, coming from, e.g. RedCap, "FitBit" type watches.
+-   Using GenomeDK for data storage (is Linux server), how that will fit
+    with our potential workflows around using Sprout.
+-   How would we like to work together? What are our wants?
+
+These discussions will also have some connections to what we will do
+with DP-Next, so we may talk about that project too.
+
+## Minutes
+
+For the versioning of the data package, we decided that it would be a
+separate package or tool (like a Git hook). Since it doesn't fit nicely
+into the Python script workflow and is also outside the scope of Python.
+For example, how do we determine when something is a version update?
+Since we have been using Conventional Commits, we can use that to
+determine when something is a version update. Which means we need
+another tool to handle bumping versions, something that watches the
+commits. Or we do it manually. If we use Conventional Commits, we can
+write a guide to determine what gets considered a version update and
+then use existing tools (like Commitizen) to bump the version.
+
+We also agreed that using Git LFS might be the better choice, but
+we will first have to see how it works in practice and on the GenomeDK
+server.
+
+In our discussions with Daniel Ibsen, we got more details about what
+they need for the ON-LiMiT project and how we can work together. We'll shift our current
+workflows to start focusing on fulfilling needs (for ON-LiMiT and
+DP-Next), with the secondary goal of building packages based on our
+experiences and lessons learned.
