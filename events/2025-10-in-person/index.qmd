@@ -12,152 +12,124 @@ categories:
 
 ## Details
 
--   A team outing to Moesgaard Museum on October 22.
+-   A team outing to TBD and dinner on October 23.
 -   **Main aims**:
-    -   Do debrief, retrospective, and planning.
-    -   Continue getting to know each other better.
-    -   Brainstorm on versioning of data and tracking changes.
-    -   Learn more about and discuss ON-LiMiT collaboration.
+    -   "Teambuilding": Do some social, non-work-related activities.
+    -   Share some knowledge, skills, and tools with each other.
+    -   Align on strategy and roadmap.
+    -   Hear some details about DP-Next collaboration.
 
 ## Schedule
 
 The schedule is meant as a **guide only**. We might spend more time on
 some topics and less on others.
 
-### April 1
-
-| Time  | Item                                                            |
-|-------|-----------------------------------------------------------------|
-| 10:00 | Debrief and retrospective for iteration, including demo by Kris |
-| 12:00 | Lunch                                                           |
-| 13:00 | Brainstorming on versioning of data and tracking changes        |
-| 14:00 | :coffee: Coffee break                                           |
-| 14:15 | Continue with brainstorming                                     |
-| 16:00 | Wrap up                                                         |
-| 17:00 | Dinner together?                                                |
-
-### April 2
+### October 23
 
 | Time | Item |
-|-----------------|-------------------------------------------------------|
-| 10:00 | Chat with Daniel Ibsen about ON-LiMiT collaboration |
-| 11:00 | Debrief and discuss on chat about ON-LiMiT (will likely continue after lunch) |
+|----------------|--------------------------------------------------------|
+| 09:30 | An overview and discussion of the strategy, roadmap, and collaborations |
+| 11:00 | Lightning rounds to share tools and tips |
 | 12:00 | Lunch |
-| 13:00 | Planning for next iteration, plus general discussions about longer term plans |
-| 14:00 | :coffee: Coffee break, then continue |
-| \~15:00 | Head to Moesgaard for a team social trip, plus dinner there |
+| 13:00 | A presentation on a structured approach to writing code for software and analyses |
+| 14:00 | :coffee: Coffee break |
+| 14:10 | Continuing from previous session |
+| 15:00 | Break (Luke has a meeting at this time) |
+| 16:00 | Social activities and dinner |
+
+### October 24
+
+| Time    | Item                                               |
+|---------|----------------------------------------------------|
+| 10:00   | Introduction to Denmark Statistics work in DP-Next |
+| 12:00   | Lunch                                              |
+| 13:00   | Debrief from discussion meeting                    |
+| 14:00   | :coffee: Coffee break                              |
+| 14:10   | TBD                                                |
+| \~16:30 | End of day                                         |
+
+We can also have an informal dinner out afterwards.
 
 ## Sessions
 
-All brainstorming sessions start with some dedicated individual time to
-think and write down thoughts, then we will discuss them all together.
+### Overview and discussion of the strategy, roadmap, and collaborations
 
-The debrief, retrospective, and planning are the usual ones we do, so
-there is nothing needed to explain or describe about it here.
+Review the overall strategy and roadmap again, especially in the context
+of our collaborations with ON-LiMiT and DP-Next as well as having Joel
+with us. We'll make sure we're all aligned in understanding what we want
+and hope to achieve in the next few months. We'll also talk about the
+different "roles" and teams we have currently as well as in the future.
+Especially we'll want to discuss how to prioritise effectively.
+
+While this session is more informal, this is the general agenda:
+
+-   Review/revisit strategy and roadmap.
+-   Review tasks and projects in ON-LiMiT, including current
+    repositories, work, and boards.
+-   Review DP-Next, including repositories and GitHub, as well as
+    potential/expected projects and tasks.
+-   Share what we all would like to work on (mostly to hear from Joel).
+-   Align what we want to work on and prioritise over the next \~6
+    months.
+-   Review [team design
+    principles](https://design.seedcase-project.org/organisation/teams),
+    as well as Team Topologies.
+-   Discuss what teams we'll have, our roles in them, and how we'd like
+    to work together with them.
+
+### Lightning rounds to share tools and tips
+
+-   **Luke**: Using [`gh dash`](https://gh-dash.dev), a GitHub CLI
+    extension, to list PRs to review, approve, merge and so on, all from
+    the CLI.
+
+-   **Joel**: Walk through what is Vim, some basic keybindings, and how
+    to use it in the Terminal or VS Code.
+
+### A presentation on a structured approach to writing code for software and analyses
+
+Luke will do this presentation that will last about 2 hrs and will
+include lots of time for informal questions and discussions. We'll
+advertise to and invite others to attend, so the presentation will be
+targeted to a more general audience.
+
+We'll cover a basic introduction to functional programming for doing
+data analysis and building software. We'll go into the conceptual and
+(simple) mathematical foundations of it in a programming
+language-agnostic way. Then I'll show some examples in Python and R, as
+well as how it might look in a stricter, more advanced language like
+Rust.
+
+Slides will be posted to the Community website (link will be added here
+later).
 
 ### Introduction to Denmark Statistics work in DP-Next
 
-Since we're collaborating with DP-Next on tooling and some of the data side of
-things, the aim of this session is to provide information on Denmark Statistics (DST),
-how it relates to work in DP-Next and to Steno Aarhus in general, and how the Seedcase
-team would like to contribute in this area.
+Since we're collaborating with DP-Next on tooling and some of the data
+side of things, the aim of this session is to provide information on
+Denmark Statistics (DST), how it relates to work in DP-Next and to Steno
+Aarhus in general, and how the Seedcase team would like to contribute in
+this area.
 
-we've talked about having some internal informational meetings about how
-DST is structured and how we'd go about formally creating the tool to convert
-the SAS registers into Parquet (I already have done that during my post-doc).
+This session will be a 2 hour meeting and will have the following
+general agenda:
 
-Anders suggested expanding that internal meeting out and including more people. For example, Kasper and Marie, we've heard that you guys are discussing Parquet conversion already, so this would be a good time to include you in this meeting too.
+-   Luke: Introductions to this session, overall aim and desired
+    outcomes.
+-   Anders: Describing DST and demonstrating/showing how they organize
+    their data (files, folders, format).
+-   Luke: Explain what Parquet is, why it's great, and what problems it
+    solves in DST.
+-   Kasper and Marie: Sharing any updates on what Steno Aarhus wants to
+    do in this area with registers.
+-   Kasper/Marie/Anders?: Explaining how StatTransfer works, give a
+    demonstration of it, and expected way of using it.
+-   Luke: Give overview of my code/package, what it does, and how, then
+    compare it to StatTransfer.
 
-The general agenda will be:
+### Debrief from discussion meeting
 
-- Introductions to this session, overall aim for outcomes.
-- Describing DST and how they organize their data (files, folders, format). Anders will demonstrate this part.
-- Describing what Parquet is, why it's great, and what problems it solves in DST. Done by Luke.
-- Sharing any updates on what Steno Aarhus wants to do in this area with registers. Kasper and Marie can share this part.
-- Explaining how StatTransfer works and
-
-
-
-The general idea is to have a 2 hour meeting for mostly informational purposes, but also general discussions, about what Parquet is, how does it relate to DST, how is the folder/file structure in DST, how StatTransfer works, and how my code works, as well as some discussions on converting that out into a tool that any Steno center can use to do automated effective conversions to (and use of) Parquet.
-
-###
-
-### Brainstorming on versioning
-
-::: callout-note
-We may (or may not!) do the versioning after first uploading to PyPI, so
-maybe a short iteration or two on that after the next two milestones.
-:::
-
-This brainstorming is very open-ended, though I do have some ideas about
-it. But would be good to get different thoughts and perspectives around
-versioning data. Here is a unfiltered list of some things that have been
-in my head:
-
--   Versioning of data (e.g. `v0.1.0`), Frictionless recommends SemVer,
-    is that good enough?
--   Tracking changes to data... ideas on how? Do it, or not?
--   Tracking of changes in general? Explicitly recommend using Git
-    and/or make functions in Sprout that integrate with Git?
--   If we track data, only track data in `batch/`? What about
-    downloaded/ingested/raw?
--   If we track, we'd have to figure out what tool. DVC, Git LFS, etc?
-    (We probably can't answer that during these meetings).
--   If we track, how do we implement it? Making a function to do that
-    would mean that any time the user runs the script, it will make a
-    version? How would it work in the workflow? Separate script?
--   How to do CHANGELOG? Do we automate it like we do with commitizen or
-    do we include it as part of Sprout?
--   What is versioning based on? When is something a version update?
--   How to handle commits, what are the names of the commits? Make use
-    of conventional commits?
--   Use tags for versions? How to handle tags? How do DVC and Git LFS
-    handle tags (not sure we can answer that, but something to
-    consider)?
--   How might that be implemented on e.g. GenomeDK or Denmark
-    Statistics?
-
-### Discussions about ON-LiMiT
-
-We'll meet with Daniel Ibsen to discuss the ON-LiMiT collaboration,
-where he'll share some updates and we can get into some details about
-how we will work together.
-
-The debrief sessions will be going over the chat we had and discussing
-what we think about it. Depending on what we chat about, we could have a
-lot to discuss here that could get into some practical details and
-brainstorming. But really depends on what happens in the chat.
-
-Some things we might discuss in the meeting debrief:
-
--   Thinking how Sprout will fit in with downloading/inputting different
-    sources of data, coming from, e.g. RedCap, "FitBit" type watches.
--   Using GenomeDK for data storage (is Linux server), how that will fit
-    with our potential workflows around using Sprout.
--   How would we like to work together? What are our wants?
-
-These discussions will also have some connections to what we will do
-with DP-Next, so we may talk about that project too.
+This session is to debrief from our previous session, to get aligned
+with each other and discuss and decide on next steps.
 
 ## Minutes
-
-For the versioning of the data package, we decided that it would be a
-separate package or tool (like a Git hook). Since it doesn't fit nicely
-into the Python script workflow and is also outside the scope of Python.
-For example, how do we determine when something is a version update?
-Since we have been using Conventional Commits, we can use that to
-determine when something is a version update. Which means we need
-another tool to handle bumping versions, something that watches the
-commits. Or we do it manually. If we use Conventional Commits, we can
-write a guide to determine what gets considered a version update and
-then use existing tools (like Commitizen) to bump the version.
-
-We also agreed that using Git LFS might be the better choice, but
-we will first have to see how it works in practice and on the GenomeDK
-server.
-
-In our discussions with Daniel Ibsen, we got more details about what
-they need for the ON-LiMiT project and how we can work together. We'll shift our current
-workflows to start focusing on fulfilling needs (for ON-LiMiT and
-DP-Next), with the secondary goal of building packages based on our
-experiences and lessons learned.
