@@ -1,6 +1,6 @@
 ---
-title: "Two day in-person team planning and learning sessions"
-description: "Details and agendas for our 2-day in-person sessions."
+title: "Two-day in-person team planning and learning sessions"
+description: "Agenda for our two-day in-person sessions."
 author: "Luke W. Johnston"
 date: "2025-10-22"
 categories:
@@ -14,10 +14,10 @@ categories:
 
 -   A team outing to TBD and dinner on October 23.
 -   **Main aims**:
-    -   "Teambuilding": Do some social, non-work-related activities.
+    -   Team building: Do some social, non-work-related activities.
     -   Share some knowledge, skills, and tools with each other.
     -   Align on strategy and roadmap.
-    -   Hear some details about DP-Next collaboration.
+    -   Hear some details about the DP-Next collaboration.
 
 ## Schedule
 
