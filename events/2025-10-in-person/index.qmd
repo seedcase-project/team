@@ -12,10 +12,11 @@ categories:
 
 ## Details
 
--   A team outing to TBD and dinner on October 23.
+-   A team building, social activities, and dinner on October 23.
 -   **Main aims**:
-    -   Team building: Do some social, non-work-related activities.
-    -   Share some knowledge, skills, and tools with each other.
+    -   Team building: Some social, non-work-related activities.
+    -   Share some knowledge, skills, and tools with each other for some
+        peer learning.
     -   Align on strategy and roadmap.
     -   Hear some details about the DP-Next collaboration.
 
@@ -34,7 +35,7 @@ some topics and less on others.
 | 13:00 | A presentation on a structured approach to writing code for software and analyses |
 | 14:00 | :coffee: Coffee break |
 | 14:10 | Continuing from previous session |
-| 15:00 | Break (Luke has a meeting at this time) |
+| 15:00 | Break (Luke has a meeting at this time). Fussball? |
 | 16:00 | Social activities and dinner |
 
 ### October 24
@@ -44,9 +45,7 @@ some topics and less on others.
 | 10:00   | Introduction to Denmark Statistics work in DP-Next |
 | 12:00   | Lunch                                              |
 | 13:00   | Debrief from discussion meeting                    |
-| 14:00   | :coffee: Coffee break                              |
-| 14:10   | TBD                                                |
-| \~16:30 | End of day                                         |
+| 14:00   | Social activities                                  |
 
 We can also have an informal dinner out afterwards.
 
@@ -79,12 +78,17 @@ While this session is more informal, this is the general agenda:
 
 ### Lightning rounds to share tools and tips
 
+-   **Luke**: High level introduction to [Rust](https://www.rust-lang.org/),
+    mainly to share some features, benefits, and simple examples of some code.
+
 -   **Luke**: Using [`gh dash`](https://gh-dash.dev), a GitHub CLI
     extension, to list PRs to review, approve, merge and so on, all from
     the CLI.
 
 -   **Joel**: Walk through what is Vim, some basic keybindings, and how
     to use it in the Terminal or VS Code.
+
+-   **Kris**: Show off REDCap and the data dictionary from it for ON-LiMiT.
 
 ### A presentation on a structured approach to writing code for software and analyses
 
@@ -96,9 +100,9 @@ targeted to a more general audience.
 We'll cover a basic introduction to functional programming for doing
 data analysis and building software. We'll go into the conceptual and
 (simple) mathematical foundations of it in a programming
-language-agnostic way. Then I'll show some examples in Python and R, as
-well as how it might look in a stricter, more advanced language like
-Rust.
+language-agnostic way. Then I'll show some examples in Python and R.
+Later in the session, I might show how it might look in a stricter,
+more advanced language like Rust.
 
 Slides will be posted to the Community website (link will be added here
 later).
