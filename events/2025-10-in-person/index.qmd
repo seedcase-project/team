@@ -1,0 +1,139 @@
+---
+title: "Two-day in-person team planning and learning sessions"
+description: "Agenda for our two-day in-person sessions."
+author: "Luke W. Johnston"
+date: "2025-10-22"
+categories:
+  - in-person
+  - meeting
+  - planning
+  - learning
+---
+
+## Details
+
+-   A team building, social activities, and dinner on October 23.
+-   **Main aims**:
+    -   Team building: Some social, non-work-related activities.
+    -   Share some knowledge, skills, and tools with each other for some
+        peer learning.
+    -   Align on strategy and roadmap.
+    -   Hear some details about the DP-Next collaboration.
+
+## Schedule
+
+The schedule is meant as a **guide only**. We might spend more time on
+some topics and less on others.
+
+### October 23
+
+| Time | Item |
+|----------------|--------------------------------------------------------|
+| 09:30 | An overview and discussion of the strategy, roadmap, and collaborations |
+| 11:00 | Lightning rounds to share tools and tips |
+| 12:00 | Lunch |
+| 13:00 | A presentation on a structured approach to writing code for software and analyses |
+| 14:00 | :coffee: Coffee break |
+| 14:10 | Continuing from previous session |
+| 15:00 | Break (Luke has a meeting at this time). Fussball? |
+| 16:00 | Social activities and dinner |
+
+### October 24
+
+| Time    | Item                                               |
+|---------|----------------------------------------------------|
+| 10:00   | Introduction to Denmark Statistics work in DP-Next |
+| 12:00   | Lunch                                              |
+| 13:00   | Debrief from discussion meeting                    |
+| 14:00   | Social activities                                  |
+
+We can also have an informal dinner out afterwards.
+
+## Sessions
+
+### Overview and discussion of the strategy, roadmap, and collaborations
+
+Review the overall strategy and roadmap again, especially in the context
+of our collaborations with ON-LiMiT and DP-Next as well as having Joel
+with us. We'll make sure we're all aligned in understanding what we want
+and hope to achieve in the next few months. We'll also talk about the
+different "roles" and teams we have currently as well as in the future.
+Especially we'll want to discuss how to prioritise effectively.
+
+While this session is more informal, this is the general agenda:
+
+-   Review/revisit strategy and roadmap.
+-   Review tasks and projects in ON-LiMiT, including current
+    repositories, work, and boards.
+-   Review DP-Next, including repositories and GitHub, as well as
+    potential/expected projects and tasks.
+-   Share what we all would like to work on (mostly to hear from Joel).
+-   Align what we want to work on and prioritise over the next \~6
+    months.
+-   Review [team design
+    principles](https://design.seedcase-project.org/organisation/teams),
+    as well as Team Topologies.
+-   Discuss what teams we'll have, our roles in them, and how we'd like
+    to work together with them.
+
+### Lightning rounds to share tools and tips
+
+-   **Luke**: High level introduction to [Rust](https://www.rust-lang.org/),
+    mainly to share some features, benefits, and simple examples of some code.
+
+-   **Luke**: Using [`gh dash`](https://gh-dash.dev), a GitHub CLI
+    extension, to list PRs to review, approve, merge and so on, all from
+    the CLI.
+
+-   **Joel**: Walk through what is Vim, some basic keybindings, and how
+    to use it in the Terminal or VS Code.
+
+-   **Kris**: Show off REDCap and the data dictionary from it for ON-LiMiT.
+
+### A presentation on a structured approach to writing code for software and analyses
+
+Luke will do this presentation that will last about 2 hrs and will
+include lots of time for informal questions and discussions. We'll
+advertise to and invite others to attend, so the presentation will be
+targeted to a more general audience.
+
+We'll cover a basic introduction to functional programming for doing
+data analysis and building software. We'll go into the conceptual and
+(simple) mathematical foundations of it in a programming
+language-agnostic way. Then I'll show some examples in Python and R.
+Later in the session, I might show how it might look in a stricter,
+more advanced language like Rust.
+
+Slides will be posted to the Community website (link will be added here
+later).
+
+### Introduction to Denmark Statistics work in DP-Next
+
+Since we're collaborating with DP-Next on tooling and some of the data
+side of things, the aim of this session is to provide information on
+Denmark Statistics (DST), how it relates to work in DP-Next and to Steno
+Aarhus in general, and how the Seedcase team would like to contribute in
+this area.
+
+This session will be a 2 hour meeting and will have the following
+general agenda:
+
+-   Luke: Introductions to this session, overall aim and desired
+    outcomes.
+-   Anders: Describing DST and demonstrating/showing how they organize
+    their data (files, folders, format).
+-   Luke: Explain what Parquet is, why it's great, and what problems it
+    solves in DST.
+-   Kasper and Marie: Sharing any updates on what Steno Aarhus wants to
+    do in this area with registers.
+-   Kasper/Marie/Anders?: Explaining how StatTransfer works, give a
+    demonstration of it, and expected way of using it.
+-   Luke: Give overview of my code/package, what it does, and how, then
+    compare it to StatTransfer.
+
+### Debrief from discussion meeting
+
+This session is to debrief from our previous session, to get aligned
+with each other and discuss and decide on next steps.
+
+## Minutes
