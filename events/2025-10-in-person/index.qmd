@@ -12,7 +12,7 @@ categories:
 
 ## Details
 
--   A team building, social activities, and dinner on October 23.
+-   Team building, social activities, and dinners on October 23 to 24.
 -   **Main aims**:
     -   Team building: Some social, non-work-related activities.
     -   Share some knowledge, skills, and tools with each other for some
@@ -28,7 +28,7 @@ some topics and less on others.
 ### October 23
 
 | Time | Item |
-|------------------|------------------------------------------------------|
+|--------------------|----------------------------------------------------|
 | 09:30 | An overview and discussion of the strategy, roadmap, and collaborations |
 | 11:00 | Lightning rounds to share tools and tips |
 | 12:00 | Lunch |
@@ -36,7 +36,7 @@ some topics and less on others.
 | 14:00 | :coffee: Coffee break |
 | 14:10 | Continuing from previous session |
 | 15:00 | Break (Luke has a meeting at this time). Fussball? |
-| 16:00 | Social activities and dinner |
+| 16:00 | Social activities (escape room challenge) and dinner |
 
 ### October 24
 
@@ -45,9 +45,7 @@ some topics and less on others.
 | 10:00 | Introduction to Denmark Statistics work in DP-Next |
 | 12:00 | Lunch                                              |
 | 13:00 | Debrief from discussion meeting                    |
-| 14:00 | Social activities                                  |
-
-We can also have an informal dinner out afterwards.
+| 14:00 | Social activities (Den Gamle By) and dinner        |
 
 ## Sessions
 
