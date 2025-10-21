@@ -2,7 +2,7 @@
 title: "Two-day in-person team planning and learning sessions"
 description: "Agenda for our two-day in-person sessions."
 author: "Luke W. Johnston"
-date: "2025-10-22"
+date: "2025-10-23"
 categories:
   - in-person
   - meeting
@@ -12,7 +12,7 @@ categories:
 
 ## Details
 
--   A team building, social activities, and dinner on October 23.
+-   Team building, social activities, and dinners on October 23 to 24.
 -   **Main aims**:
     -   Team building: Some social, non-work-related activities.
     -   Share some knowledge, skills, and tools with each other for some
@@ -28,7 +28,7 @@ some topics and less on others.
 ### October 23
 
 | Time | Item |
-|----------------|--------------------------------------------------------|
+|--------------------|----------------------------------------------------|
 | 09:30 | An overview and discussion of the strategy, roadmap, and collaborations |
 | 11:00 | Lightning rounds to share tools and tips |
 | 12:00 | Lunch |
@@ -36,18 +36,16 @@ some topics and less on others.
 | 14:00 | :coffee: Coffee break |
 | 14:10 | Continuing from previous session |
 | 15:00 | Break (Luke has a meeting at this time). Fussball? |
-| 16:00 | Social activities and dinner |
+| 16:00 | Social activities (escape room challenge) and dinner |
 
 ### October 24
 
-| Time    | Item                                               |
-|---------|----------------------------------------------------|
-| 10:00   | Introduction to Denmark Statistics work in DP-Next |
-| 12:00   | Lunch                                              |
-| 13:00   | Debrief from discussion meeting                    |
-| 14:00   | Social activities                                  |
-
-We can also have an informal dinner out afterwards.
+| Time  | Item                                               |
+|-------|----------------------------------------------------|
+| 10:00 | Introduction to Denmark Statistics work in DP-Next |
+| 12:00 | Lunch                                              |
+| 13:00 | Debrief from discussion meeting                    |
+| 14:00 | Social activities (Den Gamle By) and dinner        |
 
 ## Sessions
 
@@ -78,8 +76,13 @@ While this session is more informal, this is the general agenda:
 
 ### Lightning rounds to share tools and tips
 
--   **Luke**: High level introduction to [Rust](https://www.rust-lang.org/),
-    mainly to share some features, benefits, and simple examples of some code.
+-   **Marton**: Demo debugging in Python package using VS Code.
+
+-   **Luke**: High level introduction to
+    [Rust](https://www.rust-lang.org/), mainly to share some features,
+    benefits, and simple examples of some code. Will walk through my
+    personal learning package
+    [`waltrs`](https://github.com/lwjohnst86/waltrs) as an example.
 
 -   **Luke**: Using [`gh dash`](https://gh-dash.dev), a GitHub CLI
     extension, to list PRs to review, approve, merge and so on, all from
@@ -88,7 +91,8 @@ While this session is more informal, this is the general agenda:
 -   **Joel**: Walk through what is Vim, some basic keybindings, and how
     to use it in the Terminal or VS Code.
 
--   **Kris**: Show off REDCap and the data dictionary from it for ON-LiMiT.
+-   **Kris**: Show off REDCap and the data dictionary from it for
+    ON-LiMiT.
 
 ### A presentation on a structured approach to writing code for software and analyses
 
@@ -101,8 +105,8 @@ We'll cover a basic introduction to functional programming for doing
 data analysis and building software. We'll go into the conceptual and
 (simple) mathematical foundations of it in a programming
 language-agnostic way. Then I'll show some examples in Python and R.
-Later in the session, I might show how it might look in a stricter,
-more advanced language like Rust.
+Later in the session, I might show how it might look in a stricter, more
+advanced language like Rust.
 
 Slides will be posted to the Community website (link will be added here
 later).
