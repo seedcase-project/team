@@ -85,7 +85,7 @@ While this session is more informal, this is the general agenda:
 -   **Kris**: Show off REDCap and the data dictionary from it for
     ON-LiMiT.
 
--   **Joel**: Walk through what is Vim, some basic keybindings, and how
+-   **Joel**: Walk through what Vim is, some basic keybindings, and how
     to use it in the Terminal or VS Code.
 
 -   **Luke**: Using [`gh dash`](https://gh-dash.dev), a GitHub CLI
@@ -94,7 +94,7 @@ While this session is more informal, this is the general agenda:
 
 -   **Luke**: High level introduction to
     [Rust](https://www.rust-lang.org/), mainly to share some features,
-    benefits, and simple examples of some code. Will walk through my
+    benefits, and simple examples of some code. Walk through
     personal learning package
     [`waltrs`](https://github.com/lwjohnst86/waltrs) as an example.
 
@@ -159,8 +159,8 @@ including them in our in-person sessions.
 -   We agreed that we want to continue focusing and prioritising work
     that revolves around building up the Seedcase software and
     collaborating on projects that want to use it.
--   We also would like to spend some time in developing educational
-    resources, though we aren't sure how much to prioritise this right
+-   We also would like to spend some time developing educational
+    resources, including our guidebook, though we aren't sure how much to prioritise this right
     now.
 
 ### Introduction to Denmark Statistics work in DP-Next
@@ -168,10 +168,10 @@ including them in our in-person sessions.
 -   We learned a lot more about what Steno Aarhus aims to do with the
     register data from Denmark Statistics (DST) and how DST organises
     and structures their files and folders. This also was relevant to
-    better understanding how the "meta" register project that Marie
+    better understanding how the "meta" register project, the Register Project Database, that Marie
     manages is structured too.
 -   We determined that converting the
     [`registers2parquet`](https://github.com/dp-next/registers2parquet)
     package into a formal CRAN package would be useful to them and a
     good use of our time (as well as something we are interested in
-    pursuing)
+    pursuing).
