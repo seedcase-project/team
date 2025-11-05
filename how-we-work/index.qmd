@@ -13,5 +13,11 @@ listing:
 
 {{< include /includes/_wip.qmd >}}
 
+While we have our [guidebook](https://guidebook.seedcase-project.org/)
+that contains some general guides for developing content (either
+software or websites) as part of a team in Seedcase, this website
+contains more specific, usually administrative tasks or processes we do
+when while working on Seedcase.
+
 ::: {#how-we-work}
 :::
