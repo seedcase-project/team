@@ -6,14 +6,25 @@ While we try to limit meetings as much as is appropriate, we do have
 twice-weekly update meetings. We draw inspiration from ["daily
 scrums"](https://www.scrum.org/resources/what-is-a-daily-scrum) to keep
 each other updated on what everyone else is doing. Except, instead of
-daily, we have them twice-weekly. These are some guidelines on running
-these update meetings:
+daily, we have them twice-weekly. We have update meetings for our work
+in the Seedcase Project as well as for each of our main collaborating
+projects. These are some guidelines on running these update meetings:
 
--   Keep meeting to \~30 minutes.
+-   Keep total meeting time for all project updates to less than 30
+    minutes. For example, if we have two projects (including the main
+    Seedcase work), each project update meeting should be 15 minutes or
+    less so that the total time is under 30 minutes.
+-   Since we invite external people to the collaborating project update
+    meetings, we do those updates first and end with the Seedcase
+    project update.
+-   To ensure that we complete each update meeting on time and don't go
+    over time into the next update meeting, we start and end precisely
+    when we have them in the calendar. This way we also communicate to
+    our external collaborators precisely when they can join and leave.
 -   At the start of the meeting, the team lead will briefly share any
     general updates or discussion points.
 -   Briefly review the iteration objective.
--   Each person then gives an \~5 minute update that answers these
+-   Each person then gives an \~1-2 minute update that answers these
     items, in this order:
     1.  What did you do since the last update?
     2.  What are some challenges or blocks you faced and is there
@@ -26,9 +37,6 @@ these update meetings:
 -   Avoid getting into too much detail about any particular topic. See
     the guide entry on [communication](communication.qmd) about
     alternatives to these types of discussions.
--   Once a week (usually on Thursdays) during an update meeting, we'll
-    internally do a demo of the current state of the project, either
-    based on the main branch or on a Pull Request.
 
 Save any detailed or technical discussion on or about code for the [code
 review meetings](code-review-meetings.qmd). Likewise, for any extended
