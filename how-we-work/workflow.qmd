@@ -28,27 +28,6 @@ guidelines:
 -   In the pull request description, try to explain *why* you made the
     changes in the pull request, rather than the *what*.
 
-If your task is too large in scope, modifies or adds many new files, or
-has several complicated pieces, *strongly* consider making "stacked pull
-requests". A stacked pull request is a pull request that is made on top
-of another pull request. This way, you can separate the changes into
-smaller, more manageable pieces that can be reviewed more easily and
-quickly since larger pull requests take longer and are more difficult to
-review. When making Stacked pull requests, follow these general
-guidelines:
-
--   When making the first, base pull request, write in the description
-    that this will be a stacked pull request so that no one should merge
-    it, only until all the stacked pull requests are ready.
--   As each stacked pull request is ready for review, team members will
-    review and make suggestions as needed. As the author, you'll need to
-    make sure all suggestions are merged downstream to the later pull
-    requests by rebasing.
--   Once all stacked pull requests are reviewed and approved, they will
-    all be rebased onto the base pull request before being finally
-    squashed into the base pull request. This way, the base pull request
-    will contain all the changes from the stacked pull requests.
-
 ::: callout-tip
 ### Creating conventional branches using the VS Code extension
 
@@ -179,16 +158,30 @@ locally, all of these commands are found in the `justfile`.
 
 While writing Python code, follow these guidelines:
 
--   Use Ruff as well as the VS Code Python and Ruff extension
+- Use Ruff as well as the VS Code Python and Ruff extension
     linters/formatters (should work automatically) to check that the
     format of code is written correctly by follow the styling
     instructions. For instance:
-    -   Write docstrings for every function, class, and method.
-    -   Include type hints for both inputs and returns.
+  -   Write docstrings for every function, class, and method.
+  -   Include type hints for both inputs and returns.
 
 ## Creating pull requests
 
 ### Stacking pull requests
+
+::: callout-important
+In our current workflow it is recommended to never use stacked pull
+requests unless under exceptional circumstances. Instead, if a PR
+depends on changes in another PR, these can either be duplicated in both
+PRs, or left just in the one of the PR with a comment that clearly
+indicates which PR to merge first. Duplicating changes can be useful
+when it is important that both PRs build separately, whereas leaving
+some changes in just one PR is sufficient when it is enough for
+reviewers to just see the diff on GitHub to review efficiently.
+:::
+
+::: {.callout-tip collapse="true" appearance="minimal"}
+#### Click here to read the previous recommendation on how to use stacked PRs
 
 A stacked pull request is when one pull request has been opened to merge
 into the `main` branch and then another pull request is opened to merge
@@ -217,6 +210,26 @@ change gets larger, it becomes increasingly harder to review. So to keep
 each stacked pull request small while ensuring that the final pull
 request is atomic and “squashable".
 
+If your task is too large in scope, modifies or adds many new files, or
+has several complicated pieces, *strongly* consider making "stacked pull
+requests". This way, you can separate the changes into
+smaller, more manageable pieces that can be reviewed more easily and
+quickly since larger pull requests take longer and are more difficult to
+review. When making Stacked pull requests, follow these general
+guidelines:
+
+- When making the first, base pull request, write in the description
+    that this will be a stacked pull request so that no one should merge
+    it, only until all the stacked pull requests are ready.
+- As each stacked pull request is ready for review, team members will
+    review and make suggestions as needed. As the author, you'll need to
+    make sure all suggestions are merged downstream to the later pull
+    requests by rebasing.
+- Once all stacked pull requests are reviewed and approved, they will
+    all be rebased onto the base pull request before being finally
+    squashed into the base pull request. This way, the base pull request
+    will contain all the changes from the stacked pull requests.
+
 Stacked pull requests are not without challenges. So, when stacking pull
 requests, we aim to follow these guidelines:
 
@@ -230,6 +243,11 @@ requests, we aim to follow these guidelines:
 4.  As requests for changes come in, it is the responsibility of the
     pull request author to rebase the changes to later pull requests in
     the stack.
+5.  After merging the first PR, any stacked PR need to be rebased locally
+    to drop the already merged commits. `git` will not detect the
+    similarities automatically since the first PR was squashed into a
+    single commit.
+:::
 
 ## Writing documentation (`.qmd` files)
 
