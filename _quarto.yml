@@ -7,7 +7,7 @@ website:
   repo-url: "https://github.com/seedcase-project/team"
   navbar:
     title: false
-    logo: "_extensions/seedcase-project/seedcase-theme/logos/navbar-logo-seedcase-team.svg"
+    logo: "_extensions/seedcase-project/seedcase-theme/logos/docs/navbar-team.svg"
     logo-alt: "Seedcase Team logo: Main page"
 
     pinned: true
