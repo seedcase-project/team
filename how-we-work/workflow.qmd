@@ -173,9 +173,9 @@ While writing Python code, follow these guidelines:
 In our current workflow, we prefer to avoid stacked pull
 requests unless under exceptional circumstances. Instead, if a PR
 depends on changes in another PR, these can either be duplicated in both
-PRs, or left just in the one of the PR with a comment that clearly
+PRs if the change is very small, or left just in the one of the PR with a comment that clearly
 indicates which PR to merge first. Duplicating changes can be useful
-when it is important that both PRs build separately, whereas leaving
+when the change is small and it also ensures that both PRs can build and pass checks. Generally though, leaving
 some changes in just one PR is sufficient when it is enough for
 reviewers to just see the diff on GitHub to review efficiently.
 :::
@@ -208,7 +208,7 @@ fairly large or modifies many files in different ways. We want to keep
 pull requests small enough to be easily reviewed, as a pull request's
 change gets larger, it becomes increasingly harder to review. So to keep
 each stacked pull request small while ensuring that the final pull
-request is atomic and “squashable".
+request is atomic and "squashable".
 
 If your task is too large in scope, modifies or adds many new files, or
 has several complicated pieces, *strongly* consider making "stacked pull
