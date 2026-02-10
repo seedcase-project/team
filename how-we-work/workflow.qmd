@@ -158,12 +158,12 @@ locally, all of these commands are found in the `justfile`.
 
 While writing Python code, follow these guidelines:
 
-- Use Ruff as well as the VS Code Python and Ruff extension
+-  Use Ruff as well as the VS Code Python and Ruff extension
     linters/formatters (should work automatically) to check that the
     format of code is written correctly by follow the styling
     instructions. For instance:
-  -   Write docstrings for every function, class, and method.
-  -   Include type hints for both inputs and returns.
+   -   Write docstrings for every function, class, and method.
+   -   Include type hints for both inputs and returns.
 
 ## Creating pull requests
 
