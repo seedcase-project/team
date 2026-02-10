@@ -170,7 +170,7 @@ While writing Python code, follow these guidelines:
 ### Stacking pull requests
 
 ::: callout-important
-In our current workflow it is recommended to never use stacked pull
+In our current workflow, we prefer to avoid stacked pull
 requests unless under exceptional circumstances. Instead, if a PR
 depends on changes in another PR, these can either be duplicated in both
 PRs, or left just in the one of the PR with a comment that clearly
