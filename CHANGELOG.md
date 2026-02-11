@@ -9,6 +9,12 @@ often, sometimes several in a day. It also means any individual release
 will not have many changes within it. Below is a list of releases along
 with what was changed within it.
 
+## 0.2.1 (2026-02-11)
+
+### Fix
+
+- :recycle: revise to state we avoid stacked PRs (#338)
+
 ## 0.2.0 (2025-11-17)
 
 ### Feat
