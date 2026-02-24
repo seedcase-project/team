@@ -5,6 +5,7 @@ website:
   title: "Seedcase Project: Team Docs"
   site-url: "https://team.seedcase-project.org/"
   repo-url: "https://github.com/seedcase-project/team"
+  favicon: "_extensions/seedcase-project/seedcase-theme/logos/seedcase/icon.svg"
   navbar:
     title: false
     logo: "_extensions/seedcase-project/seedcase-theme/logos/docs/navbar-team.svg"
@@ -28,11 +29,6 @@ format:
   seedcase-theme-html:
     include-before-body:
       - "includes/site-counter.html"
-
-editor:
-  markdown:
-    wrap: 72
-    canonical: true
 
 execute:
   echo: false

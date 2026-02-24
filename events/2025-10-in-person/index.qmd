@@ -13,13 +13,13 @@ tbl-colwidths: [30, 70]
 
 ## Details
 
--   Team building, social activities, and dinners on October 23 to 24.
--   **Main aims**:
-    -   Team building: Some social, non-work-related activities.
-    -   Share some knowledge, skills, and tools with each other for some
-        peer learning.
-    -   Align on strategy and roadmap.
-    -   Hear some details about the DP-Next collaboration.
+- Team building, social activities, and dinners on October 23 to 24.
+- **Main aims**:
+  - Team building: Some social, non-work-related activities.
+  - Share some knowledge, skills, and tools with each other for some
+    peer learning.
+  - Align on strategy and roadmap.
+  - Hear some details about the DP-Next collaboration.
 
 ## Schedule
 
@@ -28,16 +28,16 @@ some topics and less on others.
 
 ### October 23
 
-| Time | Item |
-|---------------------|---------------------------------------------------|
-| 09:30 | An overview and discussion of the strategy, roadmap, and collaborations |
-| 11:00 | Lightning rounds to share tools and tips |
-| 12:00 | Lunch |
+| Time  | Item                                                                              |
+|-------|-----------------------------------------------------------------------------------|
+| 09:30 | An overview and discussion of the strategy, roadmap, and collaborations           |
+| 11:00 | Lightning rounds to share tools and tips                                          |
+| 12:00 | Lunch                                                                             |
 | 13:00 | A presentation on a structured approach to writing code for software and analyses |
-| 14:00 | :coffee: Coffee break |
-| 14:10 | Continuing from previous session |
-| 15:00 | Break (Luke has a meeting at this time). Fussball? |
-| 16:00 | Social activities (escape room challenge) and dinner |
+| 14:00 | :coffee: Coffee break                                                             |
+| 14:10 | Continuing from previous session                                                  |
+| 15:00 | Break (Luke has a meeting at this time). Fussball?                                |
+| 16:00 | Social activities (escape room challenge) and dinner                              |
 
 ### October 24
 
@@ -64,39 +64,38 @@ Especially we'll want to discuss how to prioritise effectively.
 
 While this session is more informal, this is the general agenda:
 
--   Review/revisit strategy and roadmap.
--   Review tasks and projects in ON-LiMiT, including current
-    repositories, work, and boards.
--   Review DP-Next, including repositories and GitHub, as well as
-    potential/expected projects and tasks.
--   Share what we all would like to work on (mostly to hear from Joel).
--   Align what we want to work on and prioritise over the next \~6
-    months.
--   ~~Review [team design
-    principles](https://design.seedcase-project.org/organisation/teams),
-    as well as Team Topologies.~~ (Didn't get to this.)
--   ~~Discuss what teams we'll have, our roles in them, and how we'd
-    like to work together with them.~~ (Didn't get to this.)
+- Review/revisit strategy and roadmap.
+- Review tasks and projects in ON-LiMiT, including current repositories,
+  work, and boards.
+- Review DP-Next, including repositories and GitHub, as well as
+  potential/expected projects and tasks.
+- Share what we all would like to work on (mostly to hear from Joel).
+- Align what we want to work on and prioritise over the next \~6 months.
+- ~~Review [team design
+  principles](https://design.seedcase-project.org/organisation/teams),
+  as well as Team Topologies.~~ (Didn't get to this.)
+- ~~Discuss what teams we'll have, our roles in them, and how we'd like
+  to work together with them.~~ (Didn't get to this.)
 
 ### Lightning rounds to share tools and tips
 
--   **Marton**: Demo debugging in Python package using VS Code.
+- **Marton**: Demo debugging in Python package using VS Code.
 
--   **Kris**: Show off REDCap and the data dictionary from it for
-    ON-LiMiT.
+- **Kris**: Show off REDCap and the data dictionary from it for
+  ON-LiMiT.
 
--   **Joel**: Walk through what Vim is, some basic keybindings, and how
-    to use it in the Terminal or VS Code.
+- **Joel**: Walk through what Vim is, some basic keybindings, and how to
+  use it in the Terminal or VS Code.
 
--   **Luke**: Using [`gh dash`](https://gh-dash.dev), a GitHub CLI
-    extension, to list PRs to review, approve, merge and so on, all from
-    the CLI.
+- **Luke**: Using [`gh dash`](https://gh-dash.dev), a GitHub CLI
+  extension, to list PRs to review, approve, merge and so on, all from
+  the CLI.
 
--   **Luke**: High level introduction to
-    [Rust](https://www.rust-lang.org/), mainly to share some features,
-    benefits, and simple examples of some code. Walk through
-    personal learning package
-    [`waltrs`](https://github.com/lwjohnst86/waltrs) as an example.
+- **Luke**: High level introduction to
+  [Rust](https://www.rust-lang.org/), mainly to share some features,
+  benefits, and simple examples of some code. Walk through personal
+  learning package [`waltrs`](https://github.com/lwjohnst86/waltrs) as
+  an example.
 
 ### A presentation on a structured approach to writing code for software and analyses
 
@@ -126,18 +125,17 @@ this area.
 This session will be a 2 hour meeting and will have the following
 general agenda:
 
--   Luke: Introductions to this session, overall aim and desired
-    outcomes.
--   Anders: Describing DST and demonstrating/showing how they organize
-    their data (files, folders, format).
--   Luke: Explain what Parquet is, why it's great, and what problems it
-    solves in DST.
--   Kasper and Marie: Sharing any updates on what Steno Aarhus wants to
-    do in this area with registers.
--   Kasper/Marie/Anders?: Explaining how StatTransfer works, give a
-    demonstration of it, and expected way of using it.
--   Luke: Give overview of my code/package, what it does, and how, then
-    compare it to StatTransfer.
+- Luke: Introductions to this session, overall aim and desired outcomes.
+- Anders: Describing DST and demonstrating/showing how they organize
+  their data (files, folders, format).
+- Luke: Explain what Parquet is, why it's great, and what problems it
+  solves in DST.
+- Kasper and Marie: Sharing any updates on what Steno Aarhus wants to do
+  in this area with registers.
+- Kasper/Marie/Anders?: Explaining how StatTransfer works, give a
+  demonstration of it, and expected way of using it.
+- Luke: Give overview of my code/package, what it does, and how, then
+  compare it to StatTransfer.
 
 ### Debrief from discussion meeting
 
@@ -154,24 +152,23 @@ including them in our in-person sessions.
 
 ### Overview and discussion of the strategy, roadmap, and collaborations
 
--   We didn't have time to cover everything during this session because
-    of technical issues with the screen sharing setup.
--   We agreed that we want to continue focusing and prioritising work
-    that revolves around building up the Seedcase software and
-    collaborating on projects that want to use it.
--   We also would like to spend some time developing educational
-    resources, including our guidebook, though we aren't sure how much to prioritise this right
-    now.
+- We didn't have time to cover everything during this session because of
+  technical issues with the screen sharing setup.
+- We agreed that we want to continue focusing and prioritising work that
+  revolves around building up the Seedcase software and collaborating on
+  projects that want to use it.
+- We also would like to spend some time developing educational
+  resources, including our guidebook, though we aren't sure how much to
+  prioritise this right now.
 
 ### Introduction to Denmark Statistics work in DP-Next
 
--   We learned a lot more about what Steno Aarhus aims to do with the
-    register data from Denmark Statistics (DST) and how DST organises
-    and structures their files and folders. This also was relevant to
-    better understanding how the "meta" register project, the Register Project Database, that Marie
-    manages is structured too.
--   We determined that converting the
-    [`registers2parquet`](https://github.com/dp-next/registers2parquet)
-    package into a formal CRAN package would be useful to them and a
-    good use of our time (as well as something we are interested in
-    pursuing).
+- We learned a lot more about what Steno Aarhus aims to do with the
+  register data from Denmark Statistics (DST) and how DST organises and
+  structures their files and folders. This also was relevant to better
+  understanding how the "meta" register project, the Register Project
+  Database, that Marie manages is structured too.
+- We determined that converting the
+  [`registers2parquet`](https://github.com/dp-next/registers2parquet)
+  package into a formal CRAN package would be useful to them and a good
+  use of our time (as well as something we are interested in pursuing).

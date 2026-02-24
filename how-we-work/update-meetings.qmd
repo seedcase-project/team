@@ -10,33 +10,32 @@ daily, we have them twice-weekly. We have update meetings for our work
 in the Seedcase Project as well as for each of our main collaborating
 projects. These are some guidelines on running these update meetings:
 
--   Keep total meeting time for all project updates to less than 30
-    minutes. For example, if we have two projects (including the main
-    Seedcase work), each project update meeting should be 15 minutes or
-    less so that the total time is under 30 minutes.
--   Since we invite external people to the collaborating project update
-    meetings, we do those updates first and end with the Seedcase
-    project update.
--   To ensure that we complete each update meeting on time and don't go
-    over time into the next update meeting, we start and end precisely
-    when we have them in the calendar. This way we also communicate to
-    our external collaborators precisely when they can join and leave.
--   At the start of the meeting, the team lead will briefly share any
-    general updates or discussion points.
--   Briefly review the iteration objective.
--   Each person then gives an \~1-2 minute update that answers these
-    items, in this order:
-    1.  What did you do since the last update?
-    2.  What are some challenges or blocks you faced and is there
-        anything the team can do to help?
-    3.  What do you plan to do until the next update meeting?
--   Updates must (with some exceptions) be accompanied by at least one
-    Git commit, preferably a Pull Request. This is to make it easier to
-    see what we're all working on. If it's talked about, it should be
-    visible.
--   Avoid getting into too much detail about any particular topic. See
-    the guide entry on [communication](communication.qmd) about
-    alternatives to these types of discussions.
+- Keep total meeting time for all project updates to less than 30
+  minutes. For example, if we have two projects (including the main
+  Seedcase work), each project update meeting should be 15 minutes or
+  less so that the total time is under 30 minutes.
+- Since we invite external people to the collaborating project update
+  meetings, we do those updates first and end with the Seedcase project
+  update.
+- To ensure that we complete each update meeting on time and don't go
+  over time into the next update meeting, we start and end precisely
+  when we have them in the calendar. This way we also communicate to our
+  external collaborators precisely when they can join and leave.
+- At the start of the meeting, the team lead will briefly share any
+  general updates or discussion points.
+- Briefly review the iteration objective.
+- Each person then gives an \~1-2 minute update that answers these
+  items, in this order:
+    1. What did you do since the last update?
+    2. What are some challenges or blocks you faced and is there
+       anything the team can do to help?
+    3. What do you plan to do until the next update meeting?
+- Updates must (with some exceptions) be accompanied by at least one Git
+  commit, preferably a Pull Request. This is to make it easier to see
+  what we're all working on. If it's talked about, it should be visible.
+- Avoid getting into too much detail about any particular topic. See the
+  guide entry on [communication](communication.qmd) about alternatives
+  to these types of discussions.
 
 Save any detailed or technical discussion on or about code for the [code
 review meetings](code-review-meetings.qmd). Likewise, for any extended
