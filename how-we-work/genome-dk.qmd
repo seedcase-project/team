@@ -69,10 +69,10 @@ Quarto. Finally, if you want to run recipes in the
 
 ### Installing uv {#installing-uv}
 
-Log in to GenomeDK (either through [SSH](#ssh) or the [desktop
-interface](#desktop)) and open a terminal window. Following uv's
-[installation
-guide](https://docs.astral.sh/uv/getting-started/installation/#standalone-installer),
+Log in to GenomeDK (either through [SSH](#ssh) or the
+[desktop interface](#desktop)) and open a terminal window. Following
+uv's
+[installation guide](https://docs.astral.sh/uv/getting-started/installation/#standalone-installer),
 run:
 
 ``` {.bash filename="Terminal"}
@@ -81,25 +81,24 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ### Installing Quarto
 
-Log in to GenomeDK (either through [SSH](#ssh) or the [desktop
-interface](#desktop)) and open a terminal window. Follow the
+Log in to GenomeDK (either through [SSH](#ssh) or the
+[desktop interface](#desktop)) and open a terminal window. Follow the
 instructions on Quarto's
 [website](https://quarto.org/docs/download/tarball.html?version=1.7.32&idPrefix=download).
 
 Notes:
 
--   Step 3: if `~/.local/bin` exists, you don't need to run
-    `mkdir ~/.local/bin`
--   Step 4: as the instructions say, you can probably skip this step
--   If VS Code is open, you'll need to restart it to detect the Quarto
-    CLI
+- Step 3: if `~/.local/bin` exists, you don't need to run
+  `mkdir ~/.local/bin`
+- Step 4: as the instructions say, you can probably skip this step
+- If VS Code is open, you'll need to restart it to detect the Quarto CLI
 
 ### Installing `just`
 
-Log in to GenomeDK (either through [SSH](#ssh) or the [desktop
-interface](#desktop)) and open a terminal window. Following `just`'s
-[installation
-guide](https://just.systems/man/en/pre-built-binaries.html#pre-built-binaries),
+Log in to GenomeDK (either through [SSH](#ssh) or the
+[desktop interface](#desktop)) and open a terminal window. Following
+`just`'s
+[installation guide](https://just.systems/man/en/pre-built-binaries.html#pre-built-binaries),
 run:
 
 ``` {.bash filename="Terminal"}
@@ -111,29 +110,28 @@ curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -
 The best way to work on Seedcase projects in VS Code is to use the VS
 Code application on your local machine and connect to GenomeDK via SSH.
 This allows you to edit files and run code on GenomeDK as if you were
-working locally. This setup uses the [Remote SSH VS Code
-extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh),
+working locally. This setup uses the
+[Remote SSH VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh),
 which works by adding a `.vscode-server` folder in your home directory
 on GenomeDK. This is a lightweight backend that allows VS Code to run
 terminals, extensions, debuggers, etc., remotely on GenomeDK. If at any
 point you want to remove the backend, you can simply delete this folder.
 
-1.  Open VS Code on your local machine and install the [Remote SSH VS
-    Code
-    extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+1. Open VS Code on your local machine and install the
+   [Remote SSH VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
-2.  Select "Remote-SSH: Connect to Host..." from the Command Palette
-    (`F1`, `Ctrl+Shift+P`) and enter `<username>@login.genome.au.dk`.
-    Follow the prompts given to update or create your config file. In
-    the "Remotes Explorer" panel, you should now see the GenomeDK host
-    listed as `login.genome.au.dk`.
+2. Select "Remote-SSH: Connect to Host..." from the Command Palette
+   (`F1`, `Ctrl+Shift+P`) and enter `<username>@login.genome.au.dk`.
+   Follow the prompts given to update or create your config file. In the
+   "Remotes Explorer" panel, you should now see the GenomeDK host listed
+   as `login.genome.au.dk`.
 
-3.  Click the GenomeDK SSH entry and enter your GenomeDK password when
-    prompted. Now, you should be connected to GenomeDK and see the
-    remote file system if you open up the VS Code terminal.
+3. Click the GenomeDK SSH entry and enter your GenomeDK password when
+   prompted. Now, you should be connected to GenomeDK and see the remote
+   file system if you open up the VS Code terminal.
 
-4.  Clone your repository using the VS Code terminal, if you haven’t
-    already:
+4. Clone your repository using the VS Code terminal, if you haven’t
+   already:
 
     ``` {.bash filename="Terminal"}
     cd <.../my/projects>
@@ -141,24 +139,24 @@ point you want to remove the backend, you can simply delete this folder.
     cd <repo-name>
     ```
 
-5.  Open your project folder in VS Code by clicking the "Open Folder"
-    button in the panel on the left-hand side
+5. Open your project folder in VS Code by clicking the "Open Folder"
+   button in the panel on the left-hand side
 
-6.  Install your project dependencies (you'll need [uv
-    installed](#installing-uv)):
+6. Install your project dependencies (you'll need
+   [uv installed](#installing-uv)):
 
     ``` {.bash filename="Terminal"}
     uv sync
     ```
 
-7.  Install any VS Code extensions needed for development (e.g. the
-    Python language extension). To list recommended extensions, open the
-    Extensions panel and type `@recommended` into the search bar. You
-    can install extensions from here.
+7. Install any VS Code extensions needed for development (e.g. the
+   Python language extension). To list recommended extensions, open the
+   Extensions panel and type `@recommended` into the search bar. You can
+   install extensions from here.
 
-8.  To be able to commit to GitHub, you will need to set up your Git
-    credentials. You can do this by running the following commands in
-    the terminal:
+8. To be able to commit to GitHub, you will need to set up your Git
+   credentials. You can do this by running the following commands in the
+   terminal:
 
     ``` {.bash filename="Terminal"}
     git config --global user.name "Your Name"
@@ -186,74 +184,72 @@ accidentally, which would constitute a serious data breach.
 
 ### Setting up Git LFS
 
-1.  Install Git LFS in your GenomeDK user space either from the
-    [tarball](https://gist.github.com/pourmand1376/bc48a407f781d6decae316a5cfa7d8ab)
-    or via
-    [conda](https://anaconda.org/channels/conda-forge/packages/git-lfs/overview).
+Install Git LFS in your GenomeDK user space either from the
+[tarball](https://gist.github.com/pourmand1376/bc48a407f781d6decae316a5cfa7d8ab)
+or via
+[conda](https://anaconda.org/channels/conda-forge/packages/git-lfs/overview).
+Then run `git lfs install`.
 
-2.  Run `git lfs install`.
+::: callout-important
+If you don't initialise Git LFS with `git lfs install`, Git LFS will
+not manage data files. Instead, files that should be tracked by LFS
+will be handled by Git as normal and uploaded to GitHub on push.
+:::
 
-    ::: callout-important
-    If you don't initialise Git LFS with `git lfs install`, Git LFS will
-    not manage data files. Instead, files that should be tracked by LFS
-    will be handled by Git as normal and uploaded to GitHub on push.
-    :::
+Afterwards, create a folder on GenomeDK that everyone working on the
+Data Package can access and edit: this will be the LFS store where all
+the data will be saved. This folder should be **outside** the Data
+Package folder.
 
-3.  Create a folder on GenomeDK that everyone working on the Data
-    Package can access and edit: this will be the LFS store where all
-    the data will be saved. This folder should be **outside** the Data
-    Package folder.
+Set the LFS store folder up as a
+[bare repository](https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-barerepository)
+by opening it in the Terminal and running `git init --bare`.
 
-4.  Set the LFS store folder up as a [bare
-    repository](https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-barerepository)
-    by opening it in the Terminal and running `git init --bare`.
+Then, create an `.lfsconfig` file in the Data Package root folder and
+add the absolute path to the LFS store:
 
-5.  Create an `.lfsconfig` file in the Data Package root folder and add
-    the absolute path to the LFS store:
+``` {.txt filename=".lfsconfig"}
+[lfs]
+    url = file:///path/to/.../lfs-store
+```
 
-    ``` {.txt filename=".lfsconfig"}
-    [lfs]
-        url = file:///path/to/.../lfs-store
-    ```
+::: callout-tip
+Be sure to get the real filesystem path to this folder, not the one
+pointing to your user space. You can find this by running
+`readlink -f .` from the the LFS store folder.
+:::
 
-    ::: callout-tip
-    Be sure to get the real filesystem path to this folder, not the one
-    pointing to your user space. You can find this by running
-    `readlink -f .` from the the LFS store folder.
-    :::
+Define a rule for tracking all Parquet files and all data in the `raw/`
+folder by running the following commands from the root of the Data
+Package:
 
-6.  Define a rule for tracking all Parquet files and all data in the
-    `raw/` folder by running the following commands from the root of the
-    Data Package:
+``` {.bash filename="Terminal"}
+git lfs track "*.parquet"
+git lfs track "raw/**"
+```
 
-    ``` {.bash filename="Terminal"}
-    git lfs track "*.parquet"
-    git lfs track "raw/**"
-    ```
+This will create a `.gitattributes` file listing the tracked paths.
+Tracked files shouldn't be listed in `.gitignore`.
 
-    This will create a `.gitattributes` file listing the tracked paths.
-    Tracked files shouldn't be listed in `.gitignore`.
-
-7.  To get an overview of the LFS settings in the repo, run
-    `git lfs env` or `git lfs ls-files` from the root of the Data
-    Package.
+To get an overview of the LFS settings in the repo, run
+`git lfs env` or `git lfs ls-files` from the root of the Data
+Package.
 
 ### Adding data to LFS
 
-1.  To add data, create a new Parquet file or move data file(s) into the
-    `raw/` folder, which is tracked by LFS.
+1. To add data, create a new Parquet file or move data file(s) into the
+   `raw/` folder, which is tracked by LFS.
 
-2.  Stage the new files (using `git add`). They should now be tracked by
-    LFS.
+2. Stage the new files (using `git add`). They should now be tracked by
+   LFS.
 
-3.  Double-check that Git LFS is configured correctly:
+3. Double-check that Git LFS is configured correctly:
+   - The output of `git lfs ls-files` should include the new files.
+   - `git lfs env` should show that `Endpoint` is set to a local path
+     pointing to the LFS store on GenomeDK.
 
-    -   The output of `git lfs ls-files` should include the new files.
-    -   `git lfs env` should show that `Endpoint` is set to a local path
-        pointing to the LFS store on GenomeDK.
-
-4.  Commit and push the new data. If you look at the new data file on
-    GitHub, you should see a pointer file rather than the actual data.
+4. Commit and push the new data. If you look at the new data file on
+   GitHub, you should see a pointer file rather than the actual data.
 
 ### Working on a Data Package outside GenomeDK
 

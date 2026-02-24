@@ -12,10 +12,10 @@ These commands are found in our
 
 This includes commands to:
 
--   Create repository rulesets to protect our branches.
--   Set basic settings for our repositories.
--   Create a GitHub repository from a local Git repository.
--   Merging chore and sync PRs.
+- Create repository rulesets to protect our branches.
+- Set basic settings for our repositories.
+- Create a GitHub repository from a local Git repository.
+- Merging chore and sync PRs.
 
 ## Merging topic branches
 
@@ -31,29 +31,29 @@ flow](https://decisions.seedcase-project.org/why-github-flow/), and to
 decide which kind of merge to perform on topic branches, we follow these
 general guidelines:
 
--   **Squash:** Only those with atomic PRs. Atomic PRs are those that
-    only include "self-contained changes" that are independent and fully
-    functional on their own. E.g., a single feature and the accompanying
-    tests or a bug fix. This way, if we accidentally introduce a bug,
-    it is easy to reverse that change.
+- **Squash:** Only those with atomic PRs. Atomic PRs are those that only
+  include "self-contained changes" that are independent and fully
+  functional on their own. E.g., a single feature and the accompanying
+  tests or a bug fix. This way, if we accidentally introduce a bug, it
+  is easy to reverse that change.
 
--   **Rebase:** Commits or PRs that have `build` and `chore` types as
-    well as `sync` scopes (which usually fall under `chore` type). We
-    use rebase since it keeps the history of `main` cleaner than merging does,  and we don't
-    need the PR number to be included in the commit message.
+- **Rebase:** Commits or PRs that have `build` and `chore` types as well
+  as `sync` scopes (which usually fall under `chore` type). We use
+  rebase since it keeps the history of `main` cleaner than merging does,
+  and we don't need the PR number to be included in the commit message.
 
--   **Merge:** Non-atomic/other PRs (or if the PR title starts with
-    `chore: :twisted_rightwards_arrows:`). We generally avoid this
-    strategy unless we have a good reason to do it. This is because merge commits
-    can make the history harder to read and understand.
+- **Merge:** Non-atomic/other PRs (or if the PR title starts with
+  `chore: :twisted_rightwards_arrows:`). We generally avoid this
+  strategy unless we have a good reason to do it. This is because merge
+  commits can make the history harder to read and understand.
 
 ### Stacked PRs
 
 The process for merging a stacked PR is:
 
-1.  Wait until all PRs in the stack are reviewed and approved.
-2.  Starting from the top of the stack, do a merge commit along with
-    renaming the title to indicate it is a merge commit, as described
-    above. The merge commit is used to maintain a link to the previous
-    PR (otherwise a rebase would remove that link).
-3.  Finally, squash the base PR into `main`.
+1. Wait until all PRs in the stack are reviewed and approved.
+2. Starting from the top of the stack, do a merge commit along with
+   renaming the title to indicate it is a merge commit, as described
+   above. The merge commit is used to maintain a link to the previous PR
+   (otherwise a rebase would remove that link).
+3. Finally, squash the base PR into `main`.

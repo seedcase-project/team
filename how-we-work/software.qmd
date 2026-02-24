@@ -8,34 +8,33 @@ These are the software we use as a team. The decisions for why we chose
 many of these options can be found in our [decisions
 website](https://decisions.seedcase-project.org).
 
--   [VS Code](https://code.visualstudio.com/download): A lightweight but
-    powerful source code editor that comes with built-in support for
-    multiple languages and has a rich ecosystem of extensions for all
-    types of purposes and uses.
--   [Discord](https://discord.com/download): Our main communication
-    software for messaging and having meetings.
--   [Git](https://git-scm.com/downloads): We use Git for version control
-    and we host all our content on GitHub.
--   [Justfile](https://just.systems/): Just is a command runner that we
-    use to manage many workflow and build tasks, such as running tests
-    on code, check spelling, and building the website.
--   [Python 3](https://www.python.org/downloads/): We use Python to
-    build our software.
--   [Quarto](https://quarto.org/docs/get-started/): We use Quarto to
-    build the website and write general documentation.
+- [VS Code](https://code.visualstudio.com/download): A lightweight but
+  powerful source code editor that comes with built-in support for
+  multiple languages and has a rich ecosystem of extensions for all
+  types of purposes and uses.
+- [Discord](https://discord.com/download): Our main communication
+  software for messaging and having meetings.
+- [Git](https://git-scm.com/downloads): We use Git for version control
+  and we host all our content on GitHub.
+- [Justfile](https://just.systems/): Just is a command runner that we
+  use to manage many workflow and build tasks, such as running tests on
+  code, check spelling, and building the website.
+- [Python 3](https://www.python.org/downloads/): We use Python to build
+  our software.
+- [Quarto](https://quarto.org/docs/get-started/): We use Quarto to build
+  the website and write general documentation.
 
 These are the recommended helper or workflow type software:
 
--   [GitHub CLI](https://cli.github.com/manual/): GitHub CLI (command
-    line interface) is a command-line tool that brings pull requests,
-    issues, GitHub Actions, and other features specific to GitHub to the
-    terminal.
--   [Homebrew](https://docs.brew.sh/Installation): If you work on a
-    Macbook, Homebrew can ease the installation process of some of the
-    software listed above by enabling you to install software directly
-    in the Terminal by using the `brew install [package_name]` command.
-    E.g., Git can be installed by writing `brew install git` in the
-    terminal. Easy!
+- [GitHub CLI](https://cli.github.com/manual/): GitHub CLI (command line
+  interface) is a command-line tool that brings pull requests, issues,
+  GitHub Actions, and other features specific to GitHub to the terminal.
+- [Homebrew](https://docs.brew.sh/Installation): If you work on a
+  Macbook, Homebrew can ease the installation process of some of the
+  software listed above by enabling you to install software directly in
+  the Terminal by using the `brew install [package_name]` command. E.g.,
+  Git can be installed by writing `brew install git` in the terminal.
+  Easy!
 
 ## Recommended VS Code Extensions
 
