@@ -58,6 +58,8 @@ material, and event details/agendas for the Seedcase Project team.
 - `_quarto.yml`: Quarto configuration file for the website, including
   settings for the website, such as the theme, navigation, and other
   options.
+- `.rumdl.toml`: [rumdl](https://rumdl.dev) configuration file for
+  formatting Markdown files in the project.
 
 ## Contributing
 
@@ -78,8 +80,8 @@ requests :tada:
 [@signekb](https://github.com/signekb),
 [@martonvago](https://github.com/martonvago),
 [@K-Beicher](https://github.com/K-Beicher),
-[@MartaMenta](https://github.com/MartaMenta),
-[@joelostblom](https://github.com/joelostblom)
+[@joelostblom](https://github.com/joelostblom),
+[@MartaMenta](https://github.com/MartaMenta)
 
 ## Licensing
 
