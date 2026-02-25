@@ -1,0 +1,16 @@
+---
+title: "Handling authorship"
+---
+
+We've agreed that inclusion as an author in the e.g. `CITATION.cff` or
+`.zenodo.json` files in a repository is based on the following criteria:
+
+1. If they are part of Seedcase *and* they've directly contributed to
+   the repository through a pull request, then they are added as an
+   author.
+2. If they are not part of Seedcase, they must have contributed to the
+   repository through a pull request at least a few times, on a regular
+   and longer-term basis, and have contributed outside of pull requests,
+   e.g. in discussions on issues, in order to be added as authors.
+
+Included authors are listed in alphabetical order by last name.
