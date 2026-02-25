@@ -138,7 +138,7 @@ code or re-building a website or software. They are all found in the
 requires opening a Terminal, and how you do that depends on the
 application you are using.
 
-> If you don't know what any of this means, ask the Team Lead or another
+> If you don't know what any of this means, ask the team lead or another
 > member, and we will help you out.
 
 If you use VS Code, you can run this command by using `Ctrl/Cmd-Shift-P`
