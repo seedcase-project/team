@@ -14,7 +14,7 @@ some posts for you to read and review.
 
 ## First steps
 
-1. **Send your GitHub username and Discord username to the Team Leader**
+1. **Send your GitHub username and Discord username to the team leader**
    - We use Discord as our communication platform and this way so you
      can be added to the Seedcase Project server right away. If you
      don't have a Discord account, you can go to
@@ -27,8 +27,8 @@ some posts for you to read and review.
    - See [this post](/how-we-work/github.qmd) (you will need 2FA to
      access the Seedcase repositories).
 3. **Order IT equipment**
-   - Talk to the Team Leader about which IT equipment you will need
-     (e.g., computer, mouse, keyboard, and dock station) and Team Leader
+   - Talk to the team leader about which IT equipment you will need
+     (e.g., computer, mouse, keyboard, and dock station) and team leader
      will help you with ordering it.
 
 ## Team calendars
