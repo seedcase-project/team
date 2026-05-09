@@ -15,6 +15,12 @@ that any individual release will not have many changes within it. Below
 is a list of the releases we've made so far, along with what was changed
 within each release.
 
+## 0.5.0 (2026-05-09)
+
+### Feat
+
+- ✨ in-person agenda for May 11-13, 2026 (#358)
+
 ## 0.4.1 (2026-02-25)
 
 ### Fix
