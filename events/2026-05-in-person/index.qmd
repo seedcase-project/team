@@ -1,0 +1,98 @@
+---
+title: "Three-day in-person sessions and conference attendance"
+description: "Agenda for our three-day in-person sessions mixed in with attending a conference."
+author: "Luke W. Johnston"
+date: "2026-05-11"
+categories:
+  - in-person
+  - meeting
+  - planning
+  - learning
+  - conference
+tbl-colwidths: [30, 70]
+---
+
+## Details
+
+::: callout-note
+Full details on dates, times, and locations are in the calendar.
+:::
+
+- Attend the
+  [Open Innovation in Science](https://ois-research-conference.org/ois-research-conference-2026/)
+  conference in Copenhagen from May 11-13, 2026.
+- Team building and social activities throughout: Some social,
+  non-work-related activities.
+- Brainstorming and discussion sessions on next product and outreach
+  activities.
+
+## Schedule
+
+The schedule is meant as a **guide only**.
+
+### May 11
+
+| Time        | Item                                                              |
+|-------------|-------------------------------------------------------------------|
+| 10:00       | Social activity: [Museum of Illusions](https://moicopenhagen.com) |
+| 11:45       | Head over to conference venue for registration and lunch          |
+| 12:30-19:00 | Attend sessions at conference, including our poster session       |
+| 19:15       | Seedcase dinner                                                   |
+
+### May 12
+
+| Time  | Item                                               |
+|-------|----------------------------------------------------|
+| 9:30  | Conference start: Keynote and sessions             |
+| 12:00 | Lunch                                              |
+| 13:00 | Seedcase time: Brainstorm and discussion Propagate |
+| 15:00 | Conference sessions (or continue Seedcase time)    |
+| 18:30 | End of second conference day                       |
+| 19:30 | Conference dinner                                  |
+
+### May 13
+
+| Time  | Item                                                                                    |
+|-------|-----------------------------------------------------------------------------------------|
+| 9:30  | Conference start: Panel and sessions                                                    |
+| 12:30 | Lunch                                                                                   |
+| 13:15 | Seedcase time: Debrief on conference learnings and brainstorm other outreach activities |
+| 14:45 | End of Seedcase and conference time                                                     |
+| 18:30 | Dinner and team building activities (for those remaining)                               |
+
+## Sessions
+
+### Brainstorm and discuss Propagate
+
+This month's focus is on Propagate's design. So our in-person time will
+include time to brainstorm, discuss, and agree on some aspects of
+Propagate's design. Some ideas:
+
+- Align on what we want from Propagate and what it should do.
+- Clarify and agree on core requirements in [Issue
+  #1](https://github.com/seedcase-project/seedcase-propagate/issues/1).
+- Expand on, brainstorm, and discuss the general architecture in
+  [Issue #2](https://github.com/seedcase-project/seedcase-propagate/issues/2),
+  in particular, focusing on challenges and answers/potential solutions
+  to those challenges. Mainly, we want to get to some type of consensus
+  or agreement on the overall design and practical direction to take.
+- Discuss and brainstorm what the core "instructions" metadata might be
+  in
+  [Issue #3](https://github.com/seedcase-project/seedcase-propagate/issues/3).
+
+### Debrief on conference
+
+Mainly to share learnings we got from the conference, anything to think
+about and consider for our own work, or that we could do differently.
+This is a very informal session.
+
+### Brainstorm our outreach
+
+Given we are at a conference doing some outreach, we'll use that as an
+opportunity to brainstorm other outreach activities we could do as we
+build more products and they become more stable. This will be mostly an
+informal brainstorming time, focusing on how we can do some outreach and
+what type of outreach, while also making sure to continue our priority
+on building the products.
+
+## Minutes
