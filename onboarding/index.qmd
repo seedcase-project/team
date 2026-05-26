@@ -85,9 +85,9 @@ workflows:
 1. [Organisation design principles and patterns](https://design.seedcase-project.org/organisation),
    including for collaboration and contribution.
 2. [Workflow for developing software and documentation](/how-we-work/workflow.qmd)
-3. If you will need to add new posts, read the how-to
-   ["Adding posts"](https://community.seedcase-project.org/guides/adding-posts/),
-   which contains guidelines on that.
+3. [General contributing guidelines](https://guidebook.seedcase-project.org/contributing):
+   This appendix covers some general contributing guidelines for the
+   Seedcase Project.
 
 Now that you have read the above, you can review the pages below. As you
 review them, create any Issues in the respective GitHub repository (e.g.
@@ -103,8 +103,8 @@ improvements.
    This website is where this post is located and covers the
    documentation, contributing guidelines, onboarding material, and
    event details/agendas for the Seedcase Project team.
-3. [General contributing guidelines website](https://guidebook.seedcase-project.org/):
-   This website covers some general contributing guidelines for the
+3. [Our guidebook website](https://guidebook.seedcase-project.org/):
+   This website covers the foundational principles for working on the
    Seedcase Project.
 4. [Community pages](https://community.seedcase-project.org/): This
    website is used for content we want people outside the team, like an
