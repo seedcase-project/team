@@ -86,7 +86,7 @@ workflows:
    including for collaboration and contribution.
 2. [Workflow for developing software and documentation](/how-we-work/workflow.qmd)
 3. [General contributing guidelines](https://guidebook.seedcase-project.org/contributing):
-   This appendix covers some general contributing guidelines for the
+   This page covers some general contributing guidelines for the
    Seedcase Project.
 
 Now that you have read the above, you can review the pages below. As you
