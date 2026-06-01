@@ -104,6 +104,6 @@ products.
   get as much out of it as we had hoped/anticipated. We have one more year of
   funding so we'll aim for the Research Software Engineering conference, which
   may be a better fit for us.
-- We spent a lot of time on the Propagate design so didn't get to do nearly any
-  outreach brainstorming, which is fine as it was a more important to focus on
-  the design.
+- We spent most of time on the Propagate design so didn't get to do that much
+  any brainstorming for outreach, which is fine as it was a more important to
+  focus on the design.
