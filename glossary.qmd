@@ -66,3 +66,7 @@ data processing as code within that version control system and having an
 automated "build and release" workflow in place. In our context, by following
 basic software development practices and aiming for reproducibility, we can
 achieve data lineage without needing to use a specific tool for it.
+
+So we instead use terms like "reproducible" or "automated build workflow" rather
+than use "data lineage" to refer to practices that would achieve the definition
+of data lineage.
