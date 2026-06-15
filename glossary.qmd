@@ -31,7 +31,82 @@ take the definite article (i.e. ~~the~~ Seedcase software).
 Use this to refer to the software deliverables which work together to implement
 core project functionalities as a single conceptual unit.
 
-## Data Resource
+## Data Package (uppercase) {#data-package-uppercase}
 
-Always in proper case. Use this to refer to the data layer of the framework and
-its contents.
+When we use the formal noun "Data Package" (or more explicitly "Data Package
+spec"), we are referring to the [Data Package
+specification](https://datapackage.org). This is a specific specification for
+describing a collection of connected data and metadata, described within the
+`datapackage.json` file. When we say "Data Package" (uppercase), we are using it
+in the context of the specification, not in the context of a general "package"
+or organisation of data and metadata.
+
+We also don't refer to a folder that contains a `datapackage.json` file as a
+"Data Package" as we are *not* referring to the specification in that case.
+Instead, we might refer to it as a "data package" (lowercase) as it is referring
+to the set of files and folders that contain data and metadata, that happens to
+use the Data Package specification within the `datapackage.json` file. See [data
+package (lowercase)](#data-package-lowercase) below for more on that.
+
+## Data Resource (uppercase) {#data-resource-uppercase}
+
+When we use the formal noun "Data Resource", we are referring to the [Data
+Package specification](https://datapackage.org) and how they define a "data
+resource". A [Data Resource](https://datapackage.org/standard/data-resource/)
+(uppercase) is a specific entity within the Data Package spec that has a defined
+structure and properties that are described in the `resources` section of the
+`datapackage.json` file. When we use "Data Resource" (uppercase), we are using
+it in the context of the specification, not in the context of a general resource
+of data. However, we tend to avoid using the formal noun "Data Resource"
+(uppercase) as it tends to be clearer to say "Data Package" or "Data Package
+spec". See our use of ["data resource" (lowercase)](#data-resource-lowercase)
+for an explanation of that term.
+
+## data package (lowercase) {#data-package-lowercase}
+
+The term "package" is a general term that has been used in many different
+contexts to refer to any bundling of things together to make it easier to
+manage, distribute, and (re)use. So appending "data" to "package" is a common
+way of referring to any bundling of data and is not unique to "Data Package"
+(uppercase) as defined in the Data Package specification. Unfortunately, this
+can cause some confusion people could use "data package" (lowercase) to mean a
+"Data Package" (uppercase) and it might not be clear from context which one is
+being referred to.
+
+For example, "data package" could refer to a set of data and metadata organised
+as an [R package](https://rstudio4edu.github.io/rstudio4edu-book/data-pkg.html).
+There is even an R package called
+[DataPackageR](https://docs.ropensci.org/DataPackageR/index.html) that sets up a
+project with an R package structure that you can use to organise data and make
+it easier to distribute and reuse. In this case, this is *not* a [Data Package
+(uppercase)](#data-package-uppercase) but a "data package" (lowercase).
+
+For us, "data package" (lowercase) is a general term we use to refer to *any*
+bundle or collection of data and, importantly, their metadata. A "data package"
+(lowercase) may or may not use the Data Package specification.
+
+When we use "data package", we generally use it to directly refer to the bundle
+of related data and metadata that we work on, rather than to any formal
+specification.
+
+## data resource (lowercase) {#data-resource-lowercase}
+
+The term "data resource" is a much less commonly used word and can mean many
+different things to different groups of people. It could mean a resource of
+data, like a library is a resource for books or like the IT department is a
+resource for IT support within an organization.
+
+For us, "data resource" (lowercase) is a general term we use to refer to *any*
+single set of related data (but not a bundle of data and metadata). A resource
+does not need to have metadata attached to it. It could be a single file or a
+set of files that all contain the same type of data.
+
+For example, data collected from several people using continuous glucose
+monitors, which is what people with type 1 diabetes use. This data would be
+several files, one for each person (and potentially for each day the monitor was
+used).
+
+We avoid the term "data resource" (lowercase) as it isn't a clearly term and
+because other terms exist that are widely used and more precise. For example, a
+data file or dataset is a more precise term to refer to a single file or set of
+files that contain data.
