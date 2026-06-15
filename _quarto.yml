@@ -17,6 +17,7 @@ website:
       - href: how-we-work/index.qmd
       - text: Events
         href: events/index.qmd
+      - glossary.qmd
     tools:
       - icon: github
         href: "https://github.com/seedcase-project/team"
