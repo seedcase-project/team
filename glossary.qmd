@@ -35,3 +35,34 @@ core project functionalities as a single conceptual unit.
 
 Always in proper case. Use this to refer to the data layer of the framework and
 its contents.
+
+## Data lineage
+
+This term is commonly used with data engineering or data processing contexts and
+domain. It [refers](https://en.wikipedia.org/wiki/Data_lineage) to the process
+of tracking and documenting the flow of data through various stages and
+transformations, from its original raw source (or from a source location where
+it is stored) to its final output.
+
+Practices that are common in software development, are not as common in the data
+engineering, data warehousing, and other data processing/storing domain. For
+example, using version control to track changes to data and tracking the code
+code used to process the data, or having automated build, test, version, and
+release processes in place.
+
+While the data engineering world may use code to do tasks, e.g. with SQL, it is
+not as often done in a way that is formal or structured as is typical in
+software development. For instance, because version control isn't commonly used,
+a code-based script may just be something someone wrote somewhere on the server
+or their computer that no other team member reviewed or accessed. This lag in
+practices is part of the reason tools like [dbt](https://www.getdbt.com) (now a
+commonly used tool, but released in 2021) have only relatively recently been
+developed.
+
+Because of this lag in practices, many tools they use that specifically helps
+with data lineage would not have been needed if other practices were used. For
+example, data lineage can be achieved by using version control and writing all
+data processing as code within that version control system and having an
+automated "build and release" workflow in place. In our context, by following
+basic software development practices and aiming for reproducibility, we can
+achieve data lineage without needing to use a specific tool for it.
