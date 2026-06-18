@@ -26,12 +26,12 @@ Use these to refer to the software deliverables of the project collectively.
 Choose best fit based on context. Note that, in general, these phrases don't
 take the definite article (i.e. ~~the~~ Seedcase software).
 
-## Seedcase framework
+## Seedcase ecosystem
 
 Use this to refer to the software deliverables which work together to implement
 core project functionalities as a single conceptual unit.
 
 ## Data Resource
 
-Always in proper case. Use this to refer to the data layer of the framework and
+Always in proper case. Use this to refer to the data layer of the ecosystem and
 its contents.
