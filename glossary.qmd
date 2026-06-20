@@ -35,3 +35,53 @@ core project functionalities as a single conceptual unit.
 
 Always in proper case. Use this to refer to the data layer of the ecosystem and
 its contents.
+
+## Check
+
+Because of the confusion around ["validate"](#validate) and ["verify"](#verify),
+we avoid using those words. Instead, we use the more general, though
+paradoxically more precise term, "check". Check is general enough to encompass
+both "validate" and "verify", without confounding the actual meaning of the two.
+
+## Validate
+
+In software development, the term "validate" is a common word to describe
+comparing something against a specification or expectation. However, it is
+loosely and inconsistently used, and often incorrectly used. For a good
+overview, see the Wikipedia on this topic in
+[general](https://en.wikipedia.org/wiki/Verification_and_validation) and on
+[software](https://en.wikipedia.org/wiki/Software_verification_and_validation)
+specifically. In short, "validate" is the process of checking something against
+reality, human needs, and the human understanding of the world. "A valid
+argument" or "I was validated in my feelings" are examples of things that can
+only be determined by another human comparing them.
+
+Or for more technical examples: "validating a model" is the process of comparing
+a model's predictions to real-world data that we collected and that we believe
+accurately represents reality (or at least how we understand it). Likewise,
+"validating some data" is checking that the data represents something that is
+meaningful to humans. It requires judgment and comparison, and can be different
+over time and in different contexts. What is valid now, may not be valid in the
+future.
+
+In software development, true "validation" is rarely done, outside of user
+testing and feedback, and during requirement gathering. Most of the time, when
+the term "validate" is used, it actually means "verifying". See
+[Verify](#verify) below.
+
+## Verify
+
+For an introduction into this term and its related term "validate", see our
+[Validate](#validate) entry. "Verify" is the act of checking something against a
+specification or expectation. When verifying something against a specification,
+regardless of the connection to reality or to human needs, if it meets the
+specification, it "passes". As long as the specification and the thing being
+verified don't change, it will always pass. Even if the specification is wrong,
+unconnected to reality, or no longer relevant to any human problem or need.
+
+The act of making or updating a specification requires human judgment and a
+connection to solving some need, so the specification itself can be validated.
+However, when the specification is used to compare against something else, the
+thing being compared is verified against the specification, not validated. When
+a comparison is happen between or within a computer, it is verification. When it
+requires human judgment, it is validation.
