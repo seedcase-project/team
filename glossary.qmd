@@ -43,15 +43,15 @@ or organisation of data and metadata.
 
 We also don't refer to a folder that contains a `datapackage.json` file as a
 "Data Package" as we are *not* referring to the specification in that case.
-Instead, we might refer to it as a "data package" (lowercase) as it is referring
-to the set of files and folders that contain data and metadata, that happens to
+Instead, we might refer to it as a "data package" (lowercase) as we are referring
+to a set of files and folders that contains data and metadata and happens to
 use the Data Package specification within the `datapackage.json` file. See [data
 package (lowercase)](#data-package-lowercase) below for more on that.
 
 ## Data Resource (uppercase) {#data-resource-uppercase}
 
 When we use the formal noun "Data Resource", we are referring to the [Data
-Package specification](https://datapackage.org) and how they define a "data
+Package specification](https://datapackage.org) and how it defines a "data
 resource". A [Data Resource](https://datapackage.org/standard/data-resource/)
 (uppercase) is a specific entity within the Data Package spec that has a defined
 structure and properties that are described in the `resources` section of the
@@ -65,11 +65,11 @@ for an explanation of that term.
 ## data package (lowercase) {#data-package-lowercase}
 
 The term "package" is a general term that has been used in many different
-contexts to refer to any bundling of things together to make it easier to
+contexts to refer to any bundling of things together to make them easier to
 manage, distribute, and (re)use. So appending "data" to "package" is a common
 way of referring to any bundling of data and is not unique to "Data Package"
 (uppercase) as defined in the Data Package specification. Unfortunately, this
-can cause some confusion people could use "data package" (lowercase) to mean a
+can cause some confusion: people could use "data package" (lowercase) to mean a
 "Data Package" (uppercase) and it might not be clear from context which one is
 being referred to.
 
@@ -106,7 +106,7 @@ monitors, which is what people with type 1 diabetes use. This data would be
 several files, one for each person (and potentially for each day the monitor was
 used).
 
-We avoid the term "data resource" (lowercase) as it isn't a clearly term and
+We avoid the term "data resource" (lowercase) as it isn't a clearly defined term and
 because other terms exist that are widely used and more precise. For example, a
 data file or dataset is a more precise term to refer to a single file or set of
 files that contain data.
