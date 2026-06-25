@@ -83,7 +83,8 @@ These are some of the ways we use these teams to manage our work:
 - The admin team/organization owners are responsible for adding or removing
   people from teams as needed, based on an iteration's aims.
 
-- A member is on a team if they are assigned work on the repository for the current iteration.
+- A member is on a team if they are assigned work on the repository for the
+  current iteration.
 
 - Each higher-level grouping of teams ("product" or "platform") has their own
   project board. Multiple teams can work on the same project board, as long as
