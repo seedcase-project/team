@@ -105,7 +105,7 @@ The term "data resource" is not a commonly used word and can mean many
 different things to different groups of people. It could mean a resource of
 data, like a library is a resource for books or like the IT department is a
 resource for IT support within an organization. It could also mean a resource,
-like wood or steel, that is used to make something else with.
+like wood is when making a chair, that is used to make something else with.
 
 For us, "data resource" (lowercase) or simply "resource" is a general term we use to refer to *any*
 single set of related data (but not a bundle of data and metadata) that may or
@@ -128,7 +128,8 @@ or set of files that contain data.
 
 ## Metadata (or properties)
 
-<!-- TODO: Should we just standardize on metadata? -->
+## Metadata
+
 
 Metadata that describes the entire data package and each of the data resources
 within it. At the package level, the properties include the package name and
