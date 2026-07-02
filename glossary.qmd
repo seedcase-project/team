@@ -59,7 +59,7 @@ only be determined by another human comparing them.
 Or for more technical examples: "validating a model" is the process of comparing
 a model's predictions to real-world data that we collected and that we believe
 accurately represents reality (or at least how we understand it). Likewise,
-"validating some data" is checking that the data represents something that is
+"validating data" is checking that the data represents something that is
 meaningful to humans. It requires judgment and comparison, and can be different
 over time and in different contexts. What is valid now, may not be valid in the
 future.
@@ -73,7 +73,7 @@ the term "validate" is used, it actually means "verifying". See
 
 For an introduction into this term and its related term "validate", see our
 [Validate](#validate) entry. "Verify" is the act of checking something against a
-specification or expectation. When verifying something against a specification,
+specification or requirement. When verifying something against a specification,
 regardless of the connection to reality or to human needs, if it meets the
 specification, it "passes". As long as the specification and the thing being
 verified don't change, it will always pass. Even if the specification is wrong,
