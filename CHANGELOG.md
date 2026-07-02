@@ -15,6 +15,12 @@ that any individual release will not have many changes within it. Below
 is a list of the releases we've made so far, along with what was changed
 within each release.
 
+## 0.9.0 (2026-07-02)
+
+### Feat
+
+- ✨ add glossary items for validate, verify, and check (#379)
+
 ## 0.8.0 (2026-07-02)
 
 ### Feat
