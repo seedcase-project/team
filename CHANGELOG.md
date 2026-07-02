@@ -15,6 +15,18 @@ that any individual release will not have many changes within it. Below
 is a list of the releases we've made so far, along with what was changed
 within each release.
 
+## 0.7.0 (2026-06-25)
+
+### Feat
+
+- ✨ add section about GitHub teams and how we use them (#372)
+
+## 0.6.0 (2026-06-22)
+
+### Feat
+
+- 🚚 move glossary items from theme into this repo (#380)
+
 ## 0.5.3 (2026-06-15)
 
 ### Refactor
