@@ -100,6 +100,19 @@ run:
 curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to ~/bin
 ```
 
+## Collaborating and working in a shared folder
+
+When you work in a shared folder on GenomeDK, any changes you make (e.g.,
+editing files, or checking out to a different branch) will be visible for all
+users. So, we follow these practices when working in a shared folder:
+
+1. Whenever possible, work on your own machine (see [Working outside
+   GenomeDK](#outside-genomedk)), for example with test data. Only go to
+   GenomeDK to test on real data later in the development stage.
+2. Ensure that you leave the repository on GitHub in a clean state, i.e., don't
+   leave uncommitted changes hanging. This way, others don't have to worry about
+   what these changes are, and whether someone is still working on them.
+
 ## Developing with VS Code
 
 The best way to work on Seedcase projects in VS Code is to use the VS Code
