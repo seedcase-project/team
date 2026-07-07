@@ -4,21 +4,22 @@ title: "Setting up and using GitHub for teamwork"
 
 ## Setting up two-factor authentication (2FA)
 
-We of course use GitHub for our work, so as a team member or contributor you
-need to have a [GitHub account](https://github.com/join/). Since you will likely
-also have access to our repositories to write and modify content, we need to
-consider potential for security risks of your account being compromised and
-impacts on our work. While we organizationally have settings in place to
-minimize that risk, we individually need to have security features in place.
+We of course use GitHub for our work, so as a team member or contributor
+you need to have a [GitHub account](https://github.com/join/). Since you
+will likely also have access to our repositories to write and modify
+content, we need to consider potential for security risks of your
+account being compromised and impacts on our work. While we
+organizationally have settings in place to minimize that risk, we
+individually need to have security features in place.
 
-For that reason, all internal contributors need to set up 2FA on their GitHub
-account. Follow the steps within this [GitHub
-documentation](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
-to set it up. While GitHub doesn't explicitly recommend any specific time-based
-one-time password (TOTP) apps, good ones are [Google
-Authenticator](https://support.google.com/accounts/answer/1066447?hl=en&ref_topic=2954345&sjid=1964065568409601298-EU)
-or [Microsoft
-Authenticator](https://www.microsoft.com/en-ww/security/mobile-authenticator-app).
+For that reason, all internal contributors need to set up 2FA on their
+GitHub account. Follow the steps within this
+[GitHub documentation](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
+to set it up. While GitHub doesn't explicitly recommend any specific
+time-based one-time password (TOTP) apps, good ones are
+[Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en&ref_topic=2954345&sjid=1964065568409601298-EU)
+or
+[Microsoft Authenticator](https://www.microsoft.com/en-ww/security/mobile-authenticator-app).
 
 <!-- ## Using GitHub Projects for managing tasks -->
 
@@ -26,67 +27,71 @@ Authenticator](https://www.microsoft.com/en-ww/security/mobile-authenticator-app
 
 We use GitHub
 [teams](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams)
-to manage permissions on repositories, effectively use notifications, and
-communicate ownership of repositories and content. We have two higher-level
-categories of teams that have write access to their assigned repositories:
+to manage permissions on repositories, effectively use notifications,
+and communicate ownership of repositories and content. We have two
+higher-level categories of teams that have write access to their
+assigned repositories:
 
-- A "product" category for things that (we believe) give direct and clear value
-  to others.
-- A "platform" category for things that are mainly about improving our own work
-  on developing the products.
+- A "product" category for things that (we believe) give direct and
+  clear value to others.
+- A "platform" category for things that are mainly about improving our
+  own work on developing the products.
 
-Within those two categories, we have two or three subcategories for teams:
+Within those two categories, we have two or three subcategories for
+teams:
 
 - "tools" for software packages or other code-based resources.
 - "docs" for documentation-only websites.
-- "templates" for templates for different types of repositories (e.g. Python
-  packages).
+- "templates" for templates for different types of repositories (e.g.
+  Python packages).
 
-Most of our templates are within the "platform" grouping, and the one we have in
-"product", we place under "tools" as it's closer conceptually to a tool. If we
-have more templates, we might create a "templates" subcategory under "product"
-as well.
+Most of our templates are within the "platform" grouping, and the one we
+have in "product", we place under "tools" as it's closer conceptually to
+a tool. If we have more templates, we might create a "templates"
+subcategory under "product" as well.
 
-We also have two general teams: an admin team for those doing cross-organization
-work who have admin access to all repositories (mostly contains the organization
-owners) and one for everyone with read-only access to all public repositories.
+We also have two general teams: an admin team for those doing
+cross-organization work who have admin access to all repositories
+(mostly contains the organization owners) and one for everyone with
+read-only access to all public repositories.
 
 These are some of the ways we use these teams to manage our work:
 
-- The admin team owns all repositories and has final administrative control over
-  them.
+- The admin team owns all repositories and has final administrative
+  control over them.
 
-- Use the read-only "everyone" team when we want to get reviews on pull requests
-  that impact everyone (e.g. design decisions).
+- Use the read-only "everyone" team when we want to get reviews on pull
+  requests that impact everyone (e.g. design decisions).
 
-- Each repository is owned by one team with write access (not admin or maintain
-  permissions) who is primarily responsible for doing work in the repository.
-  That team is included in the `CODEOWNERS` file (though a `CODEOWNERS` file
-  could have multiple teams in it) to clearly communicate who owns the
-  repository and has governance over it.
+- Each repository is owned by one team with write access (not admin or
+  maintain permissions) who is primarily responsible for doing work in
+  the repository. That team is included in the `CODEOWNERS` file (though
+  a `CODEOWNERS` file could have multiple teams in it) to clearly
+  communicate who owns the repository and has governance over it.
 
-- All pull requests must have a review from someone of the team that owns the
-  repository before it can be merged (enforced with
+- All pull requests must have a review from someone of the team that
+  owns the repository before it can be merged (enforced with
   [rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets)).
-  Codeowners are automatically requested for reviews from pull requests in that
-  repository, which means people within the team will get a notification from
-  that request.
+  Codeowners are automatically requested for reviews from pull requests
+  in that repository, which means people within the team will get a
+  notification from that request.
 
-- If someone is on a team and gets assigned for review, they are expected to
-  review those pull requests.
+- If someone is on a team and gets assigned for review, they are
+  expected to review those pull requests.
 
-- People are only added to a team when there is work to be done on a repository
-  in that team for a given iteration. This limits the number of notifications
-  that everyone in Seedcase gets, so that only those relevant people are
-  notified.
+- People are only added to a team when there is work to be done on a
+  repository in that team for a given iteration. This limits the number
+  of notifications that everyone in Seedcase gets, so that only those
+  relevant people are notified.
 
-- The admin team/organization owners are responsible for adding or removing
-  people from teams as needed, based on an iteration's aims.
+- The admin team/organization owners are responsible for adding or
+  removing people from teams as needed, based on an iteration's aims.
 
-- A member is on a team if they are assigned work on the repository for the
-  current iteration.
+- A member is on a team if they are assigned work on the repository for
+  the current iteration.
 
-- Each higher-level grouping of teams ("product" or "platform") has their own
-  project board. Multiple teams can work on the same project board, as long as
-  the work is under the same grouping (e.g. "platform-tools" and "platform-docs"
-  are both on the platform project board).
+- Each higher-level grouping of teams ("product" or "platform") has
+  their own project board. Multiple teams can work on the same project
+  board, as long as the work is under the same grouping (e.g.
+  "platform-tools" and "platform-docs" are both on the platform project
+  board).

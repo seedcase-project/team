@@ -154,6 +154,54 @@ remove the backend, you can simply delete this folder.
    ```bash {filename="Terminal"}
       uv sync
    ```
+The best way to work on Seedcase projects in VS Code is to use the VS
+Code application on your local machine and connect to GenomeDK via SSH.
+This allows you to edit files and run code on GenomeDK as if you were
+working locally. This setup uses the
+[Remote SSH VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh),
+which works by adding a `.vscode-server` folder in your home directory
+on GenomeDK. This is a lightweight backend that allows VS Code to run
+terminals, extensions, debuggers, etc., remotely on GenomeDK. If at any
+point you want to remove the backend, you can simply delete this folder.
+
+1. Open VS Code on your local machine and install the
+   [Remote SSH VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+
+2. Select "Remote-SSH: Connect to Host..." from the Command Palette
+   (`F1`, `Ctrl+Shift+P`) and enter `<username>@login.genome.au.dk`.
+   Follow the prompts given to update or create your config file. In the
+   "Remotes Explorer" panel, you should now see the GenomeDK host listed
+   as `login.genome.au.dk`.
+
+3. Click the GenomeDK SSH entry and enter your GenomeDK password when
+   prompted. Now, you should be connected to GenomeDK and see the remote
+   file system if you open up the VS Code terminal.
+
+4. Clone your repository using the VS Code terminal, if you haven’t
+   already:
+
+    ``` {.bash filename="Terminal"}
+    cd <.../my/projects>
+    git clone <repo-url>
+    cd <repo-name>
+    ```
+
+5. Open your project folder in VS Code by clicking the "Open Folder"
+   button in the panel on the left-hand side
+
+6. Install your project dependencies (you'll need
+   [uv installed](#installing-uv)):
+
+    ``` {.bash filename="Terminal"}
+    uv sync
+    ```
+
+   ::: callout-note
+   If you're working in a shared folder, you might get a "permission denied" error
+   about a "dubious ownership" in the repository after running `uv sync`. After the
+   error message in the terminal, Git will show the command to add an exception for
+   the current directory. You can safely run that.
+   :::
 
 7. Install any VS Code extensions needed for development (e.g. the Python
    language extension). To list recommended extensions, open the Extensions

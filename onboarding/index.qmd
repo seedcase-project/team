@@ -46,19 +46,22 @@ instructions:
 2. Open the calendar that you want to subscribe to.
 
 3. Click the blue menu button in the top right corner, select
-    `Preferences` \> `iCalendar Feeds`.
+   `Preferences` \> `iCalendar Feeds`.
 
 4. Select the calendar you want to subscribe to. You can choose to
    subscribe to calendars individually or select all of them in one go.
    Some of us prefer not to have all of them in our personal calendar,
    so it's up to you.
 
-   - Tip: If you subscribe to the calendars individually you can choose to only show e.g., the iteration calendar on your computer, but not on your phone.
+   - Tip: If you subscribe to the calendars individually you can choose
+     to only show e.g., the iteration calendar on your computer, but not
+     on your phone.
 
 5. Copy the URL and add it to your calendar app. How you do this depends
    on the app you use:
 
-   - For Mac users: Open the Calendar app, go to `File` \> `New Calendar Subscription`, paste the URL, and click `Subscribe`.
+   - For Mac users: Open the Calendar app, go to `File` \>
+     `New Calendar Subscription`, paste the URL, and click `Subscribe`.
 
 For more help, you can take a look at the guide on
 [Outbound iCalendar Feeds](https://calendar.teamup.com/kb/subscribe-to-teamup-icalendar-feeds/)
