@@ -252,7 +252,7 @@ To get an overview of the LFS settings in the repo, run `git lfs env` or
 4. Commit and push the new data. If you look at the new data file on GitHub, you
    should see a pointer file rather than the actual data.
 
-### Working on a Data Package outside GenomeDK
+### Working on a Data Package outside GenomeDK {#outside-genomedk}
 
 If you want to work on a Data Package that uses Git LFS on your own machine, you
 can check out the repo without downloading the data files. In fact, it is not
