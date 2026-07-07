@@ -13,7 +13,7 @@ categories:
 ## Details
 
 - Maybe a dinner on April 1 and a team outing to Moesgaard Museum on
-    April 2.
+  April 2.
 - **Main aims**:
   - Do debrief, retrospective, and planning.
   - Continue getting to know each other better.
