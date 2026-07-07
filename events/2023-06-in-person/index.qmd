@@ -20,8 +20,11 @@ categories:
 
   - Look through applicants and discuss hiring process.
   - Discuss and decide on how we will work with the consulting company.
-  - Discuss and decide on next steps, any potential/current barriers, and misc items.
-  - Discuss and brainstorm how we can contribute to work across Steno, for instance helping build software/organization to streamline work, running short workshops, etc.
+  - Discuss and decide on next steps, any potential/current barriers,
+    and misc items.
+  - Discuss and brainstorm how we can contribute to work across Steno,
+    for instance helping build software/organization to streamline work,
+    running short workshops, etc.
 
 ## Schedule
 
