@@ -149,10 +149,17 @@ point you want to remove the backend, you can simply delete this folder.
     uv sync
     ```
 
-7. Install any VS Code extensions needed for development (e.g. the
-   Python language extension). To list recommended extensions, open the
-   Extensions panel and type `@recommended` into the search bar. You can
-   install extensions from here.
+   ::: callout-note
+   If you're working in a shared folder, you might get a "permission denied" error
+   about a "dubious ownership" in the repository after running `uv sync`. After the
+   error message in the terminal, Git will show the command to add an exception for
+   the current directory. You can safely run that.
+   :::
+
+7. Install any VS Code extensions needed for development (e.g. the Python
+   language extension). To list recommended extensions, open the Extensions
+   panel and type `@recommended` into the search bar. You can install extensions
+   from here.
 
 8. To be able to commit to GitHub, you will need to set up your Git
    credentials. You can do this by running the following commands in the
