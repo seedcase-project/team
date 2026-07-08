@@ -283,7 +283,7 @@ run the following from the root of the Data Package:
 
 ``` {.bash filename="Terminal"}
 # Show LFS-tracked files as pointers in the working tree
-git config --local filter.lfs.smudge  "cat"
+git config --local filter.lfs.smudge "cat"
 # Do not require Git LFS to be installed
 git config --local filter.lfs.required false
 # Disable all LFS processing for tracked files
