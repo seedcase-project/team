@@ -266,10 +266,20 @@ In fact, it is not possible to download the data files via Git LFS,
 because the LFS store path points to a local folder on GenomeDK that
 your machine cannot access.
 
-You don't need Git LFS installed locally, but you do have to tell Git
-not to attempt to fetch data files tracked by Git LFS, as this would
-lead to an error. After cloning the repo, run the following from the
-root of the Data Package:
+You don't need Git LFS installed locally, but you do have to tell Git not to
+attempt to fetch data files tracked by Git LFS, as this would lead to an error.
+
+First, clone the repo without checkout:
+
+```bash {filename="Terminal"}
+git clone https://github.com/repo-org/repo-name.git --no-checkout
+```
+
+Using `--no-checkout` avoids Git immediately trying to check out files and run
+the Git LFS smudge filter, which reads the Git LFS pointer files and tries to
+write the contents of the tracked files to standard output. This would fail
+because the LFS store is only accessible on GenomeDK. After cloning the repo,
+run the following from the root of the Data Package:
 
 ``` {.bash filename="Terminal"}
 # Show LFS-tracked files as pointers in the working tree
