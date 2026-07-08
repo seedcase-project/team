@@ -278,8 +278,9 @@ git clone https://github.com/repo-org/repo-name.git --no-checkout
 Using `--no-checkout` avoids Git immediately trying to check out files and run
 the Git LFS smudge filter, which reads the Git LFS pointer files and tries to
 write the contents of the tracked files to standard output. This would fail
-because the LFS store is only accessible on GenomeDK. After cloning the repo,
-run the following from the root of the Data Package:
+because the LFS store is only accessible on GenomeDK.
+
+After cloning the repo, run the following from the root of the Data Package:
 
 ``` {.bash filename="Terminal"}
 # Show LFS-tracked files as pointers in the working tree
