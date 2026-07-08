@@ -15,6 +15,24 @@ that any individual release will not have many changes within it. Below
 is a list of the releases we've made so far, along with what was changed
 within each release.
 
+## 0.10.0 (2026-07-07)
+
+### Feat
+
+- ✨ add callout note about permission denied error (#387)
+
+## 0.9.0 (2026-07-02)
+
+### Feat
+
+- ✨ add glossary items for validate, verify, and check (#379)
+
+## 0.8.0 (2026-07-02)
+
+### Feat
+
+- ✨ explain data package vs Data Package in glossary (#374)
+
 ## 0.7.0 (2026-06-25)
 
 ### Feat
