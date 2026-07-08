@@ -66,8 +66,8 @@ the package.
 ## Data lineage
 
 This term is commonly used with data engineering or data processing contexts and
-domain. [Data lineage](https://en.wikipedia.org/wiki/Data_lineage) refers to the process
-of tracking and documenting the flow of data through various stages and
+domain. [Data lineage](https://en.wikipedia.org/wiki/Data_lineage) refers to the
+process of tracking and documenting the flow of data through various stages and
 transformations, from its original raw source (or from a source location where
 it is stored) to its final output.
 
@@ -77,23 +77,23 @@ example, using version control to track changes to data and tracking the code
 code used to process the data, or having automated build, test, version, and
 release processes in place.
 
-While the data engineering world may use code to do tasks, e.g. SQL, it is
-not as often done in a way that is formal or structured as is typical in
-software development. For instance, because version control isn't commonly used in data engineering,
-a code-based script may just be something someone wrote somewhere on the server
-or their computer that no other team member reviewed or accessed. This lag in
-version control and review practices is part of the reason tools like [dbt](https://www.getdbt.com) (now a
-commonly used tool, but released in 2021) have only relatively recently been
-developed.
+While the data engineering world may use code to do tasks, e.g. SQL, it is not
+as often done in a way that is formal or structured as is typical in software
+development. For instance, because version control isn't commonly used in data
+engineering, a code-based script may just be something someone wrote somewhere
+on the server or their computer that no other team member reviewed or accessed.
+This lag in version control and review practices is part of the reason tools
+like [dbt](https://www.getdbt.com) (now a commonly used tool, but released in
+2021) have only relatively recently been developed.
 
-Because these practices haven't historically been common in the data engineering world, many tools used specifically to help
-with data lineage would not have been needed. For
-example, data lineage can be achieved by using version control and writing all
-data processing as code within that version control system and having an
-automated "build and release" workflow in place. In our context, by following
-basic software development practices and aiming for reproducibility, we can
-achieve data lineage without needing to use a specific tool for it.
+Because these practices haven't historically been common in the data engineering
+world, many tools used specifically to help with data lineage would not have
+been needed. For example, data lineage can be achieved by using version control
+and writing all data processing as code within that version control system and
+having an automated "build and release" workflow in place. In our context, by
+following basic software development practices and aiming for reproducibility,
+we can achieve data lineage without needing to use a specific tool for it.
 
 So we instead use terms like "reproducible" or "automated build workflow" rather
-than "data lineage" to refer to practices that would achieve the definition
-of data lineage.
+than "data lineage" to refer to practices that would achieve the definition of
+data lineage.
