@@ -289,7 +289,7 @@ git config --local filter.lfs.smudge "cat"
 git config --local filter.lfs.required false
 # Disable all LFS processing for tracked files
 git config --local filter.lfs.process ""
-# Checkout now that Git LFS has been disabled. 
+# Checkout now that Git LFS has been disabled.
 git checkout
 ```
 
