@@ -267,15 +267,29 @@ points to a local folder on GenomeDK that your machine cannot access.
 
 You don't need Git LFS installed locally, but you do have to tell Git not to
 attempt to fetch data files tracked by Git LFS, as this would lead to an error.
+
+First, clone the repo without checkout:
+
+```bash {filename="Terminal"}
+git clone https://github.com/repo-org/repo-name.git --no-checkout
+```
+
+Using `--no-checkout` avoids Git immediately trying to check out files and run
+the Git LFS smudge filter, which reads the Git LFS pointer files and tries to
+write the contents of the tracked files to standard output. This would fail
+because the LFS store is only accessible on GenomeDK.
+
 After cloning the repo, run the following from the root of the Data Package:
 
 ```bash {filename="Terminal"}
 # Show LFS-tracked files as pointers in the working tree
-git config --local filter.lfs.smudge  "cat"
+git config --local filter.lfs.smudge "cat"
 # Do not require Git LFS to be installed
 git config --local filter.lfs.required false
 # Disable all LFS processing for tracked files
 git config --local filter.lfs.process ""
+# Checkout now that Git LFS has been disabled.
+git checkout
 ```
 
 With this setup, you won't have access to the actual data or be able to run
