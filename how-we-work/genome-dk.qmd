@@ -114,54 +114,6 @@ Then run:
 git lfs install
 ```
 
-## Collaborating and working in a shared folder {#collaborating}
-
-When working in a shared folder on GenomeDK, we work in our own local repository
-clones in our own user space. In the shared folder, we have a clone of the
-repository alongside the Git LFS store and a `env` folder containing the `.env`
-file(s). For example, for a repository named `feasibility-data`, the folder
-structure in the shared folder looks like this:
-
-```
-<shared-folder>/
-├── <env>/
-│   └── .feasibility-data-env
-├── feasibility-data/
-└── feasibility-data-lfs-store/
-```
-
-::: callout-tip
-If you're setting up a new shared repository, see the [setting up Git
-LFS](#setting-up-git-lfs) section.
-:::
-
-Any changes made (e.g., editing files, or checking out to a different branch) in
-the shared repository will be visible for all users. So, to avoid us working in
-the same local repository on GenomeDK, each of us create a clone in our our own
-user space. To set up your own repository follow these steps:
-
-1. Go to GenomeDK, either via an [SSH connection](#ssh), e.g., via [VS
-   Code](genome-dk.qmd#developing-with-vs-code) or through the [GenomeDK
-   desktop](https://desktop.genome.au.dk/).
-
-2. Ensure you have `git lfs` installed, see [how to install Git
-   LFS](#installing-git-lfs) above. If you've installed it with conda, make sure
-   to activate your conda environment before continuing, so the Git LFS file
-   pointers get resolved correctly.
-
-3. Clone the Git repository to your own user space, the exact location is up to
-   you:
-
-   ```bash
-   cd /your/wanted/location/
-   git clone <repo-url>
-   ```
-
-Now, you're set up to work in your individual clone of the repo while still
-having access to the Git LFS store and a shared `.env` file.
-
-<!-- TODO: Since there's some functions needed in the repository to access the correct env file, should we move that code to a collected repo, e.g., `shears`, that we can load and use across data packages? -->
-
 ## Developing with VS Code
 
 The best way to work on Seedcase projects in VS Code is to use the VS Code
@@ -344,3 +296,56 @@ git checkout
 With this setup, you won't have access to the actual data or be able to run
 scripts that depend on it. However, you can still run other parts of the code
 and work on data-dependent scripts without executing them.
+
+## Collaborating and working in a shared folder {#collaborating}
+
+When working in a shared folder on GenomeDK, we work in our own local repository
+clones in our own user space. In the shared folder, we have a clone of the
+repository alongside the Git LFS store and an `env/` folder containing the
+[`.env` file](https://env.dev/guides/dotenv)(s). For example, for a repository
+named `feasibility-data`, the folder structure in the shared folder looks like
+this:
+
+```
+<shared-folder>/
+├── <env>/
+│   └── .feasibility-data-env
+├── feasibility-data/
+└── feasibility-data-lfs-store/
+```
+
+::: callout-tip
+If you're setting up a new shared repository, see the [setting up Git
+LFS](#setting-up-git-lfs) section.
+:::
+
+Any changes made (e.g., editing files, or checking out to a different branch) in
+the shared repository will be visible for all users. So, to avoid us working in
+the same local repository on GenomeDK, we each create a clone in our own user
+space. To set up your own repository, follow these steps:
+
+1. Go to GenomeDK, either via an [SSH connection](#ssh), e.g., with [VS
+   Code](genome-dk.qmd#developing-with-vs-code), or via the [GenomeDK
+   desktop](https://desktop.genome.au.dk/).
+
+2. Ensure you have Git LFS [installed](#installing-git-lfs). If you've installed
+   it with conda, make sure to activate your conda environment before
+   continuing, so the Git LFS file pointers get resolved correctly.
+
+3. Clone the Git repository to your own user space, the exact location is up to
+   you:
+
+   ```bash
+   cd /your/wanted/location/
+   git clone <repo-url>
+   ```
+
+Now, you're set up to work in your individual clone of the repo while still
+having access to the Git LFS store.
+
+To be able to use the shared `.env` file in your clone, the repository needs to
+be set up to load the correct file. E.g., see how we've set it up in the
+ON-LiMiT [feasibility-data](https://github.com/onlimit-study/feasibility-data)
+repository.
+
+<!-- TODO: Since there's some functions needed in the repository to access the correct env file, should we move that code to a collected repo, e.g., `shears`, so we can load and use across data packages, or simply refer to it here?? -->
