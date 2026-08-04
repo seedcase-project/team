@@ -100,29 +100,67 @@ run:
 curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to ~/bin
 ```
 
+### Installing Git LFS
+
+Log in to GenomeDK (either through [SSH](#ssh) or the [desktop
+interface](#desktop)). Install Git LFS in your GenomeDK user space either from
+the
+[tarball](https://gist.github.com/pourmand1376/bc48a407f781d6decae316a5cfa7d8ab)
+or via
+[conda](https://anaconda.org/channels/conda-forge/packages/git-lfs/overview).
+Then run:
+
+```bash
+git lfs install
+```
+
 ## Collaborating and working in a shared folder {#collaborating}
 
-When you work in a shared folder on GenomeDK, any changes you make (e.g.,
-editing files, or checking out to a different branch) will be visible for all
-users. To avoid us working in the same local repository on GenomeDK, we create
-one version of the repository on GenomeDK per person in addition to having one
-`main` version. The `main/` version of the repository will be the only one with
-the smudged raw data.
-
-For example, for a shared folder called `onlimit-study` and a repository called
-`feasibility-data` and two users, `signekb` and `martonvago`, the folder
-structure looks like this:
+When working in a shared folder on GenomeDK, we work in our own local repository
+clones in our own user space. In the shared folder, we have a clone of the
+repository alongside the Git LFS store and a `env` folder containing the `.env`
+file(s). For example, for a repository named `feasibility-data`, the folder
+structure in the shared folder looks like this:
 
 ```
-onlimit-study/
-└── feasibility-data/
-    ├── main/
-    ├── signekb/
-    └── martonvago/
+<shared-folder>/
+├── <env>/
+│   └── .feasibility-data-env
+├── feasibility-data/
+└── feasibility-data-lfs-store/
 ```
 
-In the structure above, we have used the GitHub user names as the folder names.
-Both repositories, `signekb` and `martonvago`, push and pull from GitHub.
+::: callout-tip
+If you're setting up a new shared repository, see the [setting up Git
+LFS](#setting-up-git-lfs) section.
+:::
+
+Any changes made (e.g., editing files, or checking out to a different branch) in
+the shared repository will be visible for all users. So, to avoid us working in
+the same local repository on GenomeDK, each of us create a clone in our our own
+user space. To set up your own repository follow these steps:
+
+1. Go to GenomeDK, either via an [SSH connection](#ssh), e.g., via [VS
+   Code](genome-dk.qmd#developing-with-vs-code) or through the [GenomeDK
+   desktop](https://desktop.genome.au.dk/).
+
+2. Ensure you have `git lfs` installed, see [how to install Git
+   LFS](#installing-git-lfs) above. If you've installed it with conda, make sure
+   to activate your conda environment before continuing, so the Git LFS file
+   pointers get resolved correctly.
+
+3. Clone the Git repository to your own user space, the exact location is up to
+   you:
+
+   ```bash
+   cd /your/wanted/location/
+   git clone <repo-url>
+   ```
+
+Now, you're set up to work in your individual clone of the repo while still
+having access to the Git LFS store and a shared `.env` file.
+
+<!-- TODO: Since there's some functions needed in the repository to access the correct env file, should we move that code to a collected repo, e.g., `shears`, that we can load and use across data packages? -->
 
 ## Developing with VS Code
 
@@ -152,17 +190,9 @@ remove the backend, you can simply delete this folder.
 
    ```bash {filename="Terminal"}
       cd <.../my/projects>
-      git clone <repo-url> <username>
-      cd <username>
+      git clone <repo-url>
+      cd <repo-name>
    ```
-
-   The <username> (your GitHub user name) above will name the local repository
-   with your username. E.g., cloning the repository `feasibility-data` with the
-   username `signekb` will name the local repository folder `signekb` instead of
-   its remote name `feasibility-data`. This way, we avoid having to work
-   multiple people in the same local version of the repository on GenomeDK. See
-   the [Collaborating and working in a shared folder](#collaborating) section
-   for more information about this.
 
 5. Open your project folder in VS Code, named after you e.g, `signekb`, by
    clicking the "Open Folder" button in the panel on the left-hand side.
