@@ -141,9 +141,9 @@ remove the backend, you can simply delete this folder.
 4. Clone your repository using the VS Code terminal, if you haven't already:
 
    ```bash {filename="Terminal"}
-      cd <.../my/projects>
-      git clone <repo-url>
-      cd <repo-name>
+   cd <.../my/projects>
+   git clone <repo-url>
+   cd <repo-name>
    ```
 
 5. Open your project folder in VS Code, named after you e.g, `signekb`, by
@@ -153,7 +153,7 @@ remove the backend, you can simply delete this folder.
    installed](#installing-uv)):
 
    ```bash {filename="Terminal"}
-      uv sync
+   uv sync
    ```
    ::: callout-note
    If you're working in a shared folder, you might get a "permission denied" error
@@ -171,8 +171,8 @@ remove the backend, you can simply delete this folder.
    You can do this by running the following commands in the terminal:
 
    ```bash {filename="Terminal"}
-      git config --global user.name "Your Name"
-      git config --global user.email "you@example.com"
+   git config --global user.name "Your Name"
+   git config --global user.email "you@example.com"
    ```
 
 Now, you should be able to run scripts in your project using either the VS Code
