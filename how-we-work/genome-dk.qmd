@@ -353,6 +353,17 @@ To set up your own repository, follow these steps:
    git clone <repo-url>
    ```
 
+   ::: callout-tip
+   If you get the following error,
+
+   ```bash
+   Error downloading object: <filename>: Smudge error: ... : EOF
+   ```
+
+   you first need to mark the Git LFS Store as save, see the [installing Git
+   LFS](#installing-git-lfs) section.
+   :::
+
 This sets up your individual clone of the repo while still having access to the
 shared Git LFS store, since your clone's `.lfsconfig` (see [setting up Git
 LFS](#setting-up-git-lfs)) already points there.
