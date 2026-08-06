@@ -305,14 +305,18 @@ With this setup, you won't have access to the actual data or be able to run
 scripts that depend on it. However, you can still run other parts of the code
 and work on data-dependent scripts without executing them.
 
-## Collaborating and working in a shared folder {#collaborating}
+## Collaborating
 
-When working in a shared folder on GenomeDK, we work in our own local repository
-clones in our own user space. In the shared folder, we have a clone of the
-repository alongside the Git LFS store and an `env/` folder containing the
-[`.env` file](https://env.dev/guides/dotenv)(s). For example, for a repository
-named `feasibility-data`, the folder structure in the shared folder looks like
-this:
+When collaborating on a data package on GenomeDK, we work in individual
+repository clones in our own user spaces. A shared folder holds the repository
+clone, Git LFS store, and secrets (like API keys) needed by the project. The
+shared clone isn't meant for day-to-day editing: any change made there (e.g.,
+editing files, or checking out a different branch) is visible to everyone
+working on the project. Instead, each of us uses our own clones to do our actual
+development work.
+
+For example, for a repository named `feasibility-data`, the folder structure in
+the shared folder looks like this:
 
 ```
 <shared-folder>/
@@ -322,19 +326,19 @@ this:
 └── feasibility-data-lfs-store/
 ```
 
+The `env/` folder contains the [`.env` file](https://env.dev/guides/dotenv)(s)
+of the project. We name it after the repository in case we need to work on other
+repositories in the same shared folder.
+
 ::: callout-tip
 If you're setting up a new shared repository, see the [setting up Git
 LFS](#setting-up-git-lfs) section.
 :::
 
-Any changes made (e.g., editing files, or checking out a different branch) in
-the shared repository will be visible for all users. So, to avoid us working in
-the same shared repository on GenomeDK, we each create a clone in our own user
-space. To set up your own repository, follow these steps:
+To set up your own repository, follow these steps:
 
-1. Go to GenomeDK, either via an [SSH connection](#ssh), e.g., with [VS
-   Code](genome-dk.qmd#developing-with-vs-code), or via the [GenomeDK
-   desktop](https://desktop.genome.au.dk/).
+1. Log in to GenomeDK, either via an [SSH connection](#ssh), e.g., with [VS
+   Code](#developing-with-vs-code), or the [GenomeDK desktop](#desktop).
 
 2. Ensure you have Git LFS [installed](#installing-git-lfs). If you've installed
    it with conda, make sure to activate your conda environment before
@@ -348,12 +352,23 @@ space. To set up your own repository, follow these steps:
    git clone <repo-url>
    ```
 
-Now, you're set up to work in your individual clone of the repo while still
-having access to the Git LFS store.
+This sets up your individual clone of the repo while still having access to the
+shared Git LFS store, since your clone's `.lfsconfig` (see [setting up Git
+LFS](#setting-up-git-lfs)) already points there.
 
-To be able to use the shared `.env` file in your clone, the repository needs to
-be set up to load the correct file. E.g., see how we've set it up in the
-ON-LiMiT [feasibility-data](https://github.com/onlimit-study/feasibility-data)
+::: callout-note
+When working like this, the data will be duplicated in our individual clones.
+For now, it's not an issue, but we might need to find another solution in the
+future.
+:::
+
+Lastly, to be able to use the shared `.env` file in your clone, the repository
+needs to be set up to load the correct file. This can be achieved by pointing to
+the shared folder path in the
+[`load_dotenv()`](https://pypi.org/project/python-dotenv/) call. For an example,
+see how we've set it up in the ON-LiMiT
+[feasibility-data](https://github.com/onlimit-study/feasibility-data)
 repository.
 
-<!-- TODO: Since there's some functions needed in the repository to access the correct env file, should we move that code to a collected repo, e.g., `shears`, so we can load and use across data packages, or simply refer to it here?? -->
+With this setup, we can collaborate on a data package by working with the actual
+data in our own clones, without interfering with each other's work.
