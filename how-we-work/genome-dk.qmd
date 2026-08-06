@@ -123,6 +123,9 @@ Git that the LFS store is safe:
 git config --global --add safe.directory <path/to/lfs-store>
 ```
 
+E.g., the path for the ON-LiMiT feasibility data LFS store is
+`/faststorage/project/sdca-onlimit-study/feasibility-data-lfs-store`.
+
 ## Developing with VS Code
 
 The best way to work on Seedcase projects in VS Code is to use the VS Code
