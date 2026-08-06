@@ -108,8 +108,7 @@ the
 [tarball](https://gist.github.com/pourmand1376/bc48a407f781d6decae316a5cfa7d8ab)
 (note that this guide uses an older version of Git LFS, but the current version
 can be gotten from [the official site](https://git-lfs.com) by copying the link
-from the "Download" button)
-or via
+from the "Download" button) or via
 [conda](https://anaconda.org/channels/conda-forge/packages/git-lfs/overview).
 Then run:
 
@@ -122,6 +121,7 @@ You also need to tell Git that the LFS store is safe:
 ```bash
 git config --global --add safe.directory /faststorage/project/sdca-onlimit-study/feasibility-data-lfs-store
 ```
+
 ## Developing with VS Code
 
 The best way to work on Seedcase projects in VS Code is to use the VS Code
@@ -188,15 +188,15 @@ terminal or the Run/Debug UI, as well as push changes to GitHub.
 
 ## Using Git LFS on GenomeDK
 
-In Data Packages on GenomeDK, all Parquet data files and data kept in the `raw/`
+In data packages on GenomeDK, all Parquet data files and data kept in the `raw/`
 folder are tracked using [Git LFS](https://git-lfs.com/) with a local LFS store
 on GenomeDK itself. This means that the contents of data files are stored on
 GenomeDK and only pointers to these files are uploaded to GitHub. On GenomeDK
 you can see the contents of the data files in two places: in your working copy
-of the Data Package and in a folder outside the Data Package directory called
+of the data package and in a folder outside the data package directory called
 the LFS store.
 
-When working with data or adding new data to the Data Package, it is important
+When working with data or adding new data to the data package, it is important
 to take care that the Git LFS configuration is not changed and that sensitive
 data is always tracked by Git LFS. Any data that is not tracked by Git LFS runs
 the risk of being uploaded to GitHub accidentally, which would constitute a
@@ -218,13 +218,13 @@ as normal and uploaded to GitHub on push.
 
 Afterwards, create a folder on GenomeDK that everyone working on the Data
 Package can access and edit: this will be the LFS store where all the data will
-be saved. This folder should be **outside** the Data Package folder.
+be saved. This folder should be **outside** the data package folder.
 
 Set the LFS store folder up as a [bare
 repository](https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-barerepository)
 by opening it in the Terminal and running `git init --bare`.
 
-Then, create an `.lfsconfig` file in the Data Package root folder and add the
+Then, create an `.lfsconfig` file in the data package root folder and add the
 absolute path to the LFS store:
 
 ```txt {filename=".lfsconfig"}
@@ -239,7 +239,7 @@ store folder.
 :::
 
 Define a rule for tracking all Parquet files and all data in the `raw/` folder
-by running the following commands from the root of the Data Package:
+by running the following commands from the root of the data package:
 
 ```bash {filename="Terminal"}
 git lfs track "*.parquet"
@@ -250,7 +250,7 @@ This will create a `.gitattributes` file listing the tracked paths. Tracked
 files shouldn't be listed in `.gitignore`.
 
 To get an overview of the LFS settings in the repo, run `git lfs env` or
-`git lfs ls-files` from the root of the Data Package.
+`git lfs ls-files` from the root of the data package.
 
 ### Adding data to LFS
 
@@ -267,9 +267,9 @@ To get an overview of the LFS settings in the repo, run `git lfs env` or
 4. Commit and push the new data. If you look at the new data file on GitHub, you
    should see a pointer file rather than the actual data.
 
-### Working on a Data Package outside GenomeDK {#outside-genomedk}
+### Working on a data package outside GenomeDK {#outside-genomedk}
 
-If you want to work on a Data Package that uses Git LFS on your own machine, you
+If you want to work on a data package that uses Git LFS on your own machine, you
 can check out the repo without downloading the data files. In fact, it is not
 possible to download the data files via Git LFS, because the LFS store path
 points to a local folder on GenomeDK that your machine cannot access.
@@ -288,7 +288,7 @@ the Git LFS smudge filter, which reads the Git LFS pointer files and tries to
 write the contents of the tracked files to standard output. This would fail
 because the LFS store is only accessible on GenomeDK.
 
-After cloning the repo, run the following from the root of the Data Package:
+After cloning the repo, run the following from the root of the data package:
 
 ```bash {filename="Terminal"}
 # Show LFS-tracked files as pointers in the working tree
