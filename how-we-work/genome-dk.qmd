@@ -116,10 +116,11 @@ Then run:
 git lfs install
 ```
 
-You also need to tell Git that the LFS store is safe:
+If you'll work in a repository with an existing LFS store, you also need to tell
+Git that the LFS store is safe:
 
 ```bash
-git config --global --add safe.directory /faststorage/project/sdca-onlimit-study/feasibility-data-lfs-store
+git config --global --add safe.directory <path/to/lfs-store>
 ```
 
 ## Developing with VS Code
