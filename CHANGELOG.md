@@ -15,6 +15,12 @@ that any individual release will not have many changes within it. Below
 is a list of the releases we've made so far, along with what was changed
 within each release.
 
+## 0.12.0 (2026-08-04)
+
+### Feat
+
+- ✨ add guideline for how to review PRs (#394)
+
 ## 0.11.1 (2026-07-08)
 
 ### Refactor
