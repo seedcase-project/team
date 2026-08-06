@@ -348,24 +348,16 @@ To set up your own repository, follow these steps:
    it with conda, make sure to activate your conda environment before
    continuing, so the Git LFS file pointers get resolved correctly.
 
-3. Clone the Git repository to your own user space, the exact location is up to
-   you:
+3. Mark the existing Git LFS store as safe using the command from the
+   [installing Git LFS](#installing-git-lfs) section.
+
+4. Now, clone the Git repository to your own user space, the exact location is
+   up to you:
 
    ```bash
    cd /your/wanted/location/
    git clone <repo-url>
    ```
-
-   ::: callout-tip
-   If you get the following error,
-
-   ```bash
-   Error downloading object: <filename>: Smudge error: ... : EOF
-   ```
-
-   you first need to mark the Git LFS Store as save, see the [installing Git
-   LFS](#installing-git-lfs) section.
-   :::
 
 This sets up your individual clone of the repo while still having access to the
 shared Git LFS store, since your clone's `.lfsconfig` (see [setting up Git
