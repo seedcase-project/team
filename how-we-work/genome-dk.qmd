@@ -151,7 +151,7 @@ remove the backend, you can simply delete this folder.
 
    ```bash {filename="Terminal"}
    cd <.../my/projects>
-   git clone <repo-url>
+   git clone <repo-https>
    cd <repo-name>
    ```
 
