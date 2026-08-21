@@ -295,15 +295,18 @@ because the LFS store is only accessible on GenomeDK.
 After cloning the repo, run the following from the root of the data package:
 
 ```bash {filename="Terminal"}
-# Show LFS-tracked files as pointers in the working tree
 git config --local filter.lfs.smudge "cat"
-# Do not require Git LFS to be installed
 git config --local filter.lfs.required false
-# Disable all LFS processing for tracked files
 git config --local filter.lfs.process ""
-# Checkout now that Git LFS has been disabled.
 git checkout
 ```
+
+In order, these commands set the following configurations:
+
+- Show LFS-tracked files as pointers in the working tree.
+- Do not require Git LFS to be installed.
+- Disable all LFS processing for tracked files.
+- Checkout now that Git LFS has been disabled.
 
 With this setup, you won't have access to the actual data or be able to run
 scripts that depend on it. However, you can still run other parts of the code
