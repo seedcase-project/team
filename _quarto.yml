@@ -18,13 +18,13 @@ website:
       - text: Events
         href: events/index.qmd
       - glossary.qmd
+    right:
+      - text: "<img src='/_extensions/seedcase-project/seedcase-theme/logos/seedcase/a-part-of.svg' alt='Main Seedcase website' height='30px'>"
+        href: "https://seedcase-project.org"
     tools:
       - icon: github
         href: "https://github.com/seedcase-project/team"
         aria-label: "GitHub icon: Source repository"
-      - icon: house
-        href: https://seedcase-project.org
-        aria-label: "House icon: Seedcase Project home page"
 
 format:
   seedcase-theme-html:
