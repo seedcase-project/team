@@ -158,8 +158,8 @@ remove the backend, you can simply delete this folder.
    cd <repo-name>
    ```
 
-5. Open your project folder in VS Code, named after you e.g, `signekb`, by
-   clicking the "Open Folder" button in the panel on the left-hand side.
+5. Open your repository folder in VS Code by clicking the "Open Folder" button
+   in the panel on the left-hand side.
 
 6. Install your project dependencies (you'll need [uv
    installed](#installing-uv)):
