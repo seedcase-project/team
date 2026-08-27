@@ -231,19 +231,42 @@ See [verify](#verify) below.
 ## Verify
 
 "Verify" is the act of checking something against a specification or
-requirement. When verifying something against a specification,
-regardless of the connection to reality or to human needs, if it meets
-the specification, it "passes". As long as the specification and the
-thing being verified don't change, it will always pass. Even if the
-specification is wrong, unconnected to reality, or no longer relevant to
-any human problem or need. "Verification" is often confused with
-"validation". See our entry on [validate](#validate) for an introduction
-the confusion around these two terms.
+requirement. When verifying something against a specification, regardless of the
+connection to reality or to human needs, if it meets the specification, it
+"passes". As long as the specification and the thing being verified don't
+change, it will always pass. Even if the specification is wrong, unconnected to
+reality, or no longer relevant to any human problem or need. "Verification" is
+often confused with "validation". See our entry on [validate](#validate) for an
+introduction the confusion around these two terms.
 
-The act of making or updating a specification requires human judgment
-and a connection to solving some need, so the specification itself can
-be validated. When something is compared against the specification, this
-is verification. An easy guideline to use is that verification happens
-within a computer (or between computers) and doesn't necessarily require
-human involvement. Often, verification is automated, and if it isn't, it
-likely could be.
+The act of making or updating a specification requires human judgment and a
+connection to solving some need, so the specification itself can be validated.
+When something is compared against the specification, this is verification. An
+easy guideline to use is that verification happens within a computer (or between
+computers) and doesn't necessarily require human involvement. Often,
+verification is automated, and if it isn't, it likely could be.
+
+## Sample or statistical population {#statistical-population}
+
+A
+[sample](https://www.bmj.com/about-bmj/resources-readers/publications/statistics-square-one/3-populations-and-samples)
+or [statistical](https://en.wikipedia.org/wiki/Statistical_population)
+population is a set of items that together help answer specific research
+questions. An item can be anything, like people, objects, animals, cells,
+buildings, or cities. Each item is considered the "statistical" or
+"observational" unit and analyses occur at the level of this
+statistical/observational unit. Items have data collected or obtained about
+them, for example, a person's weight, height, and age is measured and collected
+at a specific point in time.
+
+There are several ways of getting a statistically adequate sample such as with
+[sampling](https://en.wikipedia.org/wiki/Sampling_(statistics)) or by using a
+set of [inclusion
+criteria](https://en.wikipedia.org/wiki/Inclusion_and_exclusion_criteria),
+depending on the needs of the specific research question(s). Because collecting
+data costs money, often researchers make use of existing data to help answer
+their research questions. These existing data could be administrative data, such
+as from the government or healthcare system, or could be from large research
+projects that collect a lot of data from a boarder population. Researchers would
+use inclusion criteria for the population within these existing data to obtain
+their own statistical population to answer their specific research questions.
