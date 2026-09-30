@@ -78,10 +78,11 @@ requests :tada:
 
 [@lwjohnst86](https://github.com/lwjohnst86),
 [@signekb](https://github.com/signekb),
-[@martonvago](https://github.com/martonvago),
-[@K-Beicher](https://github.com/K-Beicher),
+[@fruvago](https://github.com/fruvago),
 [@joelostblom](https://github.com/joelostblom),
-[@MartaMenta](https://github.com/MartaMenta)
+[@K-Beicher](https://github.com/K-Beicher),
+[@MartaMenta](https://github.com/MartaMenta),
+[@DanMazJen](https://github.com/DanMazJen)
 
 ## Licensing
 
